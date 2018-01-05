@@ -1,0 +1,31 @@
+UBN for: LZ0AD
+Name: Alexandru Mancas YO8TTT
+
+------------------------------------------------------------------------------------
+Total QSOs: 187
+Confirmed QSOs: 164
+------------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 07:02:00 LZ0AD         007 005       LZ0AM         001 000
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 07:12:00 LZ0AD         014 024       LZ0AR         017 001
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 07:19:00 LZ0AD         028 023       LZ0AM         026 027
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 07:19:00 LZ0AD         011 028       LZ0DD         028 027
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 07:35:00 LZ0AD         048 032       LZ0DL         039 034
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 07:40:00 LZ0AD         041 042       LZ0FA         046 048
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:10:00 LZ0AD         136 141       LZ0DF         086 156
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:39:00 LZ0AD         164 183       LZ0AL         106 178
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:48:00 LZ0AD         210 181       LZ0DZ         110 207
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 09:52:00 LZ0AD         119 148       LZ0AC         121 213
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 10:00:00 LZ0AD         217 210       LZ0DA         128 206
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 10:06:00 LZ0AD         209 189       LZ0FY         134 225
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 10:25:00 LZ0AD         222 014       LZ0DP         148 252
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 10:28:00 LZ0AD         220 126       LZ0AR         154 259
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 10:28:00 LZ0AD         251 233       LZ0DA         156 215
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:29:00 LZ0AD         143 257       LZ0DK         157 251
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 10:30:00 LZ0AD         223 249       LZ0DT         159 247
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 10:31:00 LZ0AD         248 230       LZ0AG         160 223
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 10:35:00 LZ0AD         159 219       LZ0AC         166 186
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 10:39:00 LZ0AD         263 257       LZ0DA         168 263
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 10:51:00 LZ0AD         277 245       LZ0AG         174 236
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 10:56:00 LZ0AD         297 270       LZ0FJ         178 165
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 10:59:00 LZ0AD         291 309       LZ0DA         184 298

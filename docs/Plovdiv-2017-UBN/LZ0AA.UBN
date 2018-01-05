@@ -1,0 +1,21 @@
+UBN for: LZ0AA
+Name: Иванов Иванов LZ1PJ
+
+------------------------------------------------------------------------------------
+Total QSOs: 258
+Confirmed QSOs: 245
+------------------------------------------------------------------------------------
+
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 07:28:00 LZ0AA         031 004       LZ0FY         018 006
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 07:36:00 LZ0AA         040 049       LZ0AM         032 034
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 08:04:00 LZ0AA         008 063       LZ0DU         057 068
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 08:07:00 LZ0AA         070 070       LZ0DN         067 071
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 08:36:00 LZ0AA         112 112       LZ0DL         091 104
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 08:48:00 LZ0AA         056 119       LZ0DX         110 112
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 08:58:00 LZ0AA         068 072       LZ0AU         116 133
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 10:19:00 LZ0AA         144 230       LZ0AC         201 223
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 10:25:00 LZ0AA         219 215       LZ0AR         216 196
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:37:00 LZ0AA         235 198       LZ0FA         227 187
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 10:55:00 LZ0AA         257 257       LZ0AR         248 293
+ERROR_TIME_DATE                -------------> QSO: CW CW 2017-08-19 11:00:00 LZ0AA         266 305       LZ0DN         257 185
+ERROR_TIME_DATE                -------------> QSO: CW CW 2017-08-19 11:00:00 LZ0AA         259 244       LZ0FC         258 266

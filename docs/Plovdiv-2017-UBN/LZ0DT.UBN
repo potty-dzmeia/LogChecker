@@ -1,0 +1,31 @@
+UBN for: LZ0DT
+Name: Красимир Иванов LZ2UW
+
+------------------------------------------------------------------------------------
+Total QSOs: 249
+Confirmed QSOs: 226
+------------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 07:02:00 LZ0DT         002 001       LZ0AF         002 003
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 07:21:00 LZ0DT         025 030       LZ0AF         030 023
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 07:34:00 LZ0DT         049 041       LZ0FF         038 038
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 08:06:00 LZ0DT         087 067       LZ0AT         076 076
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 08:09:00 LZ0DT         073 075       LZ0AY         079 074
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:08:00 LZ0DT         135 131       LZ0AR         130 148
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:21:00 LZ0DT         155 152       LZ0AG         146 172
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 09:29:00 LZ0DT         172 164       LZ0AG         155 154
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:38:00 LZ0DT         095 175       LZ0DU         163 137
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:39:00 LZ0DT         175 130       LZ0AR         164 095
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 09:52:00 LZ0DT         197 195       LZ0AG         179 202
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:54:00 LZ0DT         206 181       LZ0DA         181 211
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:58:00 LZ0DT         197 125       LZ0DN         186 220
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 10:05:00 LZ0DT         207 221       LZ0DL         192 205
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 10:22:00 LZ0DT         146 250       LZ0AC         211 135
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 10:25:00 LZ0DT         222 244       LZ0DL         213 239
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:30:00 LZ0DT         150 247       LZ0AD         223 249
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:36:00 LZ0DT         167 240       LZ0DZ         224 150
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 10:38:00 LZ0DT         283 226       LZ0DC         226 243
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 10:42:00 LZ0DT         222 229       LZ0AL         230 276
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 10:45:00 LZ0DT         246 237       LZ0FA         234 243
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 10:54:00 LZ0DT         302 263       LZ0DC         247 163
+ERROR_TIME_DATE                -------------> QSO: CW CW 2017-08-19 11:00:00 LZ0DT         306 265       LZ0AT         253 180

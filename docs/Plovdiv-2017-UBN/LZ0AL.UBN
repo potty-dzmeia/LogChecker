@@ -1,0 +1,40 @@
+UBN for: LZ0AL
+Name: Пламен Тодоров LZ3FM
+
+------------------------------------------------------------------------------------
+Total QSOs: 247
+Confirmed QSOs: 215
+------------------------------------------------------------------------------------
+
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 07:02:00 LZ0AL         002 001       LZ0AR         002 001
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 07:19:00 LZ0AL         025 024       LZ0DW         020 023
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 07:29:00 LZ0AL         033 033       LZ0AC         029 028
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 07:29:00 LZ0AL         032 017       LZ0FY         030 033
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 07:31:00 LZ0AL         042 009       LZ0DG         031 033
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 07:41:00 LZ0AL         057 043       LZ0DL         042 043
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 07:54:00 LZ0AL         065 063       LZ0DW         054 061
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 07:58:00 LZ0AL         032 067       LZ0AU         058 060
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 08:06:00 LZ0AL         072 073       LZ0AR         072 078
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 08:15:00 LZ0AL         076 091       LZ0FA         081 077
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 08:28:00 LZ0AL         030 082       LZ0DU         093 099
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:16:00 LZ0AL         160 009       LZ0DY         140 167
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:18:00 LZ0AL         165 140       LZ0DG         143 160
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 09:19:00 LZ0AL         171 147       LZ0DW         145 073
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:23:00 LZ0AL         158 145       LZ0FA         149 171
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:35:00 LZ0AL         184 189       LZ0DJ         161 158
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:39:00 LZ0AL         106 188       LZ0AD         164 183
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:44:00 LZ0AL         179 182       LZ0FY         167 171
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:46:00 LZ0AL         208 202       LZ0DZ         170 191
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:48:00 LZ0AL         185 176       LZ0AV         173 195
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:49:00 LZ0AL         201 192       LZ0DY         174 185
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:54:00 LZ0AL         184 199       LZ0AR         181 189
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 09:55:00 LZ0AL         122 141       LZ0AC         182 184
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:15:00 LZ0AL         240 234       LZ0FJ         197 205
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:26:00 LZ0AL         244 268       LZ0DG         210 243
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 10:36:00 LZ0AL         128 221       LZ0AU         215 243
+ERROR_PARTNER_LOG_MISSING      -------------> QSO: CW CW 2017-08-19 10:37:00 LZ0AL         242 222       LZ1DM         216 128
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:38:00 LZ0AL         238 148       LZ0AR         217 242
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:42:00 LZ0AL         230 286       LZ0DT         222 229
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 10:43:00 LZ0AL         165 215       LZ0AC         223 230
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:49:00 LZ0AL         274 252       LZ0DV         232 268
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:56:00 LZ0AL         360 262       LZ0DN         242 273

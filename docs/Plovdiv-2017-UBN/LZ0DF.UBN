@@ -1,0 +1,28 @@
+UBN for: LZ0DF
+Name: Димитър Тонков LZ1EV
+
+------------------------------------------------------------------------------------
+Total QSOs: 252
+Confirmed QSOs: 232
+------------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 07:00:00 LZ0DF         002 001       LZ0DG         001 000
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 07:03:00 LZ0DF         009 003       LZ0DG         003 004
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 07:13:00 LZ0DF         012 017       LZ0DN         015 005
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 07:14:00 LZ0DF         007 016       LZ0FX         016 012
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 07:20:00 LZ0DF         022 032       LZ0DN         026 025
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 08:00:00 LZ0DF         071 068       LZ0AM         064 059
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 08:02:00 LZ0DF         079 039       LZ0DL         066 080
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 08:28:00 LZ0DF         089 092       LZ0AR         097 092
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 08:31:00 LZ0DF         113 108       LZ0AT         098 089
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 08:35:00 LZ0DF         103 068       LZ0DV         103 047
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 08:43:00 LZ0DF         113 121       LZ0FD         111 103
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:11:00 LZ0DF         186 156       LZ0AD         136 141
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:16:00 LZ0DF         153 166       LZ0DM         142 153
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:25:00 LZ0DF         791 070       LZ0FJ         151 174
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 10:01:00 LZ0DF         218 128       LZ0DA         196 162
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 10:09:00 LZ0DF         108 241       LZ0AU         201 228
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 10:16:00 LZ0DF         210 137       LZ0AR         207 224
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 10:26:00 LZ0DF         149 137       LZ0AC         212 256
+ERROR_PARTNER_LOG_MISSING      -------------> QSO: CW CW 2017-08-19 10:45:00 LZ0DF         245 271       LZ0         238 245
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 10:46:00 LZ0DF         246 238       LZ0DP         239 245

@@ -1,0 +1,52 @@
+UBN for: LZ0AR
+Name: Владимир Постников LZ2WP
+
+------------------------------------------------------------------------------------
+Total QSOs: 256
+Confirmed QSOs: 212
+------------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 07:01:00 LZ0AR         010 000       LZ0DP         001 000
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 07:02:00 LZ0AR         002 001       LZ0AL         002 010
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 07:07:00 LZ0AR         015 006       LZ0DG         006 015
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 07:12:00 LZ0AR         024 002       LZ0DC         013 017
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 07:12:00 LZ0AR         017 002       LZ0AD         014 024
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 07:14:00 LZ0AR         009 006       LZ0DA         015 017
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 07:25:00 LZ0AR         027 026       LZ0DP         021 033
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 07:27:00 LZ0AR         030 027       LZ0AC         024 030
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 07:32:00 LZ0AR         041 017       LZ0DL         031 035
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 07:46:00 LZ0AR         046 056       LZ0AC         044 046
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 08:02:00 LZ0AR         080 067       LZ0DL         067 066
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 08:06:00 LZ0AR         072 077       LZ0AL         072 073
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 08:18:00 LZ0AR         027 082       LZ0FZ         078 096
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 08:20:00 LZ0AR         090 086       LZ0DW         079 027
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 08:25:00 LZ0AR         107 102       LZ0AT         084 091
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 08:28:00 LZ0AR         097 092       LZ0DP         089 092
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 08:30:00 LZ0AR         103 104       LZ0FG         094 091
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 08:33:00 LZ0AR         098 040       LZ0AY         098 099
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 08:44:00 LZ0AR         162 123       LZ0AU         103 122
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 08:47:00 LZ0AR         042 225       LZ0DU         105 119
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 09:01:00 LZ0AR         137 144       LZ0DF         123 126
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:02:00 LZ0AR         124 141       LZ0DP         126 146
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 09:07:00 LZ0AR         131 124       LZ0DF         134 153
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:07:00 LZ0AR         130 141       LZ0DT         135 131
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 09:10:00 LZ0AR         155 141       LZ0DL         139 096
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:20:00 LZ0AR         170 164       LZ0AW         147 166
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 09:22:00 LZ0AR         151 145       LZ0FA         149 118
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 09:30:00 LZ0AR         163 069       LZ0DL         159 195
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:39:00 LZ0AR         164 085       LZ0DT         175 130
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 09:50:00 LZ0AR         211 178       LZ0AM         181 187
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:55:00 LZ0AR         118 118       LZ0AL         184 199
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:59:00 LZ0AR         224 134       LZ0AT         187 214
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:03:00 LZ0AR         203 224       LZ0AK         195 234
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:06:00 LZ0AR         169 021       LZ0DD         200 195
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 10:13:00 LZ0AR         238 249       LZ0AM         208 229
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 10:13:00 LZ0AR         137 228       LZ0AC         209 238
+ERROR_PARTNER_LOG_MISSING      -------------> QSO: CW CW 2017-08-19 10:16:00 LZ0AR         207 224       LZ2DF         210 137
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:22:00 LZ0AR         271 259       LZ0FX         215 230
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:24:00 LZ0AR         215 242       LZ0AA         218 233
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 10:25:00 LZ0AR         126 196       LZ0AA         219 215
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:28:00 LZ0AR         153 123       LZ0AD         220 126
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 10:38:00 LZ0AR         217 242       LZ0AL         238 149
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 10:42:00 LZ0AR         236 246       LZ0AY         247 025
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 10:55:00 LZ0AR         248 292       LZ0AA         257 257

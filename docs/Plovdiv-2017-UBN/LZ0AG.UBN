@@ -1,0 +1,20 @@
+UBN for: LZ0AG
+Name: Илиан Гаджев LZ1CNN
+
+------------------------------------------------------------------------------------
+Total QSOs: 288
+Confirmed QSOs: 276
+------------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 07:06:00 LZ0AG         010 007       LZ0DA         006 013
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 07:15:00 LZ0AG         009 022       LZ0FX         019 013
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 07:17:00 LZ0AG         025 018       LZ0FD         023 013
+ERROR_DUPE                     -------------> QSO: CW CW 2017-08-19 07:29:00 LZ0AG         034 033       LZ0DA         033 035
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 07:53:00 LZ0AG         035 065       LZ0DX         060 054
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 08:28:00 LZ0AG         084 087       LZ0FA         099 107
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:21:00 LZ0AG         146 172       LZ0DT         165 152
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 09:40:00 LZ0AG         095 179       LZ0AU         182 095
+ERROR_RECEIVE                  -------------> QSO: CW CW 2017-08-19 09:41:00 LZ0AG         098 175       LZ0FJ         183 095
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2017-08-19 10:11:00 LZ0AG         110 219       LZ0AU         222 221
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 10:22:00 LZ0AG         147 211       LZ0AC         238 143
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2017-08-19 10:28:00 LZ0AG         160 223       LZ0DR         248 230
