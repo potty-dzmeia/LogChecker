@@ -1,0 +1,26 @@
+UBN for: LZ0DR
+Name: Красимир Петков K1LZ
+
+------------------------------------------------------------------------------------
+Total QSOs: 251
+Confirmed QSOs: 233
+------------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 08:10:00 LZ0DR         012 010       LZ0DM         008 180
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 08:38:00 LZ0DR         041 045       LZ0DC         023 045
+ERROR_PARTNER_LOG_MISSING      -------------> QSO: CW CW 2016-08-20 08:42:00 LZ0DR         045 033       LA0AX         053 028
+ERROR_DUPE                     -------------> QSO: CW CW 2016-08-20 08:44:00 LZ0DR         046 053       LZ0AP         050 056
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 09:22:00 LZ0DR         084 107       LZ0AX         095 094
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 09:32:00 LZ0DR         097 100       LZ0FN         086 107
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 09:34:00 LZ0DR         098 086       LZ0FX         062 008
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 10:00:00 LZ0DR         119 094       LZ0AV         131 123
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 10:07:00 LZ0DR         128 133       LZ0FP         110 140
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 10:30:00 LZ0DR         150 181       LZ0FG         165 117
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 10:47:00 LZ0DR         170 097       LZ0DY         187 189
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 10:53:00 LZ0DR         177 183       LZ0DX         157 227
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 11:15:00 LZ0DR         201 240       LZ0AF         201 002
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 11:16:00 LZ0DR         202 201       LZ0AN         241 219
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 11:27:00 LZ0DR         215 268       LZ0FU         029 259
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 11:49:00 LZ0DR         240 120       LZ0AV         058 280
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 11:50:00 LZ0DR         242 316       LZ0FV         237 297
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 11:59:00 LZ0DR         251 310       LZ0FR         081 397

@@ -60,13 +60,18 @@ class Participant:
         ubn += "UBN for: "+self.callsign+"\n"
         ubn += "Name: "+self.name+"\n"
         ubn += "\n"
-        ubn += "------------------------------------------------------------------------------------"+"\n"
+        ubn += "--------------------------------------------------------------------------------"+"\n"
         ubn += "Total QSOs: "+str(self.totalQsoCount())+"\n"
         ubn += "Confirmed QSOs: "+str(self.validQsoCount())+"\n"
-        ubn += "------------------------------------------------------------------------------------"+"\n"
+        ubn += "--------------------------------------------------------------------------------"+"\n"
         ubn += "\n"
         for q in self.log:
             if q.error_code != Qso.NO_ERROR:
-                ubn += "{:<30}".format(q.errorCodeToString(q.error_code))+" -------------> "+str(q)+"\n"
+                ubn += q.errorCodeToString(q.error_code) + ":\n"
+                ubn += str(q) + "\n"
+                if len(q.error_info) > 0:
+                    ubn += q.error_info
+                    ubn += "\n"
+                ubn += "\n"
 
         return ubn

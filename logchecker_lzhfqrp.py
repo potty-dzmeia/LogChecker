@@ -44,6 +44,7 @@ def parseLog(filename):
             elif line_split[0] == "QSO:":
                 participant.log.append(Qso(line_split))
         except:
+            print("Error in file:"+filename+" line: "+line)
             pass # empty line
 
     print("parsed log: "+participant.callsign)
@@ -92,6 +93,7 @@ def isIntervalSmallerThan(qso1, qso2, timeinterval):
 def isDupe(qso, participant):
     """
     Checks if the QSO did not meet the "30min rule"
+
     :type qso: Qso
     :type participant: Participant
     :rtype: bool
@@ -99,14 +101,14 @@ def isDupe(qso, participant):
     idx = participant.log.index(qso)
 
     for q in participant.log[0:idx]:
-        if qso.his_call == q.his_call and isIntervalSmallerThan(qso, q, 30):
+        if qso.his_call == q.his_call and isIntervalSmallerThan(qso, q, 30) and q.isValid():
             qso.error_code = Qso.ERROR_DUPE
-            return False
+            return True
 
-    return True
+    return False
 
 
-def checkExchange(qso1, qso2):
+def isExchangeFailed(qso1, qso2):
     """
     Check if the serials from the two qso match
 
@@ -118,14 +120,19 @@ def checkExchange(qso1, qso2):
     if qso1.snd1 != qso2.rcv1 or qso1.snd2 != qso2.rcv2:
         qso1.error_code = Qso.ERROR_PARTNER_RECEIVE
         qso2.error_code = Qso.ERROR_RECEIVE
-        return False
+        qso1.error_info = qso2.toCabrillo()  # store the QSO from the other log for the Error report
+        return True
     if qso2.snd1 != qso1.rcv1 or qso2.snd2 != qso1.rcv2:
         qso1.error_code = Qso.ERROR_RECEIVE
         qso2.error_code = Qso.ERROR_PARTNER_RECEIVE
-        return False
+        qso2.error_info = qso1.toCabrillo()  # store the QSO from this log to the other log so that they have the extra info
+        qso1.error_info = qso2.toCabrillo()  # store the QSO from the other log for the Error report
+        return True
+
+    return False
 
 
-def crossCheck(qso, participantA, participantB):
+def isCrossCheckFailed(qso, participantA, participantB):
     """
     Checks if the "qso" is available in the "log" of the correspondent
     """
@@ -134,10 +141,17 @@ def crossCheck(qso, participantA, participantB):
     for q in participantB.log:
         if qso.call == q.his_call and isIntervalSmallerThan(qso, q, 3):
 
-            return checkExchange(qso, q)
+            # QSO that we have found in correspondents log is marked as invalid
+            if q.isInvalid():
+                # Store the reason for being invalid
+                qso.error_code = q.translatePartnerError()
+                qso.error_info = q.toCabrillo()
+                return True
+
+            return isExchangeFailed(qso, q)
 
     qso.error_code = Qso.ERROR_NOT_IN_LOG
-    return False
+    return True
 
 
 def checkLog(participants):
@@ -152,21 +166,21 @@ def checkLog(participants):
     for p in participants:
         for qso in participants[p].log:
 
-            if qso.error_code != Qso.NO_ERROR:  # Do not check in case the Qso has been rejected
+            if qso.isInvalid():  # Do not check in case the Qso has been rejected
                 continue
 
-            if qso.his_call not in participants: # find if the correspondent didn't sent log
+            if qso.his_call not in participants: # Correspondent didn't sent log - move to next Qso
                 qso.error_code = Qso.ERROR_PARTNER_LOG_MISSING
                 continue
 
-            if not isDupe(qso, participants[p]): # find if violating the "30min rule"
+            if isDupe(qso, participants[p]): # Violating the "30min rule" - move to next Qso
                 continue
 
-            if not crossCheck(qso, participants[p], participants[qso.his_call]): # find if the correspondent confirms it
+            if isCrossCheckFailed(qso, participants[p], participants[qso.his_call]): # Not confirmed by correspondent - move to next Qso
                 continue
 
 def writeUbnReportToFile(participant):
-    filename = "docs/Plovdiv-2017-UBN/"+participant.callsign+".UBN"
+    filename = "docs/Plovdiv-2017-UBN___v2_lz1abc/"+participant.callsign+".UBN"
     ubn_file = open(filename, "w+")
 
     ubn_file.write(participant.getUbnReport())
@@ -178,7 +192,7 @@ def main():
     participants = {}
 
     # Print the Name of the participant
-    for filename in glob.glob("docs/Plovdiv-2017-Logove/*.*"):
+    for filename in glob.glob("docs/Plovdiv-2017-Logove_v2/*.*"):
         p = parseLog(filename)
         participants[p.callsign] = p
 

@@ -1,0 +1,31 @@
+UBN for: LZ0FC
+Name: Венцислав Пенковски LZ2JE
+
+--------------------------------------------------------------------------------
+Total QSOs: 259
+Confirmed QSOs: 253
+--------------------------------------------------------------------------------
+
+ERROR_RECEIVE:
+QSO:  3551 CW 2017-08-19 0802 LZ0FC        059  073       LZ0AU        035  072 
+QSO:  3551 CW 2017-08-19 0803 LZ0AU        034  072       LZ0FC        059  073 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3535 CW 2017-08-19 0832 LZ0FC        090  110       LZ0FZ        038  078 
+QSO:  3534 CW 2017-08-19 0833 LZ0FZ        038  078       LZ0FC        090  010 
+
+ERROR_RECEIVE:
+QSO:  3557 CW 2017-08-19 0848 LZ0FC        105  110       LZ0AV        017  081 
+QSO:  3557 CW 2017-08-19 0848 LZ0AV        117  081       LZ0FC        105  110 
+
+ERROR_RECEIVE:
+QSO:  3557 CW 2017-08-19 0919 LZ0FC        139  144       LZ0AV        054  077 
+QSO:  3557 CW 2017-08-19 0919 LZ0AV        154  077       LZ0FC        139  144 
+
+ERROR_NOT_IN_LOG:
+QSO:  3524 CW 2017-08-19 1009 LZ0FC        197  201       LZ0AC        135  208 
+
+ERROR_PARTNER_DATE_TIME:
+QSO:  3557 CW 2017-08-19 1059 LZ0FC        259  244       LZ0AA        258  266 
+QSO:  3557 CW 2017-08-19 1100 LZ0AA        258  266       LZ0FC        259  244 
+

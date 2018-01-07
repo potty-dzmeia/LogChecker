@@ -1,0 +1,42 @@
+UBN for: LZ0DR
+Name: Марин Буковски LZ1RW
+
+--------------------------------------------------------------------------------
+Total QSOs: 228
+Confirmed QSOs: 218
+--------------------------------------------------------------------------------
+
+ERROR_RECEIVE:
+QSO:  3535 CW 2017-08-19 0702 LZ0DR        003  002       LZ0DN        002  003 
+QSO:  3535 CW 2017-08-19 0702 LZ0DN        002  002       LZ0DR        003  002 
+
+ERROR_RECEIVE:
+QSO:  3535 CW 2017-08-19 0727 LZ0DR        025  035       LZ0DC        040  021 
+QSO:  3535 CW 2017-08-19 0727 LZ0DC        040  012       LZ0DR        025  035 
+
+ERROR_NOT_IN_LOG:
+QSO:  3514 CW 2017-08-19 0756 LZ0DR        057  062       LZ0AR        057  061 
+
+ERROR_NOT_IN_LOG:
+QSO:  3535 CW 2017-08-19 0833 LZ0DR        094  108       LZ0DD        079  037 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3545 CW 2017-08-19 0839 LZ0DR        099  119       LZ0FY        104  111 
+QSO:  3545 CW 2017-08-19 0839 LZ0FY        104  111       LZ0DR        099  110 
+
+ERROR_NOT_IN_LOG:
+QSO:  3550 CW 2017-08-19 0945 LZ0DR        166  180       LZ0AU        098  200 
+
+ERROR_NOT_IN_LOG:
+QSO:  3536 CW 2017-08-19 1007 LZ0DR        187  232       LZ0AC        133  240 
+
+ERROR_NOT_IN_LOG:
+QSO:  3524 CW 2017-08-19 1042 LZ0DR        215  244       LZ0AC        164  271 
+
+ERROR_NOT_IN_LOG:
+QSO:  3536 CW 2017-08-19 1048 LZ0DR        218  167       LZ0DN        252  254 
+
+ERROR_PARTNER_DATE_TIME:
+QSO:  3540 CW 2017-08-19 1059 LZ0DR        229  287       LZ0DM        272  288 
+QSO:  3540 CW 2017-08-19 1100 LZ0DM        272  288       LZ0DR        229  287 
+

@@ -1,0 +1,28 @@
+UBN for: LZ0DJ
+Name: Николай Енчев LZ1NK
+
+--------------------------------------------------------------------------------
+Total QSOs: 286
+Confirmed QSOs: 281
+--------------------------------------------------------------------------------
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3550 CW 2017-08-19 0751 LZ0DJ        057  056       LZ0AU        029  070 
+QSO:  3551 CW 2017-08-19 0752 LZ0AU        029  070       LZ0DJ        057  046 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3554 CW 2017-08-19 0800 LZ0DJ        067  066       LZ0DA        068  069 
+QSO:  3553 CW 2017-08-19 0801 LZ0DA        068  069       LZ0DJ        068  068 
+
+UNKNOWN ERROR:
+QSO:  3554 CW 2017-08-19 0801 LZ0DJ        068  068       LZ0DA        068  069 
+QSO:  3553 CW 2017-08-19 0801 LZ0DA        068  069       LZ0DJ        068  068 
+
+ERROR_RECEIVE:
+QSO:  3554 CW 2017-08-19 0935 LZ0DJ        184  189       LZ0AL        160  158 
+QSO:  3554 CW 2017-08-19 0935 LZ0AL        161  158       LZ0DJ        184  189 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3551 CW 2017-08-19 1038 LZ0DJ        256  256       LZ0AU        129  228 
+QSO:  3562 CW 2017-08-19 1038 LZ0AU        129  228       LZ0DJ        246  256 
+

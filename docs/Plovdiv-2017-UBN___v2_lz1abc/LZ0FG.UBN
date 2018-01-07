@@ -1,0 +1,45 @@
+UBN for: LZ0FG
+Name: Валентин Найденов LZ2XA
+
+--------------------------------------------------------------------------------
+Total QSOs: 285
+Confirmed QSOs: 275
+--------------------------------------------------------------------------------
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3555 CW 2017-08-19 0706 LZ0FG        008  004       LZ0AU        006  011 
+QSO:  3555 CW 2017-08-19 0706 LZ0AU        006  011       LZ0FG        007  004 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3526 CW 2017-08-19 0739 LZ0FG        046  048       LZ0FJ        046  040 
+QSO:  3526 CW 2017-08-19 0739 LZ0FJ        046  040       LZ0FG        046  049 
+
+ERROR_NOT_IN_LOG:
+QSO:  3550 CW 2017-08-19 0744 LZ0FG        053  064       LZ0AU        028  051 
+
+ERROR_PARTNER_DUPE:
+QSO:  3522 CW 2017-08-19 0811 LZ0FG        081  087       LZ0AW        087  044 
+QSO:  3522 CW 2017-08-19 0811 LZ0AW        087  044       LZ0FG        081  087 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3514 CW 2017-08-19 0830 LZ0FG        103  102       LZ0AR        094  091 
+QSO:  3514 CW 2017-08-19 0830 LZ0AR        094  091       LZ0FG        103  104 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3545 CW 2017-08-19 0905 LZ0FG        142  149       LZ0AX        137  148 
+QSO:  3545 CW 2017-08-19 0905 LZ0AX        137  148       LZ0FG        141  053 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3550 CW 2017-08-19 0920 LZ0FG        162  180       LZ0AU        081  181 
+QSO:  3550 CW 2017-08-19 0920 LZ0AU        081  181       LZ0FG        162  160 
+
+ERROR_NOT_IN_LOG:
+QSO:  3540 CW 2017-08-19 1000 LZ0FG        210  190       LZ0DM        204  205 
+
+ERROR_RECEIVE:
+QSO:  3545 CW 2017-08-19 1026 LZ0FG        239  217       LZ0DL        226  227 
+
+ERROR_PARTNER_DATE_TIME:
+QSO:  3548 CW 2017-08-19 1059 LZ0FG        284  278       LZ0FX        207  310 
+QSO:  3548 CW 2017-08-19 1100 LZ0FX        207  310       LZ0FG        284  278 
+

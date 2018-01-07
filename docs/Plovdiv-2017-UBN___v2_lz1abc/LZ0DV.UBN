@@ -1,0 +1,41 @@
+UBN for: LZ0DV
+Name: Чавдар Левков LZ1ABC
+
+--------------------------------------------------------------------------------
+Total QSOs: 286
+Confirmed QSOs: 276
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  3529 CW 2017-08-19 0706 LZ0DV        010  005       LZ0DF        007  008 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3529 CW 2017-08-19 0708 LZ0DV        014  008       LZ0DN        009  010 
+QSO:  3529 CW 2017-08-19 0708 LZ0DN        009  010       LZ0DV        014  000 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3528 CW 2017-08-19 0814 LZ0DV        084  041       LZ0FD        083  087 
+QSO:  3500 CW 2017-08-19 0814 LZ0FD        083  087       LZ0DV        084  081 
+
+ERROR_NOT_IN_LOG:
+QSO:  3523 CW 2017-08-19 0822 LZ0DV        091  089       LZ0AC        093  097 
+
+ERROR_DUPE:
+QSO:  3512 CW 2017-08-19 0835 LZ0DV        103  068       LZ0DF        103  047 
+
+ERROR_RECEIVE:
+QSO:  3545 CW 2017-08-19 0859 LZ0DV        133  118       LZ0FY        126  074 
+
+ERROR_RECEIVE:
+QSO:  3530 CW 2017-08-19 0933 LZ0DV        174  184       LZ0AK        166  989 
+
+ERROR_NOT_IN_LOG:
+QSO:  3528 CW 2017-08-19 0950 LZ0DV        197  180       LZ0FD        194  116 
+
+ERROR_NOT_IN_LOG:
+QSO:  3530 CW 2017-08-19 1018 LZ0DV        232  211       LZ0AC        143  222 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3530 CW 2017-08-19 1049 LZ0DV        273  252       LZ0AL        232  268 
+QSO:  3530 CW 2017-08-19 1049 LZ0AL        232  268       LZ0DV        274  252 
+

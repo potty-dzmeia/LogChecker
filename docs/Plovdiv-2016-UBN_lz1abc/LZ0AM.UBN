@@ -1,0 +1,19 @@
+UBN for: LZ0AM
+Name: Иван Иванов LZ1PJ
+
+------------------------------------------------------------------------------------
+Total QSOs: 260
+Confirmed QSOs: 249
+------------------------------------------------------------------------------------
+
+ERROR_DUPE                     -------------> QSO: CW CW 2016-08-20 08:24:00 LZ0AM         022 028       LZ0FJ         031 029
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 08:24:00 LZ0AM         024 036       LZ0DY         023 023
+ERROR_DUPE                     -------------> QSO: CW CW 2016-08-20 09:08:00 LZ0AM         064 043       LZ0AN         083 049
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 09:25:00 LZ0AM         089 089       LZ0DY         093 099
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 09:58:00 LZ0AM         122 127       LZ0DY         130 123
+ERROR_DUPE                     -------------> QSO: CW CW 2016-08-20 10:11:00 LZ0AM         138 149       LZ0AL         148 135
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 10:29:00 LZ0AM         158 168       LZ0DY         166 123
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 10:39:00 LZ0AM         167 171       LZ0AY         179 184
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 10:40:00 LZ0AM         169 190       LZ0AK         195 191
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 11:01:00 LZ0AM         195 198       LZ0DY         206 200
+ERROR_DUPE                     -------------> QSO: CW CW 2016-08-20 11:03:00 LZ0AM         197 186       LZ0AW         230 211

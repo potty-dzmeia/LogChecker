@@ -1,0 +1,28 @@
+UBN for: LZ0DG
+Name: Velimir Deric K3JO
+
+------------------------------------------------------------------------------------
+Total QSOs: 305
+Confirmed QSOs: 285
+------------------------------------------------------------------------------------
+
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 08:04:00 LZ0DG         001 000       LZ0DW         008 008
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 08:05:00 LZ0DG         003 012       LZ0FU         007 008
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 08:08:00 LZ0DG         008 015       LZ0AA         013 013
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 08:09:00 LZ0DG         009 013       LZ0FL         010 014
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 08:18:00 LZ0DG         025 006       LZ0DY         017 030
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 08:23:00 LZ0DG         030 020       LZ0AU         033 010
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 08:24:00 LZ0DG         031 033       LZ0FV         033 020
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 08:26:00 LZ0DG         032 033       LZ0DM         010 031
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 08:27:00 LZ0DG         033 010       LZ0AN         033 033
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 08:28:00 LZ0DG         034 033       LZ0AP         032 017
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 08:43:00 LZ0DG         047 039       LZ0AL         038 016
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 09:11:00 LZ0DG         080 092       LZ0FG         093 101
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 09:23:00 LZ0DG         102 060       LZ0DM         103 079
+ERROR_DUPE                     -------------> QSO: CW CW 2016-08-20 09:45:00 LZ0DG         119 099       LZ0FG         115 124
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 10:18:00 LZ0DG         159 112       LZ0AX         161 072
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 10:25:00 LZ0DG         176 154       LZ0FT         189 191
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 10:26:00 LZ0DG         177 189       LZ0DC         121 075
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 10:41:00 LZ0DG         192 173       LZ0FN         146 152
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 10:54:00 LZ0DG         213 195       LZ0DY         197 209
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 11:07:00 LZ0DG         233 245       LZ0DL         236 179

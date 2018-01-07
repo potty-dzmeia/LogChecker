@@ -1,8 +1,6 @@
 from datetime import datetime
 
 
-
-
 class Qso:
 
     MODE = 2
@@ -12,11 +10,13 @@ class Qso:
     CALL = 5
     SND1 = 6
     SND2 = 7
-    HISCALL = 8
+    HIS_CALL = 8
     RCV1 = 9
     RCV2 = 10
 
     DATE_TIME_FORMAT = "%Y-%m-%d %H%M"
+    DATE_FORMAT = "%Y-%m-%d"
+    TIME_FORMAT = "%H%M"
 
     # Error codes
     NO_ERROR = 0
@@ -26,9 +26,11 @@ class Qso:
     ERROR_RECEIVE = -4
     ERROR_PARTNER_LOG_MISSING = -5
     ERROR_PARTNER_RECEIVE = -6
-    ERROR_PARTNER_DATETIME = -7
+    ERROR_PARTNER_DATE_TIME = -7
     ERROR_PARTNER_DUPE = -8
-    ERROR_UNKNOWN_FORMATTING = -9
+    ERROR_PARTNER_QSO_ALREADY_CHECKED_AND_FAILED = -9
+    ERROR_UNKNOWN_LINE_FORMATTING = -10
+
 
 
     def __init__(self, qso_list):
@@ -41,32 +43,71 @@ class Qso:
         self.call = qso_list[self.CALL]
         self.date_time = datetime.strptime(" ".join([qso_list[self.DATE], qso_list[self.TIME]]), self.DATE_TIME_FORMAT)
         self.mode = qso_list[self.MODE]
+        self.freq = int(qso_list[self.FREQ])
         self.snd1 = int(qso_list[self.SND1])
         self.snd2 = int(qso_list[self.SND2])
-        self.his_call = qso_list[self.HISCALL]
+        self.his_call = qso_list[self.HIS_CALL]
         self.rcv1 = int(qso_list[self.RCV1])
         self.rcv2 = int(qso_list[self.RCV2])
 
-        self.is_valid = True  # False if during log check the QSO is not accepted
         self.error_code = self.NO_ERROR  # holds value identifying the type of error that has been found by log check
-
+        self.error_info = "" # will hold additional info concerning errors (e.g. the QSO from the other log)
 
     def __repr__(self):
-        return "QSO: "+self.mode+" "+self.mode+" "+self.date_time.date().isoformat()+" "+ \
-               self.date_time.time().isoformat()+" "+self.call+"         "+str(self.rcv1).zfill(3)+" "+str(self.rcv2).zfill(3)+\
-               "       "+self.his_call+"         "+str(self.snd1).zfill(3)+" "+str(self.snd2).zfill(3)
+        return self.toCabrillo()
+
+
+    def isInvalid(self):
+        """
+        Checks if the QSO has been marked as invalid during log checking (i.e. self.error_code != self.NO_ERROR)
+        :return:
+        :rtype: bool
+        """
+        if self.error_code == self.NO_ERROR:
+            return False
+        return True
+
+
+    def isValid(self):
+        """
+        Checks if the QSO has not been marked as invalid during log checking (i.e. self.error_code == self.NO_ERROR)
+        :return:
+        :rtype: bool
+        """
+        if self.error_code == self.NO_ERROR:
+            return True
+        return False
+
+
+    def toCabrillo(self):
+        """
+        Returns the QSO in Cabrillo representation.
+        E.g.: QSO:  3531 CW 2017-08-19 0701 LZ0FJ         001 000       LZ0DY         004 003
+        :return:
+        :rtype: str
+        """
+        return "QSO:" + \
+               "{:>6}".format(str(self.freq)) + \
+               "{:>3}".format(self.mode) + \
+               "{:>11}".format(self.date_time.date().isoformat()) + \
+               "{:>5}".format(self.date_time.time().strftime(self.TIME_FORMAT)) + " " \
+               "{:<13}".format(self.call) + \
+               "{:<5}".format(str(self.snd1).zfill(3)) + \
+               "{:<10}".format(str(self.snd2).zfill(3)) + \
+               "{:<13}".format(self.his_call) + \
+               "{:<5}".format(str(self.rcv1).zfill(3)) + \
+               "{:<4}".format(str(self.rcv2).zfill(3))
 
 
     def isWithinDateTime(self, start_date_time, end_date_time):
         """
-
+        Checks if the Qso is within the specified time interval
         :param start_date_time:
         :type start_date_time: datetime
         :param end_date_time:
         :type end_date_time: datetime
         :return:
         """
-
         if self.date_time.timestamp() < start_date_time.timestamp() or \
                 self.date_time.timestamp() > end_date_time.timestamp():
             return True
@@ -76,7 +117,7 @@ class Qso:
 
     def errorCodeToString(self, error_code):
         """
-
+        Translates error code to string
         :param self:
         :param error_code:
         :type error_code: int
@@ -97,11 +138,33 @@ class Qso:
             return "ERROR_PARTNER_LOG_MISSING"
         elif error_code == self.ERROR_PARTNER_RECEIVE:
             return "ERROR_PARTNER_RECEIVE"
-        elif error_code == self.ERROR_PARTNER_DATETIME:
-            return "ERROR_PARTNER_DATETIME"
+        elif error_code == self.ERROR_PARTNER_DATE_TIME:
+            return "ERROR_PARTNER_DATE_TIME"
         elif error_code == self.ERROR_PARTNER_DUPE:
             return "ERROR_PARTNER_DUPE"
-        elif error_code == self.ERROR_UNKNOWN_FORMATTING:
-            return "ERROR_UNKNOWN_FORMATTING"
+        elif error_code == self.ERROR_UNKNOWN_LINE_FORMATTING:
+            return "ERROR_UNKNOWN_LINE_FORMATTING"
         else:
             return "UNKNOWN ERROR"
+
+
+    def translatePartnerError(self):
+        """
+        Translate an error from the correspondent's log into one that that can be written into the log currently being
+        checked.
+
+        e.g.: The correspondent has not not followed the 30min rule and his QSO is marked with ERROR_DUPE. In order
+        to notify the person of the current log being check we would like to copy this error. So we change it into
+        ERROR_PARTNER_DUPE and store it.
+
+        :return: Returns error of the type ERROR_PARTNER_.....
+        :rtype: str
+        """
+        if self.error_code == self.ERROR_DUPE:
+            return self.ERROR_PARTNER_DUPE
+        elif self.error_code == self.ERROR_NOT_IN_LOG:
+            return self.ERROR_PARTNER_QSO_ALREADY_CHECKED_AND_FAILED
+        elif self.error_code == self.ERROR_TIME_DATE:
+            return self.ERROR_PARTNER_DATE_TIME
+        elif self.error_code == self.ERROR_RECEIVE:
+            return self.ERROR_PARTNER_QSO_ALREADY_CHECKED_AND_FAILED

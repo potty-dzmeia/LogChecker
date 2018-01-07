@@ -1,0 +1,20 @@
+UBN for: LZ0AZ
+Name: Тодор Кайкиев LZ1BP
+
+------------------------------------------------------------------------------------
+Total QSOs: 252
+Confirmed QSOs: 240
+------------------------------------------------------------------------------------
+
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 08:06:00 LZ0AZ         011 012       LZ0DZ         010 015
+ERROR_PARTNER_LOG_MISSING      -------------> QSO: CW CW 2016-08-20 08:21:00 LZ0AZ         024 016       LZ2FD         027 010
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 08:35:00 LZ0AZ         036 041       LZ0AP         041 043
+ERROR_DUPE                     -------------> QSO: CW CW 2016-08-20 08:38:00 LZ0AZ         041 052       LZ0DD         045 035
+ERROR_DUPE                     -------------> QSO: CW CW 2016-08-20 09:18:00 LZ0AZ         083 079       LZ0DA         100 046
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 09:21:00 LZ0AZ         088 051       LZ0DY         087 097
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 10:17:00 LZ0AZ         144 147       LZ0FN         130 142
+ERROR_PARTNER_LOG_MISSING      -------------> QSO: CW CW 2016-08-20 10:37:00 LZ0AZ         163 185       LZ0YY         119 018
+ERROR_PARTNER_LOG_MISSING      -------------> QSO: CW CW 2016-08-20 11:00:00 LZ0AZ         190 219       LZ2FG         202 196
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 11:19:00 LZ0AZ         213 224       LZ0AA         220 228
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 11:58:00 LZ0AZ         251 312       LZ0FV         249 281
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 11:59:00 LZ0AZ         252 249       LZ0AW         303 277

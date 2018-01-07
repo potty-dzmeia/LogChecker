@@ -1,0 +1,58 @@
+UBN for: LZ0AM
+Name: Tiberiu Tebeica YO9GZU
+
+--------------------------------------------------------------------------------
+Total QSOs: 297
+Confirmed QSOs: 283
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  3537 CW 2017-08-19 0706 LZ0AM        009  008       LZ0AY        009  006 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3523 CW 2017-08-19 0714 LZ0AM        022  018       LZ0AC        005  014 
+QSO:  3524 CW 2017-08-19 0714 LZ0AC        005  014       LZ0AM        022  017 
+
+ERROR_NOT_IN_LOG:
+QSO:  3543 CW 2017-08-19 0716 LZ0AM        023  005       LZ0DU        007  020 
+
+ERROR_NOT_IN_LOG:
+QSO:  3559 CW 2017-08-19 0717 LZ0AM        025  018       LZ0AL        018  023 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3532 CW 2017-08-19 0736 LZ0AM        044  049       LZ0AA        032  034 
+QSO:  3532 CW 2017-08-19 0736 LZ0AA        032  034       LZ0AM        040  049 
+
+ERROR_NOT_IN_LOG:
+QSO:  3559 CW 2017-08-19 0745 LZ0AM        054  048       LZ0AY        048  050 
+
+ERROR_RECEIVE:
+QSO:  3513 CW 2017-08-19 0800 LZ0AM        071  068       LZ0DF        074  059 
+QSO:  3513 CW 2017-08-19 0800 LZ0DF        064  059       LZ0AM        071  068 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3551 CW 2017-08-19 0811 LZ0AM        084  077       LZ0AU        039  077 
+QSO:  3551 CW 2017-08-19 0811 LZ0AU        039  077       LZ0AM        083  077 
+
+ERROR_RECEIVE:
+QSO:  3513 CW 2017-08-19 0907 LZ0AM        153  152       LZ0DX        065  065 
+QSO:  3513 CW 2017-08-19 0906 LZ0DX        065  064       LZ0AM        153  152 
+
+ERROR_RECEIVE:
+QSO:  3526 CW 2017-08-19 0923 LZ0AM        173  169       LZ0DP        149  091 
+QSO:  3527 CW 2017-08-19 0923 LZ0DP        149  081       LZ0AM        173  169 
+
+ERROR_RECEIVE:
+QSO:  3513 CW 2017-08-19 0939 LZ0AM        194  192       LZ0DX        097  187 
+QSO:  3513 CW 2017-08-19 0939 LZ0DX        097  186       LZ0AM        194  192 
+
+ERROR_NOT_IN_LOG:
+QSO:  3524 CW 2017-08-19 0957 LZ0AM        218  186       LZ0AC        124  210 
+
+ERROR_NOT_IN_LOG:
+QSO:  3524 CW 2017-08-19 1029 LZ0AM        258  250       LZ0AC        154  229 
+
+ERROR_RECEIVE:
+QSO:  3516 CW 2017-08-19 1039 LZ0AM        272  239       LZ0DL        243  238 
+QSO:  3516 CW 2017-08-19 1039 LZ0DL        243  248       LZ0AM        272  239 
+

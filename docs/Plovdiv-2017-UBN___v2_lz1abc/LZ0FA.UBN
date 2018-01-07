@@ -1,0 +1,54 @@
+UBN for: LZ0FA
+Name: Цветалин Цветков LZ2FV
+
+--------------------------------------------------------------------------------
+Total QSOs: 260
+Confirmed QSOs: 246
+--------------------------------------------------------------------------------
+
+ERROR_RECEIVE:
+QSO:  3525 CW 2017-08-19 0701 LZ0FA        001  000       LZ0AT        003  001 
+
+ERROR_RECEIVE:
+QSO:  3525 CW 2017-08-19 0715 LZ0FA        020  027       LZ0AK        017  016 
+
+ERROR_RECEIVE:
+QSO:  3525 CW 2017-08-19 0740 LZ0FA        041  042       LZ0AD        046  047 
+
+ERROR_DUPE:
+QSO:  3525 CW 2017-08-19 0804 LZ0FA        062  085       LZ0DL        084  072 
+
+ERROR_RECEIVE:
+QSO:  3525 CW 2017-08-19 0814 LZ0FA        076  091       LZ0AL        080  077 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3552 CW 2017-08-19 0828 LZ0FA        094  087       LZ0AG        099  107 
+QSO:  3552 CW 2017-08-19 0828 LZ0AG        099  107       LZ0FA        084  087 
+
+ERROR_RECEIVE:
+QSO:  3545 CW 2017-08-19 0829 LZ0FA        095  099       LZ0AX        097  090 
+
+ERROR_DUPE:
+QSO:  3525 CW 2017-08-19 0858 LZ0FA        125  122       LZ0DL        142  123 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3525 CW 2017-08-19 0923 LZ0FA        151  145       LZ0AL        149  171 
+QSO:  3525 CW 2017-08-19 0923 LZ0AL        149  171       LZ0FA        158  145 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3526 CW 2017-08-19 0949 LZ0FA        182  179       LZ0FJ        211  115 
+QSO:  3526 CW 2017-08-19 0949 LZ0FJ        211  115       LZ0FA        182  279 
+
+ERROR_NOT_IN_LOG:
+QSO:  3525 CW 2017-08-19 1005 LZ0FA        199  216       LZ0AC        129  224 
+
+ERROR_NOT_IN_LOG:
+QSO:  3525 CW 2017-08-19 1033 LZ0FA        228  259       LZ0AL        214  230 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3525 CW 2017-08-19 1037 LZ0FA        235  197       LZ0AA        227  187 
+QSO:  3525 CW 2017-08-19 1037 LZ0AA        227  187       LZ0FA        235  198 
+
+ERROR_RECEIVE:
+QSO:  3525 CW 2017-08-19 1045 LZ0FA        246  237       LZ0DT        233  243 
+
