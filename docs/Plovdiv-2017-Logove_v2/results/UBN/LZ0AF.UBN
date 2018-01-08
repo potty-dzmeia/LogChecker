@@ -1,0 +1,31 @@
+UBN for: LZ0AF
+Name: Пламен Матев LZ3BB
+
+--------------------------------------------------------------------------------
+Total QSOs: 275
+Confirmed QSOs: 269
+--------------------------------------------------------------------------------
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3535 CW 2017-08-19 0726 LZ0AF        029  028       LZ0FZ        001  000 
+QSO:  3534 CW 2017-08-19 0726 LZ0FZ        001  000       LZ0AF        029  029 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3550 CW 2017-08-19 0805 LZ0AF        066  068       LZ0AU        036  070 
+QSO:  3551 CW 2017-08-19 0805 LZ0AU        036  070       LZ0AF        060  068 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3545 CW 2017-08-19 0826 LZ0AF        092  083       LZ0FY        087  090 
+QSO:  3545 CW 2017-08-19 0826 LZ0FY        087  090       LZ0AF        092  084 
+
+ERROR_DUPE:
+QSO:  3550 CW 2017-08-19 0857 LZ0AF        128  123       LZ0DT        124  127 
+QSO:  3550 CW 2017-08-19 0855 LZ0AF        127  118       LZ0DT        123  122 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3550 CW 2017-08-19 1021 LZ0AF        225  249       LZ0AU        118  228 
+QSO:  3562 CW 2017-08-19 1021 LZ0AU        118  228       LZ0AF        225  229 
+
+ERROR_NOT_IN_LOG:
+QSO:  3542 CW 2017-08-19 1036 LZ0AF        243  240       LZ0AC        160  166 
+

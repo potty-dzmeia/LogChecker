@@ -1,0 +1,49 @@
+UBN for: LZ0AG
+Name: Илиан Гаджев LZ1CNN
+
+--------------------------------------------------------------------------------
+Total QSOs: 288
+Confirmed QSOs: 277
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  3522 CW 2017-08-19 0706 LZ0AG        006  013       LZ0DA        010  007 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3509 CW 2017-08-19 0715 LZ0AG        019  013       LZ0FX        009  022 
+QSO:  3509 CW 2017-08-19 0715 LZ0FX        009  022       LZ0AG        019  012 
+
+ERROR_RECEIVE:
+QSO:  3528 CW 2017-08-19 0717 LZ0AG        023  013       LZ0FD        025  018 
+QSO:  3500 CW 2017-08-19 0717 LZ0FD        026  018       LZ0AG        023  013 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3552 CW 2017-08-19 0753 LZ0AG        060  054       LZ0DX        035  065 
+QSO:  3552 CW 2017-08-19 0753 LZ0DX        035  065       LZ0AG        060  064 
+
+ERROR_RECEIVE:
+QSO:  3552 CW 2017-08-19 0828 LZ0AG        099  107       LZ0FA        084  087 
+QSO:  3552 CW 2017-08-19 0828 LZ0FA        094  087       LZ0AG        099  107 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3550 CW 2017-08-19 0921 LZ0AG        165  152       LZ0DT        146  172 
+QSO:  3550 CW 2017-08-19 0921 LZ0DT        146  172       LZ0AG        155  152 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3550 CW 2017-08-19 0940 LZ0AG        182  095       LZ0AU        095  179 
+QSO:  3550 CW 2017-08-19 0940 LZ0AU        095  179       LZ0AG        182  094 
+
+ERROR_RECEIVE:
+QSO:  3526 CW 2017-08-19 0941 LZ0AG        183  095       LZ0FJ        098  175 
+QSO:  3526 CW 2017-08-19 0941 LZ0FJ        198  175       LZ0AG        183  095 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3550 CW 2017-08-19 1011 LZ0AG        222  221       LZ0AU        110  219 
+QSO:  3562 CW 2017-08-19 1011 LZ0AU        110  219       LZ0AG        224  221 
+
+ERROR_NOT_IN_LOG:
+QSO:  3552 CW 2017-08-19 1022 LZ0AG        238  143       LZ0AC        147  211 
+
+ERROR_NOT_IN_LOG:
+QSO:  3535 CW 2017-08-19 1028 LZ0AG        248  230       LZ0DR        160  223 
+

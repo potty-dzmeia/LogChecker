@@ -1,0 +1,49 @@
+UBN for: LZ0DC
+Name: Боян Петков LZ2BE
+
+--------------------------------------------------------------------------------
+Total QSOs: 311
+Confirmed QSOs: 300
+--------------------------------------------------------------------------------
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3534 CW 2017-08-19 0701 LZ0DC        002  002       LZ0DN        001  000 
+QSO:  3538 CW 2017-08-19 0701 LZ0DN        001  000       LZ0DC        002  001 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3534 CW 2017-08-19 0706 LZ0DC        011  007       LZ0AX        006  007 
+QSO:  3531 CW 2017-08-19 0706 LZ0AX        006  007       LZ0DC        011  006 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3515 CW 2017-08-19 0712 LZ0DC        024  001       LZ0AR        013  017 
+QSO:  3514 CW 2017-08-19 0712 LZ0AR        013  017       LZ0DC        024  002 
+
+ERROR_RECEIVE:
+QSO:  3534 CW 2017-08-19 0726 LZ0DC        039  016       LZ0FZ        012  029 
+QSO:  3534 CW 2017-08-19 0727 LZ0FZ        002  029       LZ0DC        039  016 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3535 CW 2017-08-19 0727 LZ0DC        040  012       LZ0DR        025  035 
+QSO:  3535 CW 2017-08-19 0727 LZ0DR        025  035       LZ0DC        040  021 
+
+ERROR_NOT_IN_LOG:
+QSO:  3534 CW 2017-08-19 0740 LZ0DC        063  048       LZ0DU        007  020 
+
+ERROR_NOT_IN_LOG:
+QSO:  3550 CW 2017-08-19 0746 LZ0DC        070  058       LZ0AU        028  051 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3550 CW 2017-08-19 0821 LZ0DC        110  092       LZ0AU        043  105 
+QSO:  3550 CW 2017-08-19 0821 LZ0AU        043  105       LZ0DC        110  022 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3535 CW 2017-08-19 0825 LZ0DC        116  082       LZ0FZ        031  104 
+QSO:  3534 CW 2017-08-19 0825 LZ0FZ        031  104       LZ0DC        116  092 
+
+ERROR_NOT_IN_LOG:
+QSO:  3534 CW 2017-08-19 1006 LZ0DC        240  118       LZ0AC        132  227 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3550 CW 2017-08-19 1008 LZ0DC        241  132       LZ0AU        107  224 
+QSO:  3562 CW 2017-08-19 1008 LZ0AU        107  224       LZ0DC        241  222 
+

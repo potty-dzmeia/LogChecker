@@ -1,0 +1,46 @@
+UBN for: LZ0DW
+Name: Владимир Лазаров LZ2PL
+
+--------------------------------------------------------------------------------
+Total QSOs: 290
+Confirmed QSOs: 280
+--------------------------------------------------------------------------------
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3555 CW 2017-08-19 0701 LZ0DW        003  001       LZ0AU        003  002 
+QSO:  3555 CW 2017-08-19 0702 LZ0AU        003  002       LZ0DW        002  001 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3529 CW 2017-08-19 0719 LZ0DW        025  021       LZ0AL        020  023 
+QSO:  3529 CW 2017-08-19 0719 LZ0AL        020  023       LZ0DW        025  024 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3518 CW 2017-08-19 0754 LZ0DW        065  073       LZ0AL        054  061 
+QSO:  3518 CW 2017-08-19 0754 LZ0AL        054  061       LZ0DW        065  063 
+
+ERROR_NOT_IN_LOG:
+QSO:  3551 CW 2017-08-19 0800 LZ0DW        072  061       LZ0AU        034  072 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3514 CW 2017-08-19 0819 LZ0DW        095  086       LZ0AR        079  027 
+QSO:  3514 CW 2017-08-19 0820 LZ0AR        079  027       LZ0DW        090  086 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3550 CW 2017-08-19 0923 LZ0DW        173  147       LZ0AU        083  068 
+QSO:  3550 CW 2017-08-19 0923 LZ0AU        083  068       LZ0DW        173  127 
+
+ERROR_RECEIVE:
+QSO:  3518 CW 2017-08-19 0938 LZ0DW        191  161       LZ0DL        073  091 
+QSO:  3518 CW 2017-08-19 0938 LZ0DL        173  091       LZ0DW        191  161 
+
+ERROR_NOT_IN_LOG:
+QSO:  3550 CW 2017-08-19 1005 LZ0DW        222  210       LZ0AU        104  147 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3537 CW 2017-08-19 1010 LZ0DW        225  188       LZ0AP        197  196 
+QSO:  3555 CW 2017-08-19 1010 LZ0AP        196  210       LZ0DW        196  210 
+
+ERROR_RECEIVE:
+QSO:  3544 CW 2017-08-19 1059 LZ0DW        290  289       LZ0DN        267  247 
+QSO:  3544 CW 2017-08-19 1100 LZ0DN        267  257       LZ0DW        290  289 
+

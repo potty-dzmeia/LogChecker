@@ -22,7 +22,7 @@ class Qso:
     NO_ERROR = 0
     ERROR_DUPE = -1
     ERROR_NOT_IN_LOG = -2
-    ERROR_TIME_DATE = - 3
+    ERROR_DATE_TIME = - 3
     ERROR_RECEIVE = -4
     ERROR_PARTNER_LOG_MISSING = -5
     ERROR_PARTNER_RECEIVE = -6
@@ -130,8 +130,8 @@ class Qso:
             return "ERROR_DUPE"
         elif error_code == self.ERROR_NOT_IN_LOG:
             return "ERROR_NOT_IN_LOG"
-        elif error_code == self.ERROR_TIME_DATE:
-            return "ERROR_TIME_DATE"
+        elif error_code == self.ERROR_DATE_TIME:
+            return "ERROR_DATE_TIME"
         elif error_code == self.ERROR_RECEIVE:
             return "ERROR_RECEIVE"
         elif error_code == self.ERROR_PARTNER_LOG_MISSING:
@@ -164,7 +164,7 @@ class Qso:
             return self.ERROR_PARTNER_DUPE
         elif self.error_code == self.ERROR_NOT_IN_LOG:
             return self.ERROR_PARTNER_QSO_ALREADY_CHECKED_AND_FAILED
-        elif self.error_code == self.ERROR_TIME_DATE:
+        elif self.error_code == self.ERROR_DATE_TIME:
             return self.ERROR_PARTNER_DATE_TIME
         elif self.error_code == self.ERROR_RECEIVE:
             return self.ERROR_PARTNER_QSO_ALREADY_CHECKED_AND_FAILED

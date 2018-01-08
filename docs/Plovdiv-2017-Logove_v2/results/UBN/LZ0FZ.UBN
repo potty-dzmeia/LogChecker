@@ -1,0 +1,40 @@
+UBN for: LZ0FZ
+Name: Adi Voh S55M
+
+--------------------------------------------------------------------------------
+Total QSOs: 88
+Confirmed QSOs: 80
+--------------------------------------------------------------------------------
+
+ERROR_RECEIVE:
+QSO:  3534 CW 2017-08-19 0726 LZ0FZ        001  000       LZ0AF        029  029 
+QSO:  3535 CW 2017-08-19 0726 LZ0AF        029  028       LZ0FZ        001  000 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3534 CW 2017-08-19 0727 LZ0FZ        002  029       LZ0DC        039  016 
+QSO:  3534 CW 2017-08-19 0726 LZ0DC        039  016       LZ0FZ        012  029 
+
+ERROR_DUPE:
+QSO:  3514 CW 2017-08-19 0818 LZ0FZ        027  082       LZ0AR        078  096 
+QSO:  3514 CW 2017-08-19 0752 LZ0FZ        015  058       LZ0AR        049  062 
+
+ERROR_RECEIVE:
+QSO:  3534 CW 2017-08-19 0825 LZ0FZ        031  104       LZ0DC        116  092 
+QSO:  3535 CW 2017-08-19 0825 LZ0DC        116  082       LZ0FZ        031  104 
+
+ERROR_RECEIVE:
+QSO:  3534 CW 2017-08-19 0831 LZ0FZ        036  106       LZ0DN        096  098 
+QSO:  3534 CW 2017-08-19 0831 LZ0DN        097  098       LZ0FZ        036  106 
+
+ERROR_RECEIVE:
+QSO:  3534 CW 2017-08-19 0833 LZ0FZ        038  078       LZ0FC        090  010 
+QSO:  3535 CW 2017-08-19 0832 LZ0FC        090  110       LZ0FZ        038  078 
+
+ERROR_RECEIVE:
+QSO:  3528 CW 2017-08-19 0849 LZ0FZ        042  132       LZ0FD        133  128 
+QSO:  3500 CW 2017-08-19 0848 LZ0FD        122  128       LZ0FZ        042  132 
+
+ERROR_DUPE:
+QSO:  3510 CW 2017-08-19 0930 LZ0FZ        069  171       LZ0DL        162  158 
+QSO:  3510 CW 2017-08-19 0903 LZ0FZ        052  153       LZ0DL        147  088 
+

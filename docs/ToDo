@@ -1,3 +1,14 @@
+ -when  ERROR_DUPE
+ Add the first QSO
+ ERROR_DUPE:
+QSO:  3522 CW 2017-08-19 1053 LZ0AN        287  259       LZ0AW        281  255 
+ 
+ - when 
+ ERROR_PARTNER_DUPE:
+QSO:  3523 CW 2017-08-19 0741 LZ0AD        048  050       LZ0AC        042  042 
+QSO:  3524 CW 2017-08-19 0741 LZ0AC        042  042       LZ0AD        048  050 
+add the first qso from the corresponding log (so that it is visible that is a dupe)
+ 
  - isCrossCheckFailed does not check if the correspoding QSO is valid or not (should be fixed)
  - should be decided if we should stop crosschecking if we find one failed exchange or we should continue to search for another
     And in particular this example:

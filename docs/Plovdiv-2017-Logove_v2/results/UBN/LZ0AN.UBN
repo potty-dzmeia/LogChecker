@@ -1,0 +1,44 @@
+UBN for: LZ0AN
+Name: Ionut Pitigoi YO9WF
+
+--------------------------------------------------------------------------------
+Total QSOs: 299
+Confirmed QSOs: 289
+--------------------------------------------------------------------------------
+
+ERROR_RECEIVE:
+QSO:  3522 CW 2017-08-19 0714 LZ0AN        021  013       LZ0AW        020  017 
+QSO:  3522 CW 2017-08-19 0713 LZ0AW        023  017       LZ0AN        021  013 
+
+ERROR_NOT_IN_LOG:
+QSO:  3535 CW 2017-08-19 0802 LZ0AN        072  066       LZ0DR        064  070 
+
+ERROR_NOT_IN_LOG:
+QSO:  3550 CW 2017-08-19 0809 LZ0AN        085  069       LZ0AU        039  077 
+
+ERROR_RECEIVE:
+QSO:  3519 CW 2017-08-19 0837 LZ0AN        117  106       LZ0AK        102  099 
+QSO:  3519 CW 2017-08-19 0836 LZ0AK        102  106       LZ0AN        117  106 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3550 CW 2017-08-19 0901 LZ0AN        147  139       LZ0AU        071  145 
+QSO:  3550 CW 2017-08-19 0900 LZ0AU        071  145       LZ0AN        127  129 
+
+ERROR_NOT_IN_LOG:
+QSO:  3524 CW 2017-08-19 1002 LZ0AN        224  218       LZ0AC        128  189 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3550 CW 2017-08-19 1009 LZ0AN        234  216       LZ0AU        108  241 
+QSO:  3562 CW 2017-08-19 1009 LZ0AU        108  241       LZ0AN        240  216 
+
+ERROR_NOT_IN_LOG:
+QSO:  3524 CW 2017-08-19 1032 LZ0AN        264  254       LZ0AC        157  234 
+
+ERROR_DUPE:
+QSO:  3522 CW 2017-08-19 1053 LZ0AN        287  259       LZ0AW        281  255 
+QSO:  3522 CW 2017-08-19 1048 LZ0AN        281  281       LZ0AW        274  206 
+
+ERROR_DUPE:
+QSO:  3511 CW 2017-08-19 1059 LZ0AN        299  275       LZ0DG        292  270 
+QSO:  3511 CW 2017-08-19 1030 LZ0AN        260  240       LZ0DG        250  246 
+

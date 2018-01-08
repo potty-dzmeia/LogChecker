@@ -2,147 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7832dd0-4482-4cf9-aa7f-da5492246e6e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AA.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AC.LOG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AD.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AF.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AG.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AJ.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AK.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AL.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AM.LOG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AN.LOG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AP.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AR.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AT.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AU.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AV.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AW.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AX.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0AY.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DA.CBR" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DC.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DD.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DF.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DG.LOG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DJ.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DK.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DL.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DM.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DN.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DP.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DR.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DT.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DU.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DV.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DW.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DX.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DY.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0DZ.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0FA.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0FC.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0FD.LOG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0FF.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0FG.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0FJ.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0FK.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0FX.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0FY.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove/LZ0FZ.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AA.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AC.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AD.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AF.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AG.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AJ.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AK.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AL.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AM.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AN.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AP.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AR.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AT.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AU.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AV.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AW.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AX.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0AY.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DA.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DC.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DD.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DF.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DG.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DJ.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DK.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DL.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DM.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DN.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DP.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DR.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DT.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DU.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DV.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DW.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DX.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DY.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0DZ.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0FA.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0FC.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0FD.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0FF.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0FG.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0FJ.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0FK.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0FX.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0FY.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN/LZ0FZ.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AA.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AC.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AD.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AF.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AG.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AJ.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AK.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AL.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AM.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AN.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AP.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AR.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AT.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AU.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AV.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AW.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AX.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0AY.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DA.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DC.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DD.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DF.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DG.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DJ.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DK.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DL.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DM.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DN.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DP.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DR.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DT.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DU.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DV.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DW.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DX.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DY.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0DZ.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0FA.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0FC.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0FD.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0FF.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0FG.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0FJ.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0FK.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0FX.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0FY.UBN" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/UBN-Plovdiv-2017/LZ0FZ.UBN" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/docs/.~lock.comparison.xls#" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/Book1.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove_v2/LZ0AT.log" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove_v2/LZ0AT.log" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/.LZ0AU.UBN.kate-swp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AC.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AC.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AD.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AD.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AG.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AG.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AK.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AK.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AL.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AL.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AN.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AN.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AP.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AP.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AR.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AR.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AT.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AT.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AU.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AU.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AV.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AV.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AX.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AX.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AY.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AY.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DA.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DA.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DC.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DC.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DD.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DD.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DG.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DG.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DL.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DL.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DM.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DM.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DN.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DN.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DP.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DP.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DV.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DV.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DW.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DW.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DZ.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DZ.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FA.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FA.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FD.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FD.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FF.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FF.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FG.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FG.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FJ.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FJ.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FK.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FK.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FX.UBN" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FX.UBN" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDo" afterPath="$PROJECT_DIR$/docs/ToDo" />
       <change beforePath="$PROJECT_DIR$/logchecker_lzhfqrp.py" afterPath="$PROJECT_DIR$/logchecker_lzhfqrp.py" />
       <change beforePath="$PROJECT_DIR$/participant.py" afterPath="$PROJECT_DIR$/participant.py" />
       <change beforePath="$PROJECT_DIR$/qso.py" afterPath="$PROJECT_DIR$/qso.py" />
@@ -167,30 +63,8 @@
       <file leaf-file-name="logchecker.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logchecker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1650">
-              <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-              <folding>
-                <element signature="e#22#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="participant.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/participant.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="73" column="31" lean-forward="false" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qso.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qso.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="163" column="42" lean-forward="false" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="42" />
+            <state relative-caret-position="710">
+              <caret line="321" column="0" lean-forward="false" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -199,11 +73,31 @@
       <file leaf-file-name="logchecker_lzhfqrp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="44" column="55" lean-forward="true" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+            <state relative-caret-position="328">
+              <caret line="90" column="48" lean-forward="false" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qso.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qso.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="626">
+              <caret line="166" column="52" lean-forward="false" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="participant.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/participant.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="41" column="68" lean-forward="false" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -219,9 +113,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>isTimeWithinDelta</find>
-      <find>dc</find>
-      <find>fc</find>
       <find>fj</find>
       <find>an</find>
       <find>Not in log</find>
@@ -249,6 +140,9 @@
       <find>NO_er</find>
       <find>datetime</find>
       <find>ERROR_PARTNER_RECEIVE</find>
+      <find>checkLog</find>
+      <find>time_date</find>
+      <find>time_d</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -262,6 +156,7 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/logchecker.py" />
         <option value="$PROJECT_DIR$/logchecker2.py" />
+        <option value="$PROJECT_DIR$/logging.conf" />
         <option value="$PROJECT_DIR$/participant.py" />
         <option value="$PROJECT_DIR$/qso.py" />
         <option value="$PROJECT_DIR$/logchecker_lzhfqrp.py" />
@@ -269,8 +164,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="77" />
-    <option name="y" value="75" />
+    <option name="x" value="50" />
     <option name="width" value="1870" />
     <option name="height" value="1036" />
   </component>
@@ -314,6 +208,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -557,8 +454,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.logchecker2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.qso" />
-        <item index="2" class="java.lang.String" itemvalue="Python.participant" />
+        <item index="1" class="java.lang.String" itemvalue="Python.participant" />
+        <item index="2" class="java.lang.String" itemvalue="Python.qso" />
         <item index="3" class="java.lang.String" itemvalue="Python.logchecker" />
         <item index="4" class="java.lang.String" itemvalue="Python.pydevd" />
       </list>
@@ -582,18 +479,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="0" width="1872" height="1040" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25347593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25187165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.506424" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32707182" sideWeight="0.56584585" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.49357602" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32707182" sideWeight="0.56584585" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889503" sideWeight="0.49357602" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889503" sideWeight="0.49357602" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -617,23 +515,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/logchecker.py</url>
-          <line>210</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/logchecker.py</url>
-          <line>253</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/logchecker_lzhfqrp.py</url>
-          <line>103</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -641,7 +522,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="66" />
+      <option name="time" value="67" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -724,26 +605,44 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/logchecker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/participant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="6420">
+          <caret line="321" column="0" lean-forward="false" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qso.py">
+    <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="2500">
+          <caret line="129" column="129" lean-forward="false" selection-start-line="129" selection-start-column="129" selection-end-line="129" selection-end-column="129" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logchecker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logchecker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -752,9 +651,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#57#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -762,9 +659,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#57#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -772,9 +667,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#57#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -782,9 +675,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#57#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -792,9 +683,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#57#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -802,9 +691,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#57#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -817,102 +704,107 @@
     </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/LogChecker-Gt4Z59R5/lib/python3.6/site-packages/chardet/universaldetector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="0">
           <caret line="219" column="8" lean-forward="false" selection-start-line="219" selection-start-column="8" selection-end-line="219" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/LogChecker-Gt4Z59R5/lib/python3.6/site-packages/chardet/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
+        <state relative-caret-position="0">
           <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/LogChecker-Gt4Z59R5/lib/python3.6/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="0">
           <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/lib/python3.6/datetime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9071">
+        <state relative-caret-position="0">
           <caret line="1404" column="8" lean-forward="false" selection-start-line="1404" selection-start-column="8" selection-end-line="1404" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/844600851/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="0">
           <caret line="3624" column="8" lean-forward="false" selection-start-line="3624" selection-start-column="8" selection-end-line="3624" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="1663" column="19" lean-forward="true" selection-start-line="1663" selection-start-column="19" selection-end-line="1663" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="1663" column="19" lean-forward="false" selection-start-line="1663" selection-start-column="19" selection-end-line="1663" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="0">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="958" column="0" lean-forward="false" selection-start-line="958" selection-start-column="0" selection-end-line="958" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logchecker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1650">
-          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="710">
+          <caret line="321" column="0" lean-forward="false" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/participant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="73" column="31" lean-forward="false" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
+        <state relative-caret-position="103">
+          <caret line="41" column="68" lean-forward="false" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qso.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="163" column="42" lean-forward="false" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="42" />
+        <state relative-caret-position="626">
+          <caret line="166" column="52" lean-forward="false" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="44" column="55" lean-forward="true" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+        <state relative-caret-position="328">
+          <caret line="90" column="48" lean-forward="false" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

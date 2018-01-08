@@ -34,6 +34,33 @@ class Participant:
         return i
 
 
+    def getAccuracy(self):
+        """
+        :return: Percenage of successful QSOs
+        :rtype: float
+        """
+        return (self.validQsoCount() / self.totalQsoCount()) * 100.0
+
+
+    def getPoints(self):
+        """
+        Returns the final score of the participant.
+        :return: Final score.
+        :rtype: int
+        """
+        return self.validQsoCount()*2
+
+
+    def getResults(self):
+        """
+        List of strings: "Call, Total QSO, Confirmed QSO , Points, Accuracy"
+        :return:
+        :rtype: list of str
+        """
+        return [self.callsign, self.totalQsoCount(), self.validQsoCount(), self.getPoints(), "{0:.2f}".format(self.getAccuracy())]
+
+
+
     def invalidQsoCount(self):
         """
 
