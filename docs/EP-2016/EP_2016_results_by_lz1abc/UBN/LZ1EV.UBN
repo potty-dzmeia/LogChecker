@@ -1,0 +1,32 @@
+UBN for: LZ1EV
+Name: Димитър Тонков
+
+--------------------------------------------------------------------------------
+Total QSOs: 70
+Confirmed QSOs: 63
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  7155 PH 2016-12-26 0725 LZ1EV        012  003       LZ1FFF       001  000 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7155 PH 2016-12-26 0728 LZ1EV        015  004       LZ1KCO       001  000 
+QSO:  7163 PH 2016-12-26 0729 LZ1KCO       001  000       LZ1EV        016  004 
+
+ERROR_NOT_IN_LOG:
+QSO:  7155 PH 2016-12-26 0759 LZ1EV        035  019       LZ1FFF       003  027 
+
+ERROR_PARTNER_LOG_MISSING:
+QSO:  7155 PH 2016-12-26 0828 LZ1EV        052  009       LZ1FM        029  029 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7155 PH 2016-12-26 0833 LZ1EV        056  010       LZ1FFF       008  001 
+QSO:  7000 PH 2016-12-26 0833 LZ1FFF       008  001       LZ1EV        059  010 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7155 PH 2016-12-26 0833 LZ1EV        057  008       LZ1FFF       008  001 
+QSO:  7000 PH 2016-12-26 0833 LZ1FFF       008  001       LZ1EV        059  010 
+
+ERROR_DATE_TIME:
+QSO:  7155 PH 2016-12-26 0900 LZ1EV        070  038       LZ1MC        019  EP  
+

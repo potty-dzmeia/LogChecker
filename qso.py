@@ -1,5 +1,5 @@
 from datetime import datetime
-
+import my_utils
 
 class Qso:
 
@@ -40,18 +40,30 @@ class Qso:
         :param qso_list:
         """
 
-        self.call = qso_list[self.CALL]
+
         self.date_time = datetime.strptime(" ".join([qso_list[self.DATE], qso_list[self.TIME]]), self.DATE_TIME_FORMAT)
         self.mode = qso_list[self.MODE]
         self.freq = int(qso_list[self.FREQ])
+        self.his_call = qso_list[self.HIS_CALL]
+        self.call = qso_list[self.CALL]
         self.snd1 = qso_list[self.SND1]
         self.snd2 = qso_list[self.SND2]
-        self.his_call = qso_list[self.HIS_CALL]
         self.rcv1 = qso_list[self.RCV1]
         self.rcv2 = qso_list[self.RCV2]
 
         self.error_code = self.NO_ERROR  # holds value identifying the type of error that has been found by log check
         self.error_info = "" # will hold additional info concerning errors (e.g. the QSO from the other log)
+
+        # Convert the exchange into integers if possible in order to avoid issues like (038 != 38)
+        if my_utils.representsInt(self.snd1):
+            self.snd1 = int(self.snd1)
+        if my_utils.representsInt(self.snd2):
+            self.snd2 = int(self.snd2)
+        if my_utils.representsInt(self.rcv1):
+            self.rcv1 = int(self.rcv1)
+        if my_utils.representsInt(self.rcv2):
+            self.rcv2 = int(self.rcv2)
+
 
     def __repr__(self):
         return self.toCabrillo()
@@ -86,17 +98,39 @@ class Qso:
         :return:
         :rtype: str
         """
+
+        # If integers pad with zeros in front
+        if my_utils.representsInt(self.snd1):
+            snd1 = str(self.snd1).zfill(3)
+        else:
+            snd1 = self.snd1
+
+        if my_utils.representsInt(self.snd2):
+            snd2 = str(self.snd2).zfill(3)
+        else:
+            snd2 = self.snd2
+
+        if my_utils.representsInt(self.rcv1):
+            rcv1 = str(self.rcv1).zfill(3)
+        else:
+            rcv1 = self.rcv1
+
+        if my_utils.representsInt(self.rcv2):
+            rcv2 = str(self.rcv2).zfill(3)
+        else:
+            rcv2 = self.rcv2
+
         return "QSO:" + \
                "{:>6}".format(str(self.freq)) + \
                "{:>3}".format(self.mode) + \
                "{:>11}".format(self.date_time.date().isoformat()) + \
                "{:>5}".format(self.date_time.time().strftime(self.TIME_FORMAT)) + " " \
                "{:<13}".format(self.call) + \
-               "{:<5}".format(str(self.snd1).zfill(3)) + \
-               "{:<10}".format(str(self.snd2).zfill(3)) + \
+               "{:<5}".format(snd1) + \
+               "{:<10}".format(snd2) + \
                "{:<13}".format(self.his_call) + \
-               "{:<5}".format(str(self.rcv1).zfill(3)) + \
-               "{:<4}".format(str(self.rcv2).zfill(3))
+               "{:<5}".format(rcv1) + \
+               "{:<4}".format(rcv2)
 
 
     def isWithinDateTime(self, start_date_time, end_date_time):

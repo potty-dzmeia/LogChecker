@@ -1,0 +1,26 @@
+UBN for: LZ1PV
+Name: Николай Ботев
+
+--------------------------------------------------------------------------------
+Total QSOs: 18
+Confirmed QSOs: 13
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  7162 PH 2016-12-26 0706 LZ1PV        001  000       LZ1KDP       005  003 
+
+ERROR_RECEIVE:
+QSO:  7167 PH 2016-12-26 0729 LZ1PV        003  008       LZ1IA        005  EP  
+QSO:  7100 PH 2016-12-26 0728 LZ1IA        006  EP        LZ1PV        003  008 
+
+ERROR_NOT_IN_LOG:
+QSO:  7162 PH 2016-12-26 0815 LZ1PV        011  032       LZ1KKZ       030  007 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7162 PH 2016-12-26 0847 LZ1PV        016  046       LZ1KKZ       048  033 
+QSO:  7160 PH 2016-12-26 0847 LZ1KKZ       048  033       LZ1PV        016  014 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7162 PH 2016-12-26 0858 LZ1PV        017  048       LZ1XE        038  EP  
+QSO:  7164 PH 2016-12-26 0857 LZ1XE        038  EP        LZ1PV        017  033 
+

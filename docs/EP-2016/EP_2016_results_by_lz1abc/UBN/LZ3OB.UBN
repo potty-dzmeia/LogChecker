@@ -1,0 +1,37 @@
+UBN for: LZ3OB
+Name: Огнян Йоцов
+
+--------------------------------------------------------------------------------
+Total QSOs: 19
+Confirmed QSOs: 10
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  7133 PH 2016-12-26 0711 LZ3OB        001  000       LZ1RSS       006  EP  
+
+ERROR_NOT_IN_LOG:
+QSO:  7133 PH 2016-12-26 0711 LZ3OB        002  006       LZ3FM        006  002 
+
+ERROR_PARTNER_LOG_MISSING:
+QSO:  7133 PH 2016-12-26 0711 LZ3OB        003  005       LZ1          006  003 
+
+ERROR_NOT_IN_LOG:
+QSO:  7133 PH 2016-12-26 0735 LZ3OB        006  011       LZ1IA        008  EP  
+
+ERROR_DUPE:
+QSO:  7133 PH 2016-12-26 0751 LZ3OB        008  008       LZ1XE        016  EP  
+QSO:  7133 PH 2016-12-26 0722 LZ3OB        004  006       LZ1XE        006  EP  
+
+ERROR_PARTNER_LOG_MISSING:
+QSO:  7133 PH 2016-12-26 0755 LZ3OB        010  013       LZ1FM        018  014 
+
+ERROR_DUPE:
+QSO:  7133 PH 2016-12-26 0848 LZ3OB        017  049       LZ1IA        028  EP  
+QSO:  7133 PH 2016-12-26 0824 LZ3OB        012  029       LZ1IA        018  EP  
+
+ERROR_NOT_IN_LOG:
+QSO:  7133 PH 2016-12-26 0849 LZ3OB        018  028       LZ3FM        037  050 
+
+ERROR_NOT_IN_LOG:
+QSO:  7133 PH 2016-12-26 0849 LZ3OB        019  037       LZ2GG        003  EP  
+

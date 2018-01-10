@@ -51,6 +51,13 @@ class Participant:
         return self.validQsoCount()*2
 
 
+    def isElectronProgressStation(self):
+        for q in self.log:
+            if str(q.snd2).upper() == "EP":
+                return True
+            else:
+                return False
+
     def getResults(self):
         """
         List of strings: "Call, Total QSO, Confirmed QSO , Points, Accuracy"
@@ -59,6 +66,25 @@ class Participant:
         """
         return [self.callsign, self.totalQsoCount(), self.validQsoCount(), self.getPoints(), "{0:.2f}".format(self.getAccuracy())]
 
+
+    def getResultsEP(self):
+        """
+        List of strings: "Call, Total QSO, Confirmed QSO , Points, Multipliers, Score, Accuracy"
+        :return:
+        :rtype: list of str
+        """
+        worked_ep_stations = []
+
+        for q in self.log:
+            if str(q.rcv2).lower() == "ep" and q.isValid():  # QSO with EP station
+                if q.his_call not in worked_ep_stations:
+                    worked_ep_stations.append(q.his_call)
+
+        mult = len(worked_ep_stations)
+
+        return [self.callsign, self.totalQsoCount(), self.validQsoCount(),
+                self.getPoints(), mult, self.getPoints() * mult,
+                self.getAccuracy()]
 
 
     def invalidQsoCount(self):

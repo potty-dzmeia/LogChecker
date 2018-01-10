@@ -1,30 +1,20 @@
 import csv
 
 from participant import Participant
-from bs4 import UnicodeDammit
 from qso import Qso
 import glob
 from datetime import datetime
 import os
 import logging
 import logging.config
+import my_utils
 
 logging.config.fileConfig("logging.conf", disable_existing_loggers=False)
 logger = logging.getLogger(__name__)
 logger.setLevel(level=logging.DEBUG)
 
 
-def getFileEncoding(filename):
-    """
-    Returns the character encoding of a file using Dammit
-    :param filename: path to the file
-    :type filename: str
-    :return: String of the type "latin-1"
-    :rtype: str
-    """
-    raw = open(filename, "rb").read()
-    dammit = UnicodeDammit(raw)
-    return dammit.original_encoding
+
 
 
 def parseLogs(logs_dir):
@@ -44,7 +34,7 @@ def parseLogs(logs_dir):
 
         logger.info("parsing log: " + filename)
 
-        logfile = open(filename, "r", encoding=getFileEncoding(filename))
+        logfile = open(filename, "r", encoding=my_utils.getFileEncoding(filename))
 
         for line in logfile:
             line_split = line.split()
@@ -121,6 +111,8 @@ def isDupe(qso, participant, qso_repeat_period):
 
     for q in participant.log[0:idx]:
         if qso.his_call == q.his_call and isIntervalSmallerThan(qso, q, qso_repeat_period) and q.isValid():
+            qso.error_code = Qso.ERROR_DUPE
+            qso.error_info = q.toCabrillo()  # Violating the "30min rule" - move to next Qso
             return True
 
     return False
@@ -137,23 +129,22 @@ def isExchangeCorrect(qso1, qso2):
     """
     if qso1.snd1 != qso2.rcv1 or qso1.snd2 != qso2.rcv2:
         qso1.error_code = Qso.ERROR_PARTNER_RECEIVE
-        #qso2.error_code = Qso.ERROR_RECEIVE
         qso1.error_info = qso2.toCabrillo()  # store the QSO from the other log for the Error report
-        #qso2.error_info = qso1.toCabrillo()  # store the QSO from this log to the other log so that they have the extra info also
+
         return False
     if qso2.snd1 != qso1.rcv1 or qso2.snd2 != qso1.rcv2:
         qso1.error_code = Qso.ERROR_RECEIVE
-        #qso2.error_code = Qso.ERROR_PARTNER_RECEIVE
         qso1.error_info = qso2.toCabrillo()  # store the QSO from the other log for the Error report
-        #qso2.error_info = qso1.toCabrillo()  # store the QSO from this log to the other log so that they have the extra info also
         return False
 
     return True
 
 
-def doCrossCheck(qso, participantA, participantB):
+def doCrossCheck(qso, participantA, participantB, qso_time_difference):
     """
     Check if the qso of participantA is available in the log of participantB
+    :param qso_time_difference: cross-check allowed difference in minutes between two QSOs
+    :type qso_time_difference: int
     :param qso: qso from the log of participantA that we would like to check with the participantB log
     :type qso: Qso
     :param participantA: Log of participantA which. The supplied "qso" is part of the participantA log
@@ -164,7 +155,7 @@ def doCrossCheck(qso, participantA, participantB):
     assert(qso.his_call == participantB.log[0].call)
 
     for q in participantB.log:
-        if qso.call == q.his_call and isIntervalSmallerThan(qso, q, 3):
+        if qso.call == q.his_call and isIntervalSmallerThan(qso, q, qso_time_difference):
 
             # QSO that we have found in correspondents log is marked as invalid
             # if q.isInvalid():
@@ -183,9 +174,13 @@ def doCrossCheck(qso, participantA, participantB):
     return False
 
 
-def checkLog(participants, start_date_time, end_date_time, qso_repeat_period = 30):
+def checkLog(participants, start_date_time, end_date_time, qso_repeat_period = 30, qso_time_difference=3):
     """
     This will check the validity of each QSO of every participant
+    :param start_date_time: contest start time
+    :param end_date_time: contest end time
+    :param qso_time_difference: cross-check allowed difference in minutes between two QSOs
+    :type qso_time_difference: int
     :param qso_repeat_period: period after which the QSO with the same station is allowed
     :type qso_repeat_period: int
     :param participants:
@@ -204,15 +199,63 @@ def checkLog(participants, start_date_time, end_date_time, qso_repeat_period = 3
                 qso.error_code = Qso.ERROR_PARTNER_LOG_MISSING # Missing log for this corresponded  - move to next Qso
 
             elif isDupe(qso, participants[p], qso_repeat_period):
-                qso.error_code = Qso.ERROR_DUPE
-                qso.error_info = qso.toCabrillo() # Violating the "30min rule" - move to next Qso
+                pass
 
             else:
-                doCrossCheck(qso, participants[p], participants[qso.his_call])
+                doCrossCheck(qso, participants[p], participants[qso.his_call], qso_time_difference)
 
 
 
 def writeResults(participants, dir):
+    """
+    Writes the results in the supplied dir (this includes stuff like general results, UBN and maybe more)
+
+    :param ep: If this is an Electron Progress contests (then we have to calculate also multipliers)
+    :type ep: bool
+    :param participants:
+    :type participants: list of Participants
+    :param dir: Directory where results must be written
+    :rtype: str
+    :return:
+    """
+
+    # Create the classification - results.csv
+    # -----------------------------------------
+    list_classification = []
+
+    for p in participants:
+        list_classification.append(participants[p].getResults())
+
+    list_classification = sorted(list_classification,
+                                 key=lambda list_classification: (list_classification[3], list_classification[4]),
+                                 reverse=True)  # Sort by points
+
+    # Add the rank
+    for idx, entry in enumerate(list_classification):
+        entry.insert(0, idx+1)
+
+    # Print the results into a CSV file called results.csv
+    filename = os.path.join(dir, "results.csv")
+    with open(filename, "w+") as output:
+        writer = csv.writer(output, lineterminator='\n')
+        writer.writerows(list_classification)
+
+
+    # Write the UBN reports
+    # -----------------------------------------
+    ubn_dir = os.path.join(dir, "UBN")
+    if not os.path.exists(ubn_dir):
+        os.makedirs(ubn_dir) # Create UBN directory if not existing
+
+    for p in participants:
+        filename = os.path.join(ubn_dir, participants[p].callsign.replace("/", "_") + ".UBN")
+        ubn_file = open(filename, "w+")
+        ubn_file.write(participants[p].getUbnReport())
+        ubn_file.close()
+
+
+
+def writeResultsElectronProgress(participants, dir):
     """
     Writes the results in the supplied dir (this includes stuff like general results, UBN and maybe more)
 
@@ -225,23 +268,41 @@ def writeResults(participants, dir):
 
     # Create the classification - results.csv
     # -------------------------
-    list_classification = []
-    for p in participants:
-        list_classification.append(participants[p].getResults())
+    list_classification_A = []
+    list_classification_B = []
 
-    list_classification = sorted(list_classification,
-                                 key=lambda list_classification: (list_classification[3], list_classification[4]),
-                                 reverse=True) # Sort by points
+
+    for p in participants:
+        if participants[p].isElectronProgressStation():
+            list_classification_A.append(participants[p].getResultsEP())
+        else:
+            list_classification_B.append(participants[p].getResultsEP())
+
+        list_classification_A = sorted(list_classification_A,
+                                       key=lambda list_classification_A: (list_classification_A[5], list_classification_A[6]),
+                                       reverse=True)  # Sort by score and then by Accuracy
+
+        list_classification_B = sorted(list_classification_B,
+                                       key=lambda list_classification_B: (
+                                       list_classification_B[5], list_classification_B[6]),
+                                       reverse=True)  # Sort by score and then by Accuracy
 
     # Add the rank
-    for idx, entry in enumerate(list_classification):
+    for idx, entry in enumerate(list_classification_A):
+        entry.insert(0, idx+1)
+    for idx, entry in enumerate(list_classification_B):
         entry.insert(0, idx+1)
 
     # Print the results into a CSV file called results.csv
-    filename = os.path.join(dir, "results.csv")
+    filename = os.path.join(dir, "results_A.csv")
     with open(filename, "w+") as output:
         writer = csv.writer(output, lineterminator='\n')
-        writer.writerows(list_classification)
+        writer.writerows(list_classification_A)
+
+    filename = os.path.join(dir, "results_B.csv")
+    with open(filename, "w+") as output:
+        writer = csv.writer(output, lineterminator='\n')
+        writer.writerows(list_classification_B)
 
 
     # Write the UBN reports
@@ -262,20 +323,26 @@ def main():
     start_date = "2016-12-26 0700"     #removeQsoOutdsideTheContest(participants, "2016-08-20 0800", "2016-08-20 1159")
     end_date = "2016-12-26 0859"
     log_directory = os.path.join("docs", "EP-2016")
-    qso_repeat_period = 30
+    qso_repeat_period = 30  #in minutes
+    qso_time_difference = 3  # cross-check allowed difference in minutes between two QSOs
     ep = True
 
     # Parse the logs
     participants = parseLogs(log_directory)
 
     # Check the logs
-    checkLog(participants, start_date, end_date, qso_repeat_period)
+    checkLog(participants, start_date, end_date, qso_repeat_period, qso_time_difference)
 
     # Write the results into the "/results" dir
     results_dir = os.path.join(log_directory, "results")
     if not os.path.exists(results_dir):
         os.makedirs(results_dir)
-    writeResults(participants, results_dir)
+
+
+    if not ep:  # Normal contest
+        writeResults(participants, results_dir)
+    else:  # Electron Progress contest
+        writeResultsElectronProgress(participants, results_dir)
 
 
 
