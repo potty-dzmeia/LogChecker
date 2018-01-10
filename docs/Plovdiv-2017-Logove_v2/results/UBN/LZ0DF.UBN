@@ -1,9 +1,9 @@
 UBN for: LZ0DF
-Name: Ð”Ð¸Ð¼Ð¸Ñ‚ÑŠÑ€ Ð¢Ð¾Ð½ÐºÐ¾Ð² LZ1EV
+Name: Äèìèòúð Òîíêîâ LZ1EV
 
 --------------------------------------------------------------------------------
 Total QSOs: 252
-Confirmed QSOs: 234
+Confirmed QSOs: 235
 --------------------------------------------------------------------------------
 
 ERROR_NOT_IN_LOG:
@@ -22,7 +22,7 @@ QSO:  3513 CW 2017-08-19 0800 LZ0AM        071  068       LZ0DF        074  059
 
 ERROR_DUPE:
 QSO:  3513 CW 2017-08-19 0802 LZ0DF        066  080       LZ0DL        079  039 
-QSO:  3513 CW 2017-08-19 0745 LZ0DF        048  044       LZ0DL        061  047 
+QSO:  3513 CW 2017-08-19 0802 LZ0DF        066  080       LZ0DL        079  039 
 
 ERROR_NOT_IN_LOG:
 QSO:  3514 CW 2017-08-19 0828 LZ0DF        097  092       LZ0AR        089  092 
@@ -33,7 +33,7 @@ QSO:  3513 CW 2017-08-19 0831 LZ0AT        114  108       LZ0DF        098  089
 
 ERROR_DUPE:
 QSO:  3513 CW 2017-08-19 0835 LZ0DF        103  047       LZ0DV        103  068 
-QSO:  3530 CW 2017-08-19 0815 LZ0DF        083  083       LZ0DV        085  083 
+QSO:  3513 CW 2017-08-19 0835 LZ0DF        103  047       LZ0DV        103  068 
 
 ERROR_NOT_IN_LOG:
 QSO:  3528 CW 2017-08-19 0843 LZ0DF        111  103       LZ0FD        113  121 
@@ -52,7 +52,7 @@ QSO:  3512 CW 2017-08-19 0925 LZ0FJ        179  170       LZ0DF        151  174
 
 ERROR_DUPE:
 QSO:  3512 CW 2017-08-19 1001 LZ0DF        196  162       LZ0DA        218  128 
-QSO:  3512 CW 2017-08-19 0932 LZ0DF        161  133       LZ0DA        177  122 
+QSO:  3512 CW 2017-08-19 1001 LZ0DF        196  162       LZ0DA        218  128 
 
 ERROR_NOT_IN_LOG:
 QSO:  3550 CW 2017-08-19 1009 LZ0DF        201  228       LZ0AU        108  241 
@@ -65,8 +65,4 @@ QSO:  3524 CW 2017-08-19 1026 LZ0DF        212  256       LZ0AC        149  137
 
 ERROR_PARTNER_LOG_MISSING:
 QSO:  3526 CW 2017-08-19 1045 LZ0DF        238  245       LZ0          245  271 
-
-ERROR_PARTNER_RECEIVE:
-QSO:  3527 CW 2017-08-19 1046 LZ0DF        239  245       LZ0DP        246  238 
-QSO:  3527 CW 2017-08-19 1045 LZ0DP        245  271       LZ0DF        238  245 
 

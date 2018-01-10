@@ -9,7 +9,6 @@ import os
 import logging
 import logging.config
 
-
 logging.config.fileConfig("logging.conf", disable_existing_loggers=False)
 logger = logging.getLogger(__name__)
 logger.setLevel(level=logging.DEBUG)
@@ -39,7 +38,7 @@ def parseLogs(logs_dir):
     """
     participants = {}
 
-    for filename in glob.glob(logs_dir + "*.*"):
+    for filename in glob.glob(os.path.join(logs_dir, "*.*")):
 
         participant = Participant()
 
@@ -110,7 +109,7 @@ def isIntervalSmallerThan(qso1, qso2, timeinterval):
         return False
 
 
-def isDupe(qso, participant):
+def isDupe(qso, participant, qso_repeat_period):
     """
     Checks if the QSO did not meet the "30min rule"
 
@@ -121,15 +120,13 @@ def isDupe(qso, participant):
     idx = participant.log.index(qso)
 
     for q in participant.log[0:idx]:
-        if qso.his_call == q.his_call and isIntervalSmallerThan(qso, q, 30) and q.isValid():
-            qso.error_code = Qso.ERROR_DUPE
-            qso.error_info = q.toCabrillo()
+        if qso.his_call == q.his_call and isIntervalSmallerThan(qso, q, qso_repeat_period) and q.isValid():
             return True
 
     return False
 
 
-def isExchangeFailed(qso1, qso2):
+def isExchangeCorrect(qso1, qso2):
     """
     Check if the serials from the two qso match
 
@@ -143,20 +140,26 @@ def isExchangeFailed(qso1, qso2):
         #qso2.error_code = Qso.ERROR_RECEIVE
         qso1.error_info = qso2.toCabrillo()  # store the QSO from the other log for the Error report
         #qso2.error_info = qso1.toCabrillo()  # store the QSO from this log to the other log so that they have the extra info also
-        return True
+        return False
     if qso2.snd1 != qso1.rcv1 or qso2.snd2 != qso1.rcv2:
         qso1.error_code = Qso.ERROR_RECEIVE
         #qso2.error_code = Qso.ERROR_PARTNER_RECEIVE
         qso1.error_info = qso2.toCabrillo()  # store the QSO from the other log for the Error report
         #qso2.error_info = qso1.toCabrillo()  # store the QSO from this log to the other log so that they have the extra info also
-        return True
+        return False
 
-    return False
+    return True
 
 
-def isCrossCheckFailed(qso, participantA, participantB):
+def doCrossCheck(qso, participantA, participantB):
     """
-    Checks if the "qso" is available in the "log" of the correspondent
+    Check if the qso of participantA is available in the log of participantB
+    :param qso: qso from the log of participantA that we would like to check with the participantB log
+    :type qso: Qso
+    :param participantA: Log of participantA which. The supplied "qso" is part of the participantA log
+    :param participantB: Where we will checking if the qso is valid
+    :return: True if the qso was found inside the log of participantB
+    :rtype: bool
     """
     assert(qso.his_call == participantB.log[0].call)
 
@@ -169,15 +172,22 @@ def isCrossCheckFailed(qso, participantA, participantB):
             #     qso.error_code = q.translatePartnerError()
             #     qso.error_info = q.toCabrillo()
             #     return True
-            return isExchangeFailed(qso, q)
+            if not isExchangeCorrect(qso, q):
+                continue # We found a QSO with a wrong exchange - but we will continue to search for a valid one
+            else:
+                qso.error_code = Qso.NO_ERROR # Valid contact was found
+                return True
 
-    qso.error_code = Qso.ERROR_NOT_IN_LOG
-    return True
+    if qso.error_code == Qso.NO_ERROR:
+        qso.error_code = Qso.ERROR_NOT_IN_LOG  # We didn't find any QSO with participantA in the log the participantB
+    return False
 
 
-def checkLog(participants, start_date_time, end_date_time):
+def checkLog(participants, start_date_time, end_date_time, qso_repeat_period = 30):
     """
     This will check the validity of each QSO of every participant
+    :param qso_repeat_period: period after which the QSO with the same station is allowed
+    :type qso_repeat_period: int
     :param participants:
     :type participants: dict of Participant
     :return: none
@@ -187,18 +197,18 @@ def checkLog(participants, start_date_time, end_date_time):
     for p in participants:
         for qso in participants[p].log:
 
-            if qso.isInvalid():  # Do not check in case the Qso has been rejected
-                continue
+            if qso.isInvalid():
+                continue # Stops verification in case the Qso has been rejected
 
-            if qso.his_call not in participants:
-                qso.error_code = Qso.ERROR_PARTNER_LOG_MISSING
-                continue  # Correspondent didn't sent log - move to next Qso
+            elif qso.his_call not in participants:
+                qso.error_code = Qso.ERROR_PARTNER_LOG_MISSING # Missing log for this corresponded  - move to next Qso
 
-            if isDupe(qso, participants[p]):
-                continue # Violating the "30min rule" - move to next Qso
+            elif isDupe(qso, participants[p], qso_repeat_period):
+                qso.error_code = Qso.ERROR_DUPE
+                qso.error_info = qso.toCabrillo() # Violating the "30min rule" - move to next Qso
 
-            if isCrossCheckFailed(qso, participants[p], participants[qso.his_call]):
-                continue  # Not confirmed by correspondent - move to next Qso
+            else:
+                doCrossCheck(qso, participants[p], participants[qso.his_call])
 
 
 
@@ -241,7 +251,7 @@ def writeResults(participants, dir):
         os.makedirs(ubn_dir) # Create UBN directory if not existing
 
     for p in participants:
-        filename = os.path.join(ubn_dir, participants[p].callsign + ".UBN")
+        filename = os.path.join(ubn_dir, participants[p].callsign.replace("/", "_") + ".UBN")
         ubn_file = open(filename, "w+")
         ubn_file.write(participants[p].getUbnReport())
         ubn_file.close()
@@ -249,16 +259,17 @@ def writeResults(participants, dir):
 
 def main():
 
-    start_date = "2017-08-19 0700"     #removeQsoOutdsideTheContest(participants, "2016-08-20 0800", "2016-08-20 1159")
-    end_date = "2017-08-19 1059"
-    log_directory = "docs/Plovdiv-2017-Logove_v2/"
-
+    start_date = "2016-12-26 0700"     #removeQsoOutdsideTheContest(participants, "2016-08-20 0800", "2016-08-20 1159")
+    end_date = "2016-12-26 0859"
+    log_directory = os.path.join("docs", "EP-2016")
+    qso_repeat_period = 30
+    ep = True
 
     # Parse the logs
     participants = parseLogs(log_directory)
 
     # Check the logs
-    checkLog(participants, start_date, end_date)
+    checkLog(participants, start_date, end_date, qso_repeat_period)
 
     # Write the results into the "/results" dir
     results_dir = os.path.join(log_directory, "results")

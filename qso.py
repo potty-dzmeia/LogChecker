@@ -44,11 +44,11 @@ class Qso:
         self.date_time = datetime.strptime(" ".join([qso_list[self.DATE], qso_list[self.TIME]]), self.DATE_TIME_FORMAT)
         self.mode = qso_list[self.MODE]
         self.freq = int(qso_list[self.FREQ])
-        self.snd1 = int(qso_list[self.SND1])
-        self.snd2 = int(qso_list[self.SND2])
+        self.snd1 = qso_list[self.SND1]
+        self.snd2 = qso_list[self.SND2]
         self.his_call = qso_list[self.HIS_CALL]
-        self.rcv1 = int(qso_list[self.RCV1])
-        self.rcv2 = int(qso_list[self.RCV2])
+        self.rcv1 = qso_list[self.RCV1]
+        self.rcv2 = qso_list[self.RCV2]
 
         self.error_code = self.NO_ERROR  # holds value identifying the type of error that has been found by log check
         self.error_info = "" # will hold additional info concerning errors (e.g. the QSO from the other log)

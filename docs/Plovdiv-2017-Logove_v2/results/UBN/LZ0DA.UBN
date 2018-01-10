@@ -3,7 +3,7 @@ Name: Sinisa Hristov YT1NT
 
 --------------------------------------------------------------------------------
 Total QSOs: 291
-Confirmed QSOs: 275
+Confirmed QSOs: 276
 --------------------------------------------------------------------------------
 
 ERROR_NOT_IN_LOG:
@@ -19,10 +19,6 @@ QSO:  3511 CW 2017-08-19 0733 LZ0DG        045  040       LZ0DA        037  027
 
 ERROR_NOT_IN_LOG:
 QSO:  3526 CW 2017-08-19 0753 LZ0DA        062  065       LZ0DL        054  068 
-
-ERROR_RECEIVE:
-QSO:  3553 CW 2017-08-19 0801 LZ0DA        068  069       LZ0DJ        068  068 
-QSO:  3554 CW 2017-08-19 0800 LZ0DJ        067  066       LZ0DA        068  069 
 
 ERROR_RECEIVE:
 QSO:  3550 CW 2017-08-19 0823 LZ0DA        098  104       LZ0AU        045  083 

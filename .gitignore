@@ -1,0 +1,10 @@
+/.idea
+/lib
+/scripts
+/__pycache__
+*.cfg
+*.xml
+/target/
+/logs/
+*.pyc
+pip-selfcheck.json
