@@ -1,0 +1,24 @@
+UBN for: LZ1FFF
+Name: Ñâåòëîçàð Õðèñòîâ
+
+--------------------------------------------------------------------------------
+Total QSOs: 10
+Confirmed QSOs: 5
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  7000 PH 2016-12-26 0720 LZ1FFF       001  000       LZ1EV        012  003 
+
+ERROR_NOT_IN_LOG:
+QSO:  7000 PH 2016-12-26 0725 LZ1FFF       002  012       LZ2BE        027  011 
+
+ERROR_NOT_IN_LOG:
+QSO:  7000 PH 2016-12-26 0755 LZ1FFF       003  027       LZ1EV        035  019 
+
+ERROR_NOT_IN_LOG:
+QSO:  7000 PH 2016-12-26 0800 LZ1FFF       004  035       LZ1ND        027  EP  
+
+ERROR_RECEIVE:
+QSO:  7000 PH 2016-12-26 0833 LZ1FFF       008  001       LZ1EV        059  010 
+QSO:  7155 PH 2016-12-26 0833 LZ1EV        057  008       LZ1FFF       008  001 
+

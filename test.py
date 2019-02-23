@@ -1,4 +1,3 @@
-import chardet
 import glob
 from bs4 import UnicodeDammit
 import os

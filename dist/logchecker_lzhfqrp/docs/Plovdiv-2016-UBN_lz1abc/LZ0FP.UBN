@@ -1,0 +1,42 @@
+UBN for: LZ0FP
+Name: Дарин Илиев LZ2NG
+
+------------------------------------------------------------------------------------
+Total QSOs: 194
+Confirmed QSOs: 160
+------------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 08:01:00 LZ0FP         001 000       LZ0FR         001 000
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 08:04:00 LZ0FP         006 005       LZ0AY         003 007
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 08:27:00 LZ0FP         028 033       LZ0DY         024 023
+ERROR_PARTNER_LOG_MISSING      -------------> QSO: CW CW 2016-08-20 08:33:00 LZ0FP         031 034       LZ0AI         039 042
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 08:38:00 LZ0FP         035 032       LZ0FR         012 030
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 08:41:00 LZ0FP         038 044       LZ0FT         056 047
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 08:43:00 LZ0FP         039 056       LZ0AD         022 054
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 08:45:00 LZ0FP         041 054       LZ0AC         057 048
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 08:52:00 LZ0FP         048 074       LZ0FD         067 060
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 08:56:00 LZ0FP         051 067       LZ0FX         026 054
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 09:02:00 LZ0FP         057 068       LZ0DY         061 063
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 09:25:00 LZ0FP         079 092       LZ0FR         016 093
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 09:33:00 LZ0FP         083 114       LZ0AF         105 103
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 09:38:00 LZ0FP         088 058       LZ0DA         124 122
+ERROR_PARTNER_LOG_MISSING      -------------> QSO: CW CW 2016-08-20 09:40:00 LZ0FP         090 123       L\Z0FZ         110 110
+ERROR_PARTNER_LOG_MISSING      -------------> QSO: CW CW 2016-08-20 09:52:00 LZ0FP         103 089       LZ1DD         143 109
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 10:01:00 LZ0FP         108 092       LZ0FR         017 011
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 10:08:00 LZ0FP         113 141       LZ0DR         128 133
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 10:13:00 LZ0FP         118 148       LZ0FF         157 127
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 10:20:00 LZ0FP         122 153       LZ0AC         169 181
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 10:27:00 LZ0FP         126 192       LZ0DY         163 188
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 10:28:00 LZ0FP         127 163       LZ0DW         160 167
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 10:36:00 LZ0FP         133 189       LZ0FD         201 086
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 10:39:00 LZ0FP         135 194       LZ0DC         111 126
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 10:41:00 LZ0FP         137 164       LZ0FY         203 184
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 10:53:00 LZ0FP         141 096       LZ0FF         209 180
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 10:58:00 LZ0FP         142 209       LZ0DY         203 210
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 10:59:00 LZ0FP         143 203       LZ0AD         252 188
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 11:14:00 LZ0FP         154 225       LZ0AJ         223 267
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 11:19:00 LZ0FP         159 056       LZ0AL         228 227
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 11:38:00 LZ0FP         174 282       LZ0FY         284 248
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 11:40:00 LZ0FP         176 264       LZ0AX         264 131
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 11:54:00 LZ0FP         188 221       LZ0DX         240 153
+ERROR_TIME_DATE                -------------> QSO: CW CW 2016-08-20 12:00:00 LZ0FP         194 284       LZ0FR         082 251

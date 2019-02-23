@@ -1,0 +1,45 @@
+UBN for: LZ0DZ
+Name: Ангел Ахчийски LZ4AE
+
+--------------------------------------------------------------------------------
+Total QSOs: 297
+Confirmed QSOs: 287
+--------------------------------------------------------------------------------
+
+ERROR_RECEIVE:
+QSO:  3517 CW 2017-08-19 0737 LZ0DZ        046  045       LZ0AK        036  046 
+QSO:  3517 CW 2017-08-19 0736 LZ0AK        035  031       LZ0DZ        046  045 
+
+ERROR_DUPE:
+QSO:  3517 CW 2017-08-19 0803 LZ0DZ        071  074       LZ0DL        081  067 
+QSO:  3517 CW 2017-08-19 0803 LZ0DZ        071  074       LZ0DL        081  067 
+
+ERROR_RECEIVE:
+QSO:  3517 CW 2017-08-19 0840 LZ0DZ        122  115       LZ0DD        086  099 
+QSO:  3517 CW 2017-08-19 0840 LZ0DD        087  104       LZ0DZ        122  115 
+
+ERROR_RECEIVE:
+QSO:  3517 CW 2017-08-19 0841 LZ0DZ        123  086       LZ0DX        049  060 
+QSO:  3517 CW 2017-08-19 0841 LZ0DX        049  069       LZ0DZ        123  086 
+
+ERROR_NOT_IN_LOG:
+QSO:  3550 CW 2017-08-19 0900 LZ0DZ        145  157       LZ0AU        070  131 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3517 CW 2017-08-19 0946 LZ0DZ        207  202       LZ0AL        170  191 
+QSO:  3517 CW 2017-08-19 0946 LZ0AL        170  191       LZ0DZ        208  202 
+
+ERROR_RECEIVE:
+QSO:  3517 CW 2017-08-19 0948 LZ0DZ        210  181       LZ0AD        110  208 
+QSO:  3517 CW 2017-08-19 0948 LZ0AD        110  207       LZ0DZ        210  181 
+
+ERROR_NOT_IN_LOG:
+QSO:  3537 CW 2017-08-19 1001 LZ0DZ        222  225       LZ0AP        190  224 
+
+ERROR_NOT_IN_LOG:
+QSO:  3517 CW 2017-08-19 1014 LZ0DZ        241  226       LZ0AC        138  209 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3551 CW 2017-08-19 1036 LZ0DZ        267  240       LZ0DT        224  150 
+QSO:  3551 CW 2017-08-19 1036 LZ0DT        224  150       LZ0DZ        167  240 
+

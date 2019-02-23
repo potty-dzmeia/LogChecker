@@ -1,0 +1,60 @@
+UBN for: LZ0DG
+Name: Красимир Петков K1LZ
+
+--------------------------------------------------------------------------------
+Total QSOs: 292
+Confirmed QSOs: 278
+--------------------------------------------------------------------------------
+
+ERROR_RECEIVE:
+QSO:  3510 CW 2017-08-19 0706 LZ0DG        014  009       LZ0AR        006  002 
+QSO:  3511 CW 2017-08-19 0707 LZ0AR        006  015       LZ0DG        015  006 
+
+ERROR_RECEIVE:
+QSO:  3511 CW 2017-08-19 0732 LZ0DG        042  009       LZ0AL        030  033 
+QSO:  3511 CW 2017-08-19 0731 LZ0AL        031  033       LZ0DG        042  009 
+
+ERROR_RECEIVE:
+QSO:  3511 CW 2017-08-19 0733 LZ0DG        045  040       LZ0DA        037  027 
+QSO:  3511 CW 2017-08-19 0733 LZ0DA        037  028       LZ0DG        045  040 
+
+ERROR_RECEIVE:
+QSO:  3511 CW 2017-08-19 0740 LZ0DG        059  038       LZ0AK        036  046 
+QSO:  3511 CW 2017-08-19 0740 LZ0AK        037  043       LZ0DG        059  038 
+
+ERROR_NOT_IN_LOG:
+QSO:  3514 CW 2017-08-19 0823 LZ0DG        108  111       LZ0AR        083  068 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3511 CW 2017-08-19 0918 LZ0DG        165  150       LZ0AL        143  160 
+QSO:  3511 CW 2017-08-19 0918 LZ0AL        143  160       LZ0DG        165  140 
+
+ERROR_RECEIVE:
+QSO:  3511 CW 2017-08-19 0929 LZ0DG        179  177       LZ0FF        172  067 
+QSO:  3520 CW 2017-08-19 0929 LZ0FF        172  068       LZ0DG        179  177 
+
+ERROR_RECEIVE:
+QSO:  3511 CW 2017-08-19 0938 LZ0DG        188  179       LZ0DK        107  178 
+QSO:  3511 CW 2017-08-19 0937 LZ0DK        108  195       LZ0DG        188  179 
+
+ERROR_NOT_IN_LOG:
+QSO:  3511 CW 2017-08-19 1012 LZ0DG        228  204       LZ0AC        136  197 
+
+ERROR_NOT_IN_LOG:
+QSO:  3549 CW 2017-08-19 1015 LZ0DG        234  233       LZ0AU        115  223 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3511 CW 2017-08-19 1026 LZ0DG        244  267       LZ0AL        210  243 
+QSO:  3511 CW 2017-08-19 1026 LZ0AL        210  243       LZ0DG        244  268 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3554 CW 2017-08-19 1047 LZ0DG        275  160       LZ0AU        133  284 
+QSO:  3562 CW 2017-08-19 1048 LZ0AU        133  284       LZ0DG        285  160 
+
+ERROR_DUPE:
+QSO:  3511 CW 2017-08-19 1059 LZ0DG        291  286       LZ0AK        270  247 
+
+ERROR_PARTNER_DUPE:
+QSO:  3511 CW 2017-08-19 1059 LZ0DG        292  270       LZ0AN        299  275 
+QSO:  3511 CW 2017-08-19 1059 LZ0AN        299  275       LZ0DG        292  270 
+

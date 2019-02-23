@@ -1,0 +1,96 @@
+START-OF-LOG: 2.0
+ARRL-SECTION: DX
+CALLSIGN: LZ0FR
+CLUB:  Балчик
+CONTEST: LZ-OPEN-DOMESTIC
+CATEGORY: SINGLE-OP ALL LOW CW
+CLAIMED-SCORE: 82
+OPERATORS: Баръш Фехми LZ2KSB
+NAME: Баръш Фехми LZ2KSB
+ADDRESS: 
+ADDRESS: Balchik,  
+ADDRESS: BULGARIA
+CREATED-BY: N1MM Logger+ 1.0.5774.0
+QSO:  3567 CW 2016-08-20 0806 LZ0FR         001 000       LZ0FJ         009 70       
+QSO:  3567 CW 2016-08-20 0809 LZ0FR         002 009       LZ0FV         007 002      
+QSO:  3566 CW 2016-08-20 0812 LZ0FR         003 007       LZ0DL         015 015      
+QSO:  3566 CW 2016-08-20 0814 LZ0FR         004 015       LZ0FM         012 12       
+QSO:  3566 CW 2016-08-20 0817 LZ0FR         005 012       LZ0DZ         019 016      
+QSO:  3566 CW 2016-08-20 0818 LZ0FR         006 019       LZ0DF         024 020      
+QSO:  3566 CW 2016-08-20 0819 LZ0FR         007 024       LZ0FT         028 017      
+QSO:  3566 CW 2016-08-20 0820 LZ0FR         008 028       LZ0AT         032 025      
+QSO:  3566 CW 2016-08-20 0820 LZ0FR         009 032       LZ0AN         026 022      
+QSO:  3568 CW 2016-08-20 0822 LZ0FR         010 026       LZ0FL         020 026      
+QSO:  3568 CW 2016-08-20 0824 LZ0FR         011 020       LZ0DN         030 30       
+QSO:  3568 CW 2016-08-20 0839 LZ0FR         012 030       LZ0FP         022 022      
+QSO:  3568 CW 2016-08-20 0846 LZ0FR         013 022       LZ0FJ         052 055      
+QSO:  3567 CW 2016-08-20 0919 LZ0FR         014 052       LZ0FY         012 054      
+QSO:  3567 CW 2016-08-20 0921 LZ0FR         015 012       LZ0FV         093 02       
+QSO:  3568 CW 2016-08-20 0934 LZ0FR         016 093       LZ0AQ         011 099      
+QSO:  3568 CW 2016-08-20 1001 LZ0FR         017 011       LZ0FP         110 092      
+QSO:  3540 CW 2016-08-20 1011 LZ0FR         018 110       LZ0FJ         150 137      
+QSO:  3560 CW 2016-08-20 1017 LZ0FR         019 150       LZ0AU         172 157      
+QSO:  3560 CW 2016-08-20 1018 LZ0FR         020 172       LZ0DL         163 151      
+QSO:  3560 CW 2016-08-20 1019 LZ0FR         021 163       LZ0AN         163 139      
+QSO:  3560 CW 2016-08-20 1022 LZ0FR         022 163       LZ0FA         175 113      
+QSO:  3560 CW 2016-08-20 1023 LZ0FR         023 175       LZ0AZ         149 153      
+QSO:  3560 CW 2016-08-20 1025 LZ0FR         024 149       LZ0AC         177 172      
+QSO:  3560 CW 2016-08-20 1025 LZ0FR         025 177       LZ0FL         087 172      
+QSO:  3560 CW 2016-08-20 1027 LZ0FR         026 087       LZ0DT         160 153      
+QSO:  3560 CW 2016-08-20 1027 LZ0FR         027 160       LZ0AR         195 189      
+QSO:  3560 CW 2016-08-20 1030 LZ0FR         028 195       LZ0AX         174 173      
+QSO:  3560 CW 2016-08-20 1031 LZ0FR         029 174       LZ0DY         167 158      
+QSO:  3560 CW 2016-08-20 1032 LZ0FR         030 167       LZ0FP         130 203      
+QSO:  3560 CW 2016-08-20 1037 LZ0FR         031 130       LZ0DA         198 199      
+QSO:  3560 CW 2016-08-20 1038 LZ0FR         032 198       LZ0FY         200 197      
+QSO:  3560 CW 2016-08-20 1038 LZ0FR         033 200       LZ0DR         162 191      
+QSO:  3560 CW 2016-08-20 1041 LZ0FR         034 162       LZ0AW         202 130      
+QSO:  3560 CW 2016-08-20 1043 LZ0FR         035 202       LZ0AL         185 032      
+QSO:  3560 CW 2016-08-20 1044 LZ0FR         036 185       LZ0FT         211 200      
+QSO:  3560 CW 2016-08-20 1051 LZ0FR         037 211       LZ0AN         202 074      
+QSO:  3560 CW 2016-08-20 1054 LZ0FR         038 202       LZ0DN         213 210      
+QSO:  3560 CW 2016-08-20 1055 LZ0FR         039 213       LZ0DC         119 193      
+QSO:  3560 CW 2016-08-20 1056 LZ0FR         040 119       LZ0DW         187 182      
+QSO:  3560 CW 2016-08-20 1057 LZ0FR         041 187       LZ0DL         216 213      
+QSO:  3560 CW 2016-08-20 1058 LZ0FR         042 216       LZ0AC         214 215      
+QSO:  3560 CW 2016-08-20 1059 LZ0FR         043 214       LZ0AR         237 232      
+QSO:  3560 CW 2016-08-20 1059 LZ0FR         044 237       LZ0AT         249 197      
+QSO:  3560 CW 2016-08-20 1100 LZ0FR         045 249       LZ0DK         168 203      
+QSO:  3560 CW 2016-08-20 1101 LZ0FR         046 168       LZ0FA         217 204      
+QSO:  3560 CW 2016-08-20 1102 LZ0FR         047 217       LZ0AF         187 202      
+QSO:  3560 CW 2016-08-20 1102 LZ0FR         048 187       LZ0FF         223 237      
+QSO:  3560 CW 2016-08-20 1104 LZ0FR         049 223       LZ0AX         217 236      
+QSO:  3560 CW 2016-08-20 1106 LZ0FR         050 217       LZ0FL         110 204      
+QSO:  3560 CW 2016-08-20 1107 LZ0FR         051 110       LZ0DY         211 225      
+QSO:  3560 CW 2016-08-20 1107 LZ0FR         052 211       LZ0DA         238 228      
+QSO:  3560 CW 2016-08-20 1108 LZ0FR         053 238       LZ0FY         244 086      
+QSO:  3560 CW 2016-08-20 1110 LZ0FR         054 244       LZ0DM         089 232      
+QSO:  3560 CW 2016-08-20 1112 LZ0FR         055 089       LZ0DR         195 236      
+QSO:  3560 CW 2016-08-20 1112 LZ0FR         056 195       LZ0AW         238 177      
+QSO:  3560 CW 2016-08-20 1114 LZ0FR         057 238       LZ0AL         222 224      
+QSO:  3560 CW 2016-08-20 1115 LZ0FR         058 222       LZ0FT         255 214      
+QSO:  3560 CW 2016-08-20 1116 LZ0FR         059 255       LZ0DX         189 217      
+QSO:  3560 CW 2016-08-20 1119 LZ0FR         060 189       LZ0DJ         162 246      
+QSO:  3560 CW 2016-08-20 1121 LZ0FR         061 162       LZ0FP         160 228      
+QSO:  3560 CW 2016-08-20 1122 LZ0FR         062 160       LZ0AG         059 236      
+QSO:  3560 CW 2016-08-20 1123 LZ0FR         063 059       LZ0AN         243 223      
+QSO:  3560 CW 2016-08-20 1142 LZ0FR         064 243       LZ0DW         237 271      
+QSO:  3560 CW 2016-08-20 1142 LZ0FR         065 237       LZ0DL         271 184      
+QSO:  3560 CW 2016-08-20 1143 LZ0FR         066 271       LZ0AC         268 256      
+QSO:  3560 CW 2016-08-20 1144 LZ0FR         067 268       LZ0DN         281 257      
+QSO:  3560 CW 2016-08-20 1144 LZ0FR         068 281       LZ0AX         272 263      
+QSO:  3560 CW 2016-08-20 1145 LZ0FR         069 272       LZ0AR         299 232      
+QSO:  3560 CW 2016-08-20 1146 LZ0FR         070 299       LZ0FT         298 255      
+QSO:  3560 CW 2016-08-20 1146 LZ0FR         071 298       LZ0AT         313 256      
+QSO:  3560 CW 2016-08-20 1147 LZ0FR         072 313       LZ0DT         258 284      
+QSO:  3560 CW 2016-08-20 1148 LZ0FR         073 258       LZ0FY         295 266      
+QSO:  3560 CW 2016-08-20 1148 LZ0FR         074 295       LZ0AW         284 266      
+QSO:  3560 CW 2016-08-20 1150 LZ0FR         075 284       LZ0FA         288 269      
+QSO:  3560 CW 2016-08-20 1150 LZ0FR         076 288       LZ0DJ         194 272      
+QSO:  3560 CW 2016-08-20 1151 LZ0FR         077 194       LZ0DX         237 281      
+QSO:  3560 CW 2016-08-20 1151 LZ0FR         078 237       LZ0DC         152 266      
+QSO:  3560 CW 2016-08-20 1152 LZ0FR         079 152       LZ0AL         271 306      
+QSO:  3560 CW 2016-08-20 1157 LZ0FR         080 271       LZ0DA         307 326      
+QSO:  3560 CW 2016-08-20 1159 LZ0FR         081 307       LZ0DR         251 310      
+QSO:  3560 CW 2016-08-20 1200 LZ0FR         082 251       LZ0FP         194 284      
+END-OF-LOG:

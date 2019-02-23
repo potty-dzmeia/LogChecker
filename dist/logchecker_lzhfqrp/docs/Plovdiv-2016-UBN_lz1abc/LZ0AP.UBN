@@ -1,0 +1,32 @@
+UBN for: LZ0AP
+Name: Кольо Колев LZ1QZ
+
+------------------------------------------------------------------------------------
+Total QSOs: 285
+Confirmed QSOs: 261
+------------------------------------------------------------------------------------
+
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 08:28:00 LZ0AP         032 017       LZ0DG         038 023
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 08:35:00 LZ0AP         041 043       LZ0AZ         046 041
+ERROR_DUPE                     -------------> QSO: CW CW 2016-08-20 08:45:00 LZ0AP         050 056       LZ0DR         046 053
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 08:53:00 LZ0AP         060 073       LZ0FF         062 053
+ERROR_DUPE                     -------------> QSO: CW CW 2016-08-20 08:54:00 LZ0AP         062 061       LZ0DT         050 059
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 08:56:00 LZ0AP         064 066       LZ0AD         033 056
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 09:00:00 LZ0AP         070 072       LZ0DD         107 021
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 09:04:00 LZ0AP         075 065       LZ0DM         024 064
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 09:41:00 LZ0AP         122 135       LZ0FT         130 102
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 09:49:00 LZ0AP         128 101       LZ0FL         087 081
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 09:53:00 LZ0AP         131 118       LZ0DY         208 167
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 09:58:00 LZ0AP         134 138       LZ0FF         138 126
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 10:07:00 LZ0AP         150 149       LZ0FN         147 146
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 10:11:00 LZ0AP         156 142       LZ0FV         145 135
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 10:25:00 LZ0AP         173 086       LZ0DY         161 165
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 10:29:00 LZ0AP         176 021       LZ0AW         187 143
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 10:45:00 LZ0AP         197 151       LZ0DA         208 200
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 11:00:00 LZ0AP         214 169       LZ0AW         227 173
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 11:15:00 LZ0AP         226 153       LZ0FN         183 199
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 11:21:00 LZ0AP         235 224       LZ0FL         120 256
+ERROR_NOT_IN_LOG               -------------> QSO: CW CW 2016-08-20 11:28:00 LZ0AP         249 254       LZ0DY         238 252
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 11:31:00 LZ0AP         253 244       LZ0AW         226 265
+ERROR_PARTNER_RECEIVE          -------------> QSO: CW CW 2016-08-20 11:56:00 LZ0AP         280 144       LZ0FT         312 276
+ERROR_RECEIVE                  -------------> QSO: CW CW 2016-08-20 11:59:00 LZ0AP         285 312       LZ0FV         250 243

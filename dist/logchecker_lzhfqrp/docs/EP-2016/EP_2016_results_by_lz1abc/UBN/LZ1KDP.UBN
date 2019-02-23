@@ -1,0 +1,30 @@
+UBN for: LZ1KDP
+Name: Боян Кехайов LZ1BRK
+
+--------------------------------------------------------------------------------
+Total QSOs: 56
+Confirmed QSOs: 50
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  7127 PH 2016-12-26 0712 LZ1KDP       005  003       LZ1PV        001  000 
+
+ERROR_RECEIVE:
+QSO:  7127 PH 2016-12-26 0742 LZ1KDP       018  007       LZ1KSA       004  009 
+QSO:  7000 PH 2016-12-26 0742 LZ1KSA       007  009       LZ1KDP       018  007 
+
+ERROR_RECEIVE:
+QSO:  7127 PH 2016-12-26 0746 LZ1KDP       019  004       LZ1IA        011  1EP 
+QSO:  7100 PH 2016-12-26 0746 LZ1IA        011  EP        LZ1KDP       019  004 
+
+ERROR_PARTNER_LOG_MISSING:
+QSO:  7127 PH 2016-12-26 0810 LZ1KDP       031  010       LZ2RM        004  EP  
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7127 PH 2016-12-26 0857 LZ1KDP       054  027       LZ1DQ        013  061 
+QSO:  7150 PH 2016-12-26 0857 LZ1DQ        013  061       LZ1KDP       054  067 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7127 PH 2016-12-26 0857 LZ1KDP       055  013       LZ2CW        026  066 
+QSO:  7100 PH 2016-12-26 0856 LZ2CW        026  066       LZ1KDP       056  013 
+

@@ -1,0 +1,48 @@
+UBN for: LZ0AX
+Name: Дмитро Павлик UZ5DX
+
+--------------------------------------------------------------------------------
+Total QSOs: 245
+Confirmed QSOs: 234
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  3531 CW 2017-08-19 0701 LZ0AX        003  001       LZ0DX        001  000 
+
+ERROR_RECEIVE:
+QSO:  3531 CW 2017-08-19 0706 LZ0AX        006  007       LZ0DC        011  006 
+QSO:  3534 CW 2017-08-19 0706 LZ0DC        011  007       LZ0AX        006  007 
+
+ERROR_NOT_IN_LOG:
+QSO:  3531 CW 2017-08-19 0735 LZ0AX        037  049       LZ0AA        031  036 
+
+ERROR_RECEIVE:
+QSO:  3545 CW 2017-08-19 0801 LZ0AX        069  048       LZ0DK        044  076 
+QSO:  3545 CW 2017-08-19 0801 LZ0DK        044  077       LZ0AX        069  048 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3544 CW 2017-08-19 0829 LZ0AX        098  090       LZ0FA        095  099 
+QSO:  3545 CW 2017-08-19 0829 LZ0FA        095  099       LZ0AX        097  090 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3540 CW 2017-08-19 0839 LZ0AX        110  036       LZ0DM        108  120 
+QSO:  3540 CW 2017-08-19 0839 LZ0DM        108  120       LZ0AX        110  046 
+
+ERROR_RECEIVE:
+QSO:  3524 CW 2017-08-19 0900 LZ0AX        128  120       LZ0DK        087  125 
+QSO:  3525 CW 2017-08-19 0900 LZ0DK        087  124       LZ0AX        128  120 
+
+ERROR_RECEIVE:
+QSO:  3545 CW 2017-08-19 0905 LZ0AX        137  148       LZ0FG        141  053 
+QSO:  3545 CW 2017-08-19 0905 LZ0FG        142  149       LZ0AX        137  148 
+
+ERROR_NOT_IN_LOG:
+QSO:  3550 CW 2017-08-19 1000 LZ0AX        189  187       LZ0AC        127  220 
+
+ERROR_NOT_IN_LOG:
+QSO:  3550 CW 2017-08-19 1032 LZ0AX        219  234       LZ0AC        158  264 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3550 CW 2017-08-19 1045 LZ0AX        235  266       LZ0AU        131  192 
+QSO:  3562 CW 2017-08-19 1045 LZ0AU        131  192       LZ0AX        225  266 
+

@@ -8,6 +8,8 @@ import os
 import logging
 import logging.config
 import my_utils
+import argparse
+
 
 logging.config.fileConfig("logging.conf", disable_existing_loggers=False)
 logger = logging.getLogger(__name__)
@@ -174,7 +176,7 @@ def doCrossCheck(qso, participantA, participantB, qso_time_difference):
     return False
 
 
-def checkLog(participants, start_date_time, end_date_time, qso_repeat_period = 30, qso_time_difference=3):
+def checkLog(participants, start_date_time, end_date_time, qso_repeat_period=30, qso_time_difference=3):
     """
     This will check the validity of each QSO of every participant
     :param start_date_time: contest start time
@@ -203,7 +205,6 @@ def checkLog(participants, start_date_time, end_date_time, qso_repeat_period = 3
 
             else:
                 doCrossCheck(qso, participants[p], participants[qso.his_call], qso_time_difference)
-
 
 
 def writeResults(participants, dir):
@@ -240,7 +241,6 @@ def writeResults(participants, dir):
         writer = csv.writer(output, lineterminator='\n')
         writer.writerows(list_classification)
 
-
     # Write the UBN reports
     # -----------------------------------------
     ubn_dir = os.path.join(dir, "UBN")
@@ -249,10 +249,9 @@ def writeResults(participants, dir):
 
     for p in participants:
         filename = os.path.join(ubn_dir, participants[p].callsign.replace("/", "_") + ".UBN")
-        ubn_file = open(filename, "w+")
+        ubn_file = open(filename, "w+", encoding="utf-8")
         ubn_file.write(participants[p].getUbnReport())
         ubn_file.close()
-
 
 
 def writeResultsElectronProgress(participants, dir):
@@ -304,7 +303,6 @@ def writeResultsElectronProgress(participants, dir):
         writer = csv.writer(output, lineterminator='\n')
         writer.writerows(list_classification_B)
 
-
     # Write the UBN reports
     # -------------------------
     ubn_dir = os.path.join(dir, "UBN")
@@ -318,26 +316,33 @@ def writeResultsElectronProgress(participants, dir):
         ubn_file.close()
 
 
-def main():
+def main(start_date, end_date, log_directory, qso_repeat_period_in_mins=30, qso_time_difference_in_mins=3, ep=0):
+    """
 
-    start_date = "2016-12-26 0700"     #removeQsoOutdsideTheContest(participants, "2016-08-20 0800", "2016-08-20 1159")
-    end_date = "2016-12-26 0859"
-    log_directory = os.path.join("docs", "EP-2016")
-    qso_repeat_period = 30  #in minutes
-    qso_time_difference = 3  # cross-check allowed difference in minutes between two QSOs
-    ep = True
-
+    :param start_date: Date and time when the contest begins. Format is specified in qso.DATE_TIME_FORMAT (Example: "2016-12-26 0700")
+    :type start_date: str
+    :param end_date: Date and time when the contest ends. Format is specified in qso.DATE_TIME_FORMAT (Example: "2016-12-26 0700")
+    :type end_date: str
+    :param log_directory: Full path to the directory containing the cabrilo files
+    :type log_directory: str
+    :param qso_repeat_period_in_mins: Period (in minutes) after which the QSO with the same station is allowed
+    :type qso_repeat_period_in_mins: int
+    :param qso_time_difference_in_mins: Allowed cross-check difference (in minutes) in two logs for a given QSO
+    :type qso_time_difference_in_mins: int
+    :param ep: If this is an "ElctronProgress" contest
+    :type ep: bool
+    :return:
+    """
     # Parse the logs
     participants = parseLogs(log_directory)
 
     # Check the logs
-    checkLog(participants, start_date, end_date, qso_repeat_period, qso_time_difference)
+    checkLog(participants, start_date, end_date, qso_repeat_period_in_mins, qso_time_difference_in_mins)
 
     # Write the results into the "/results" dir
     results_dir = os.path.join(log_directory, "results")
     if not os.path.exists(results_dir):
         os.makedirs(results_dir)
-
 
     if not ep:  # Normal contest
         writeResults(participants, results_dir)
@@ -345,6 +350,22 @@ def main():
         writeResultsElectronProgress(participants, results_dir)
 
 
-
 if __name__ == "__main__":
-    main()
+    is_ep = False
+
+    parser = argparse.ArgumentParser(description='Log checking program for LZ contests. Written by LZ1ABC.')
+    parser.add_argument("--start", type=str, required=True, help="Contest start time. Example: --start=\"2016-08-20 0800\"")
+    parser.add_argument("--end", type=str, required=True, help="Contest end time. Example: --end=\"2016-08-20 1159\"")
+    parser.add_argument("--dir", type=str, required=True, help="Full path to the directory with the cabrilo logs. Example: --dir=\"C:\Plovdiv-2016-Logove\"")
+    parser.add_argument("--qso_repeat", type=int, default=30,  required=False, help="QSO repeat interval in minutes. Default is 30mins. Example: --qso_repeat=20")
+    parser.add_argument("--crosscheck_diff", type=int, default=3, required=False, help="Allowed cross-check difference (in minutes) for QSO. Default is 3mins. Example: --crosscheck_diff=4")
+    args = parser.parse_args()
+    argsdict = vars(args)
+    main(argsdict["start"], argsdict["end"], argsdict["dir"], argsdict["qso_repeat"], argsdict["crosscheck_diff"], is_ep)
+
+    # start = "2016-08-20 0800"
+    # end = "2016-08-20 1159"
+    # log_dir = "C:\Development\LogChecker\docs\Plovdiv-2016-Logove" #log_dir = os.path.join("docs", "EP-2016")
+    # qso_repeat_after = 120  # in minutes
+    # qso_crosscheck_time_difference = 3  # cross-check allowed difference in minutes between two QSOs
+    # main(start, end, log_dir, qso_repeat_after, qso_crosscheck_time_difference, is_ep)

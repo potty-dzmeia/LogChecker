@@ -1,0 +1,54 @@
+UBN for: LZ0FX
+Name: Антон Тончев LZ1JZ
+
+--------------------------------------------------------------------------------
+Total QSOs: 207
+Confirmed QSOs: 194
+--------------------------------------------------------------------------------
+
+ERROR_RECEIVE:
+QSO:  3509 CW 2017-08-19 0712 LZ0FX        002  023       LZ0DL        020  026 
+QSO:  3509 CW 2017-08-19 0712 LZ0DL        020  016       LZ0FX        002  023 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3509 CW 2017-08-19 0713 LZ0FX        006  020       LZ0DF        016  012 
+QSO:  3509 CW 2017-08-19 0714 LZ0DF        016  012       LZ0FX        007  016 
+
+ERROR_RECEIVE:
+QSO:  3509 CW 2017-08-19 0715 LZ0FX        009  022       LZ0AG        019  012 
+QSO:  3509 CW 2017-08-19 0715 LZ0AG        019  013       LZ0FX        009  022 
+
+ERROR_PARTNER_LOG_MISSING:
+QSO:  3555 CW 2017-08-19 0725 LZ0FX        019  022       LZ0AS        024  023 
+
+ERROR_NOT_IN_LOG:
+QSO:  3560 CW 2017-08-19 0835 LZ0FX        070  097       LZ0AU        053  107 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3509 CW 2017-08-19 0837 LZ0FX        073  097       LZ0DN        105  106 
+QSO:  3509 CW 2017-08-19 0837 LZ0DN        105  106       LZ0FX        083  097 
+
+ERROR_NOT_IN_LOG:
+QSO:  3524 CW 2017-08-19 0954 LZ0FX        141  187       LZ0AC        121  154 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3562 CW 2017-08-19 1000 LZ0FX        147  194       LZ0AU        103  218 
+QSO:  3562 CW 2017-08-19 1000 LZ0AU        103  218       LZ0FX        147  104 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3531 CW 2017-08-19 1005 LZ0FX        152  228       LZ0DD        166  215 
+QSO:  3531 CW 2017-08-19 1004 LZ0DD        166  215       LZ0FX        152  128 
+
+ERROR_NOT_IN_LOG:
+QSO:  3531 CW 2017-08-19 1005 LZ0FX        153  166       LZ0AT        232  198 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3524 CW 2017-08-19 1022 LZ0FX        171  259       LZ0AR        215  230 
+QSO:  3524 CW 2017-08-19 1022 LZ0AR        215  230       LZ0FX        271  259 
+
+ERROR_NOT_IN_LOG:
+QSO:  3524 CW 2017-08-19 1026 LZ0FX        175  254       LZ0AC        150  212 
+
+ERROR_TIME_DATE:
+QSO:  3548 CW 2017-08-19 1100 LZ0FX        207  310       LZ0FG        284  278 
+

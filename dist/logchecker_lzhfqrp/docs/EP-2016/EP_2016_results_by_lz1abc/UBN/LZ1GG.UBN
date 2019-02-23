@@ -1,0 +1,18 @@
+UBN for: LZ1GG
+Name: Коста Чакъров
+
+--------------------------------------------------------------------------------
+Total QSOs: 9
+Confirmed QSOs: 6
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  7000 PH 2016-12-26 0700 LZ1GG        001  EP        LZ3PZ        001  000 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7000 PH 2016-12-26 0802 LZ1GG        005  EP        LZ3PZ        004  004 
+QSO:  7000 PH 2016-12-26 0803 LZ3PZ        004  004       LZ1GG        006  EP  
+
+ERROR_PARTNER_LOG_MISSING:
+QSO:  7000 PH 2016-12-26 0811 LZ1GG        007  EP        LZ2ZZ        034  008 
+
