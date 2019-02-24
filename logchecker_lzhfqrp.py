@@ -5,7 +5,7 @@ from qso import Qso
 import glob
 from datetime import datetime
 import os
-# import logging
+import logging
 import logging.config
 import my_utils
 import argparse
@@ -13,7 +13,7 @@ import re
 
 logging.config.fileConfig("logging.conf", disable_existing_loggers=False)
 logger = logging.getLogger(__name__)
-logger.setLevel(level=logging.DEBUG)
+logger.setLevel(level=logging.INFO)
 
 
 def parseLogs(logs_dir):

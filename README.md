@@ -15,6 +15,8 @@ Example usage for ElectronProgress contest:
 python logchecker_lzhfqrp.py --start="2016-12-26 0700" --end="2016-12-26 0859" --dir="C:\Development\LogChecker\docs\EP-2016" --qso_repeat=30 --crosscheck_diff=3 --ep=True
 
 
-If you want to create windows executable use PyInstaller. Just write:
-
+To create executable for windows write:
+---------------------------------------
 pyinstaller --onefile logchecker_lzhfqrp.py
+copy logging.conf dist/logging.conf
+
