@@ -1,0 +1,37 @@
+UBN for: LZ0AD
+Name: Âåñêî Ïåíêîâñêè LZ2JE
+
+--------------------------------------------------------------------------------
+Total QSOs: 203
+Confirmed QSOs: 195
+--------------------------------------------------------------------------------
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3572 CW 2016-08-20 0843 LZ0AD        023  053       LZ0FP        039  056 
+QSO:  3572 CW 2016-08-20 0843 LZ0FP        039  056       LZ0AD        022  054 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3548 CW 2016-08-20 0856 LZ0AD        033  059       LZ0AP        064  066 
+QSO:  3548 CW 2016-08-20 0856 LZ0AP        064  066       LZ0AD        033  056 
+
+ERROR_RECEIVE:
+QSO:  3562 CW 2016-08-20 0908 LZ0AD        049  082       LZ0AN        080  089 
+QSO:  3562 CW 2016-08-20 0908 LZ0AN        082  089       LZ0AD        049  082 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3513 CW 2016-08-20 0939 LZ0AD        076  114       LZ0FN        093  064 
+QSO:  3513 CW 2016-08-20 0939 LZ0FN        093  064       LZ0AD        075  114 
+
+ERROR_NOT_IN_LOG:
+QSO:  3545 CW 2016-08-20 0950 LZ0AD        082  110       LZ0FJ        123  101 
+
+ERROR_NOT_IN_LOG:
+QSO:  3545 CW 2016-08-20 0951 LZ0AD        083  123       LZ0DA        143  124 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3569 CW 2016-08-20 1100 LZ0AD        152  188       LZ0FP        143  203 
+QSO:  3569 CW 2016-08-20 1059 LZ0FP        143  203       LZ0AD        252  188 
+
+ERROR_NOT_IN_LOG:
+QSO:  3545 CW 2016-08-20 1114 LZ0AD        166  222       LZ0FV        203  208 
+

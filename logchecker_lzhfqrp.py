@@ -5,28 +5,24 @@ from qso import Qso
 import glob
 from datetime import datetime
 import os
-import logging
+# import logging
 import logging.config
 import my_utils
 import argparse
-
+import re
 
 logging.config.fileConfig("logging.conf", disable_existing_loggers=False)
 logger = logging.getLogger(__name__)
 logger.setLevel(level=logging.DEBUG)
 
 
-
-
-
 def parseLogs(logs_dir):
     """
-    Extracts all the participants data: callsign, name etc and his log from the supplied directory
+    Reads all the logs in the supplied directory and parses the data into dictionary that is returned
 
-    :param filename: file that needs to be parsed
-    :type filename: str
-    :return:
-    :rtype: Participant
+    :param logs_dir: Directory where the log files are located
+    :return: Dictonary of particpants. {callsign, participant object}
+    :rtype: dict
     """
     participants = {}
 
@@ -35,7 +31,6 @@ def parseLogs(logs_dir):
         participant = Participant()
 
         logger.info("parsing log: " + filename)
-
         logfile = open(filename, "r", encoding=my_utils.getFileEncoding(filename))
 
         for line in logfile:
@@ -64,13 +59,13 @@ def parseLogs(logs_dir):
     return participants
 
 
-def rejectQsoOutdsideTheContest(participant, startDateTime, endDateTime):
+def rejectQsoOutdsideTheContest(participant, start_date_time, end_date_time):
 
     for p in participant:
         date_format = participant[p].log[0].DATE_TIME_FORMAT # Date format used by the Qso class
 
-        start = datetime.strptime(startDateTime, date_format)
-        end = datetime.strptime(endDateTime, date_format)
+        start = datetime.strptime(start_date_time, date_format)
+        end = datetime.strptime(end_date_time, date_format)
 
         log = participant[p].log
 
@@ -79,14 +74,14 @@ def rejectQsoOutdsideTheContest(participant, startDateTime, endDateTime):
                 qso.error_code = Qso.ERROR_DATE_TIME
 
 
-def isIntervalSmallerThan(qso1, qso2, timeinterval):
+def isIntervalSmallerThan(qso1, qso2, time_delta):
     """
     Checks if the time interval between the two QSOs is less then delta
 
     :type qso1: Qso
     :type qso2: Qsolist
-    :param delta: Time interval in miutes
-    :type delta: int
+    :param time_delta: Time interval in miutes
+    :type time_delta: int
     :rtype: bool
     """
 
@@ -95,7 +90,7 @@ def isIntervalSmallerThan(qso1, qso2, timeinterval):
     else:
         diff = qso2.date_time - qso1.date_time
 
-    if diff.total_seconds() / 60 < timeinterval:
+    if diff.total_seconds() / 60 < time_delta:
         return True
     else:
         return False
@@ -105,8 +100,12 @@ def isDupe(qso, participant, qso_repeat_period):
     """
     Checks if the QSO did not meet the "30min rule"
 
+    :param qso: Qso that is to be checked
     :type qso: Qso
+    :param participant: The participant
     :type participant: Participant
+    :param qso_repeat_period: The allowed period after which a Qso can be made again
+    :type qso_repeat_period: int
     :rtype: bool
     """
     idx = participant.log.index(qso)
@@ -142,21 +141,21 @@ def isExchangeCorrect(qso1, qso2):
     return True
 
 
-def doCrossCheck(qso, participantA, participantB, qso_time_difference):
+def doCrossCheck(qso, participant_a, participant_b, qso_time_difference):
     """
     Check if the qso of participantA is available in the log of participantB
     :param qso_time_difference: cross-check allowed difference in minutes between two QSOs
     :type qso_time_difference: int
     :param qso: qso from the log of participantA that we would like to check with the participantB log
     :type qso: Qso
-    :param participantA: Log of participantA which. The supplied "qso" is part of the participantA log
-    :param participantB: Where we will checking if the qso is valid
+    :param participant_a: Log of participantA which. The supplied "qso" is part of the participantA log
+    :param participant_b: Where we will checking if the qso is valid
     :return: True if the qso was found inside the log of participantB
     :rtype: bool
     """
-    assert(qso.his_call == participantB.log[0].call)
+    assert(qso.his_call == participant_b.log[0].call)
 
-    for q in participantB.log:
+    for q in participant_b.log:
         if qso.call == q.his_call and isIntervalSmallerThan(qso, q, qso_time_difference):
 
             # QSO that we have found in correspondents log is marked as invalid
@@ -207,7 +206,7 @@ def checkLog(participants, start_date_time, end_date_time, qso_repeat_period=30,
                 doCrossCheck(qso, participants[p], participants[qso.his_call], qso_time_difference)
 
 
-def writeResults(participants, dir):
+def writeResults(participants, to_dir):
     """
     Writes the results in the supplied dir (this includes stuff like general results, UBN and maybe more)
 
@@ -215,7 +214,7 @@ def writeResults(participants, dir):
     :type ep: bool
     :param participants:
     :type participants: list of Participants
-    :param dir: Directory where results must be written
+    :param to_dir: Directory where results must be written
     :rtype: str
     :return:
     """
@@ -236,14 +235,14 @@ def writeResults(participants, dir):
         entry.insert(0, idx+1)
 
     # Print the results into a CSV file called results.csv
-    filename = os.path.join(dir, "results.csv")
-    with open(filename, "w+") as output:
+    filename = os.path.join(to_dir, "results.csv")
+    with open(filename, "w+", encoding="utf-8") as output:
         writer = csv.writer(output, lineterminator='\n')
         writer.writerows(list_classification)
 
     # Write the UBN reports
     # -----------------------------------------
-    ubn_dir = os.path.join(dir, "UBN")
+    ubn_dir = os.path.join(to_dir, "UBN")
     if not os.path.exists(ubn_dir):
         os.makedirs(ubn_dir) # Create UBN directory if not existing
 
@@ -254,13 +253,13 @@ def writeResults(participants, dir):
         ubn_file.close()
 
 
-def writeResultsElectronProgress(participants, dir):
+def writeResultsElectronProgress(participants, to_dir):
     """
     Writes the results in the supplied dir (this includes stuff like general results, UBN and maybe more)
 
     :param participants:
     :type participants: list of Participants
-    :param dir: Directory where results must be written
+    :param to_dir: Directory where results must be written
     :rtype: str
     :return:
     """
@@ -293,27 +292,44 @@ def writeResultsElectronProgress(participants, dir):
         entry.insert(0, idx+1)
 
     # Print the results into a CSV file called results.csv
-    filename = os.path.join(dir, "results_A.csv")
-    with open(filename, "w+") as output:
+    filename = os.path.join(to_dir, "results_A.csv")
+    with open(filename, "w+", encoding="utf-8") as output:
         writer = csv.writer(output, lineterminator='\n')
         writer.writerows(list_classification_A)
 
-    filename = os.path.join(dir, "results_B.csv")
-    with open(filename, "w+") as output:
+    filename = os.path.join(to_dir, "results_B.csv")
+    with open(filename, "w+", encoding="utf-8") as output:
         writer = csv.writer(output, lineterminator='\n')
         writer.writerows(list_classification_B)
 
     # Write the UBN reports
     # -------------------------
-    ubn_dir = os.path.join(dir, "UBN")
+    ubn_dir = os.path.join(to_dir, "UBN")
     if not os.path.exists(ubn_dir):
-        os.makedirs(ubn_dir) # Create UBN directory if not existing
+        os.makedirs(ubn_dir)  # Create UBN directory if not existing
 
     for p in participants:
         filename = os.path.join(ubn_dir, participants[p].callsign.replace("/", "_") + ".UBN")
-        ubn_file = open(filename, "w+")
+        ubn_file = open(filename, "w+", encoding="utf-8")
         ubn_file.write(participants[p].getUbnReport())
         ubn_file.close()
+
+
+def is_valid_date_time_format(date_time_string):
+    """
+    Validate that date_time_string has the following format "yyyy-mm-dd hhmm" (See Qso.DATE_TIME_FORMAT)
+
+    :param date_time_string:
+    :type date_time_string: str
+    :return: True if the string is formatted properly.
+    :rtype: bool
+    """
+
+    date_pattern = re.compile(r'\d{4}-\d{2}-\d{2} \d{2}\d{2}')
+    if date_pattern.match(date_time_string):
+        return True
+    else:
+        return False
 
 
 def main(start_date, end_date, log_directory, qso_repeat_period_in_mins=30, qso_time_difference_in_mins=3, ep=0):
@@ -333,6 +349,12 @@ def main(start_date, end_date, log_directory, qso_repeat_period_in_mins=30, qso_
     :type ep: bool
     :return:
     """
+
+    if not is_valid_date_time_format(start_date):
+        raise ValueError("Incorrect --start param format, should be: yyyy-mm-dd hhmm")
+    if not is_valid_date_time_format(end_date):
+        raise ValueError("Incorrect --end param format, should be: yyyy-mm-dd hhmm")
+
     # Parse the logs
     participants = parseLogs(log_directory)
 
@@ -351,21 +373,22 @@ def main(start_date, end_date, log_directory, qso_repeat_period_in_mins=30, qso_
 
 
 if __name__ == "__main__":
-    is_ep = False
-
     parser = argparse.ArgumentParser(description='Log checking program for LZ contests. Written by LZ1ABC.')
     parser.add_argument("--start", type=str, required=True, help="Contest start time. Example: --start=\"2016-08-20 0800\"")
     parser.add_argument("--end", type=str, required=True, help="Contest end time. Example: --end=\"2016-08-20 1159\"")
     parser.add_argument("--dir", type=str, required=True, help="Full path to the directory with the cabrilo logs. Example: --dir=\"C:\Plovdiv-2016-Logove\"")
     parser.add_argument("--qso_repeat", type=int, default=30,  required=False, help="QSO repeat interval in minutes. Default is 30mins. Example: --qso_repeat=20")
     parser.add_argument("--crosscheck_diff", type=int, default=3, required=False, help="Allowed cross-check difference (in minutes) for QSO. Default is 3mins. Example: --crosscheck_diff=4")
+    parser.add_argument("--ep", type=bool, default=False, required=False, help="Se to True if this is an ElectronProgress contest. Default is Flase. Example: --ep=True");
     args = parser.parse_args()
     argsdict = vars(args)
-    main(argsdict["start"], argsdict["end"], argsdict["dir"], argsdict["qso_repeat"], argsdict["crosscheck_diff"], is_ep)
 
+    main(argsdict["start"], argsdict["end"], argsdict["dir"], argsdict["qso_repeat"], argsdict["crosscheck_diff"], argsdict["ep"])
+
+    # is_ep = False
     # start = "2016-08-20 0800"
     # end = "2016-08-20 1159"
-    # log_dir = "C:\Development\LogChecker\docs\Plovdiv-2016-Logove" #log_dir = os.path.join("docs", "EP-2016")
-    # qso_repeat_after = 120  # in minutes
+    # log_dir = "C:\Development\LogChecker\docs\Plovdiv-2016-Logove"
+    # qso_repeat_after = 30  # in minutes
     # qso_crosscheck_time_difference = 3  # cross-check allowed difference in minutes between two QSOs
     # main(start, end, log_dir, qso_repeat_after, qso_crosscheck_time_difference, is_ep)

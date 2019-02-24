@@ -1,0 +1,54 @@
+UBN for: LZ0FM
+Name: Öâåòàëèí Öâåòêîâ LZ2FV
+
+--------------------------------------------------------------------------------
+Total QSOs: 284
+Confirmed QSOs: 271
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  3561 CW 2016-08-20 0829 LZ0FM        028  036       LZ0DC        021  035 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3530 CW 2016-08-20 0852 LZ0FM        052  060       LZ0AL        055  046 
+QSO:  3529 CW 2016-08-20 0852 LZ0AL        055  046       LZ0FM        052  050 
+
+ERROR_RECEIVE:
+QSO:  3543 CW 2016-08-20 0904 LZ0FM        067  070       LZ0FX        032  078 
+QSO:  3543 CW 2016-08-20 0904 LZ0FX        032  079       LZ0FM        067  070 
+
+ERROR_RECEIVE:
+QSO:  3561 CW 2016-08-20 0913 LZ0FM        076  051       LZ0DL        072  064 
+QSO:  3561 CW 2016-08-20 0913 LZ0DL        082  064       LZ0FM        076  051 
+
+ERROR_RECEIVE:
+QSO:  3561 CW 2016-08-20 0944 LZ0FM        112  145       LZ0FT        135  018 
+QSO:  3561 CW 2016-08-20 0945 LZ0FT        135  118       LZ0FM        112  145 
+
+ERROR_NOT_IN_LOG:
+QSO:  3561 CW 2016-08-20 1010 LZ0FM        145  150       LZ0DY        142  145 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3561 CW 2016-08-20 1027 LZ0FM        164  191       LZ0FL        088  025 
+QSO:  3573 CW 2016-08-20 1027 LZ0FL        088  025       LZ0FM        164  192 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3561 CW 2016-08-20 1036 LZ0FM        173  192       LZ0AA        168  187 
+QSO:  3561 CW 2016-08-20 1036 LZ0AA        168  187       LZ0FM        173  101 
+
+ERROR_NOT_IN_LOG:
+QSO:  3561 CW 2016-08-20 1039 LZ0FM        177  195       LZ0DR        164  033 
+
+ERROR_PARTNER_LOG_MISSING:
+QSO:  3561 CW 2016-08-20 1041 LZ0FM        179  202       LZ2FY        205  137 
+
+ERROR_NOT_IN_LOG:
+QSO:  3561 CW 2016-08-20 1041 LZ0FM        180  205       LZ0DY        181  177 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3561 CW 2016-08-20 1108 LZ0FM        217  204       LZ0FU        207  241 
+QSO:  3561 CW 2016-08-20 1108 LZ0FU        207  241       LZ0FM        216  204 
+
+ERROR_NOT_IN_LOG:
+QSO:  3561 CW 2016-08-20 1109 LZ0FM        219  232       LZ0DA        240  192 
+

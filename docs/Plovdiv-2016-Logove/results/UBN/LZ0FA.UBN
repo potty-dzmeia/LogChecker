@@ -1,0 +1,43 @@
+UBN for: LZ0FA
+Name: Coca Pavlic-Alexandru YO8SS
+
+--------------------------------------------------------------------------------
+Total QSOs: 296
+Confirmed QSOs: 287
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  3532 CW 2016-08-20 0827 LZ0FA        032  009       LZ0DZ        030  028 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3559 CW 2016-08-20 0834 LZ0FA        042  035       LZ0AX        040  036 
+QSO:  3559 CW 2016-08-20 0833 LZ0AX        040  036       LZ0FA        420  035 
+
+ERROR_DUPE:
+QSO:  3510 CW 2016-08-20 0851 LZ0FA        064  059       LZ0FG        056  069 
+QSO:  3510 CW 2016-08-20 0823 LZ0FA        027  019       LZ0FG        028  019 
+
+ERROR_DUPE:
+QSO:  3513 CW 2016-08-20 0852 LZ0FA        065  056       LZ0FN        049  035 
+QSO:  3513 CW 2016-08-20 0824 LZ0FA        028  028       LZ0FN        023  024 
+
+ERROR_DUPE:
+QSO:  3559 CW 2016-08-20 0905 LZ0FA        079  075       LZ0DJ        046  072 
+QSO:  3559 CW 2016-08-20 0836 LZ0FA        046  039       LZ0DJ        021  033 
+
+ERROR_DUPE:
+QSO:  3559 CW 2016-08-20 0912 LZ0FA        093  101       LZ0FT        092  070 
+QSO:  3559 CW 2016-08-20 0843 LZ0FA        053  048       LZ0FT        058  038 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3529 CW 2016-08-20 0924 LZ0FA        103  079       LZ0DM        102  060 
+QSO:  3559 CW 2016-08-20 0925 LZ0DM        036  092       LZ0FA        106  113 
+
+ERROR_RECEIVE:
+QSO:  3559 CW 2016-08-20 1123 LZ0FA        250  237       LZ0AV        222  031 
+QSO:  3559 CW 2016-08-20 1122 LZ0AV        229  231       LZ0FA        250  237 
+
+ERROR_RECEIVE:
+QSO:  3559 CW 2016-08-20 1140 LZ0FA        269  263       LZ0DD        283  273 
+QSO:  3559 CW 2016-08-20 1139 LZ0DD        283  243       LZ0FA        269  263 
+

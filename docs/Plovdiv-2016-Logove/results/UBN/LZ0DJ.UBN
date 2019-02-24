@@ -1,0 +1,42 @@
+UBN for: LZ0DJ
+Name: Èâàí Êîòåâ LZ1IK
+
+--------------------------------------------------------------------------------
+Total QSOs: 203
+Confirmed QSOs: 194
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  3500 CW 2016-08-20 0815 LZ0DJ        003  015       LZ0FN        010  023 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3500 CW 2016-08-20 0817 LZ0DJ        005  022       LZ0FV        025  020 
+QSO:  3519 CW 2016-08-20 0817 LZ0FV        025  020       LZ0DJ        004  010 
+
+ERROR_DUPE:
+QSO:  3500 CW 2016-08-20 0904 LZ0DJ        046  072       LZ0FA        079  075 
+QSO:  3500 CW 2016-08-20 0835 LZ0DJ        021  033       LZ0FA        046  039 
+
+ERROR_NOT_IN_LOG:
+QSO:  3500 CW 2016-08-20 0914 LZ0DJ        055  085       LZ0DY        075  049 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3500 CW 2016-08-20 1055 LZ0DJ        144  192       LZ0DN        214  038 
+QSO:  3524 CW 2016-08-20 1055 LZ0DN        214  038       LZ0DJ        054  192 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3500 CW 2016-08-20 1115 LZ0DJ        158  240       LZ0DW        209  202 
+QSO:  3541 CW 2016-08-20 1116 LZ0DW        209  202       LZ0DJ        159  209 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3500 CW 2016-08-20 1132 LZ0DJ        175  221       LZ0FN        205  228 
+QSO:  3513 CW 2016-08-20 1132 LZ0FN        205  228       LZ0DJ        275  221 
+
+ERROR_DUPE:
+QSO:  3500 CW 2016-08-20 1136 LZ0DJ        180  284       LZ0AK        268  269 
+QSO:  3500 CW 2016-08-20 1107 LZ0DJ        151  243       LZ0AK        231  249 
+
+ERROR_DUPE:
+QSO:  3500 CW 2016-08-20 1141 LZ0DJ        185  270       LZ0FX        207  253 
+QSO:  3500 CW 2016-08-20 1112 LZ0DJ        155  232       LZ0FX        174  235 
+

@@ -1,0 +1,40 @@
+UBN for: LZ0FJ
+Name: Áîðèñ Ñàïóíäæèåâ LZ2JR
+
+--------------------------------------------------------------------------------
+Total QSOs: 284
+Confirmed QSOs: 275
+--------------------------------------------------------------------------------
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3527 CW 2016-08-20 0802 LZ0FJ        005  002       LZ0DM        001  000 
+QSO:  3527 CW 2016-08-20 0803 LZ0DM        001  000       LZ0FJ        001  002 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3567 CW 2016-08-20 0808 LZ0FJ        009  007       LZ0FR        001  000 
+QSO:  3567 CW 2016-08-20 0806 LZ0FR        001  000       LZ0FJ        009  070 
+
+ERROR_NOT_IN_LOG:
+QSO:  3566 CW 2016-08-20 0824 LZ0FJ        031  029       LZ0FL        022  028 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3513 CW 2016-08-20 0926 LZ0FJ        099  093       LZ0FN        084  100 
+QSO:  3513 CW 2016-08-20 0926 LZ0FN        084  100       LZ0FJ        099  094 
+
+ERROR_NOT_IN_LOG:
+QSO:  3545 CW 2016-08-20 0950 LZ0FJ        123  101       LZ0AZ        082  110 
+
+ERROR_RECEIVE:
+QSO:  3540 CW 2016-08-20 1009 LZ0FJ        148  165       LZ0FU        139  133 
+QSO:  3540 CW 2016-08-20 1009 LZ0FU        139  144       LZ0FJ        148  165 
+
+ERROR_NOT_IN_LOG:
+QSO:  3539 CW 2016-08-20 1027 LZ0FJ        167  124       LZ0AW        182  161 
+
+ERROR_NOT_IN_LOG:
+QSO:  3537 CW 2016-08-20 1032 LZ0FJ        175  128       LZ0DY        169  201 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3540 CW 2016-08-20 1132 LZ0FJ        248  232       LZ0AV        239  125 
+QSO:  3540 CW 2016-08-20 1132 LZ0AV        239  125       LZ0FJ        242  232 
+

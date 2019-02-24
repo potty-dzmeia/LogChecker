@@ -1,0 +1,60 @@
+UBN for: LZ0AK
+Name: Íèêîëàé Åí÷åâ LZ1NK
+
+--------------------------------------------------------------------------------
+Total QSOs: 304
+Confirmed QSOs: 290
+--------------------------------------------------------------------------------
+
+ERROR_DATE_TIME:
+QSO:  3512 CW 2016-08-20 0759 LZ0AK        001  000       LZ0FV        001  000 
+
+ERROR_RECEIVE:
+QSO:  3512 CW 2016-08-20 0805 LZ0AK        012  006       LZ0FZ        050  006 
+QSO:  3512 CW 2016-08-20 0805 LZ0FZ        005  006       LZ0AK        012  006 
+
+ERROR_NOT_IN_LOG:
+QSO:  3512 CW 2016-08-20 0814 LZ0AK        023  025       LZ0AZ        019  020 
+
+ERROR_DUPE:
+QSO:  3512 CW 2016-08-20 0838 LZ0AK        041  041       LZ0DC        024  041 
+QSO:  3512 CW 2016-08-20 0815 LZ0AK        025  014       LZ0DC        006  013 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3512 CW 2016-08-20 0905 LZ0AK        074  076       LZ0FG        072  088 
+QSO:  3512 CW 2016-08-20 0905 LZ0FG        072  088       LZ0AK        074  077 
+
+ERROR_RECEIVE:
+QSO:  3512 CW 2016-08-20 1017 LZ0AK        163  118       LZ0DD        176  150 
+QSO:  3512 CW 2016-08-20 1017 LZ0DD        176  125       LZ0AK        163  118 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3512 CW 2016-08-20 1024 LZ0AK        173  176       LZ0AF        157  189 
+QSO:  3512 CW 2016-08-20 1025 LZ0AF        157  189       LZ0AK        173  175 
+
+ERROR_RECEIVE:
+QSO:  3512 CW 2016-08-20 1032 LZ0AK        183  176       LZ0FV        164  166 
+QSO:  3512 CW 2016-08-20 1032 LZ0FV        165  154       LZ0AK        183  176 
+
+ERROR_RECEIVE:
+QSO:  3566 CW 2016-08-20 1040 LZ0AK        195  191       LZ0AM        179  190 
+QSO:  3565 CW 2016-08-20 1040 LZ0AM        169  190       LZ0AK        195  191 
+
+ERROR_NOT_IN_LOG:
+QSO:  3512 CW 2016-08-20 1049 LZ0AK        205  191       LZ0DY        189  189 
+
+ERROR_DUPE:
+QSO:  3512 CW 2016-08-20 1135 LZ0AK        268  269       LZ0DJ        180  284 
+QSO:  3512 CW 2016-08-20 1107 LZ0AK        231  249       LZ0DJ        151  243 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3512 CW 2016-08-20 1145 LZ0AK        281  259       LZ0DC        147  261 
+QSO:  3500 CW 2016-08-20 1145 LZ0DC        147  261       LZ0AK        271  259 
+
+ERROR_DUPE:
+QSO:  3512 CW 2016-08-20 1145 LZ0AK        283  295       LZ0DA        291  270 
+QSO:  3512 CW 2016-08-20 1116 LZ0AK        244  256       LZ0DA        251  253 
+
+ERROR_DATE_TIME:
+QSO:  3512 CW 2016-08-20 1200 LZ0AK        304  315       LZ0AF        238  251 
+

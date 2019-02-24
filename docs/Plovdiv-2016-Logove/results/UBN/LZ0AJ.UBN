@@ -1,0 +1,40 @@
+UBN for: LZ0AJ
+Name: Ìàðèí Áóêîâñêè LZ1RW
+
+--------------------------------------------------------------------------------
+Total QSOs: 279
+Confirmed QSOs: 270
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  3553 CW 2016-08-20 0817 LZ0AJ        020  018       LZ0AZ        021  023 
+
+ERROR_NOT_IN_LOG:
+QSO:  3553 CW 2016-08-20 0822 LZ0AJ        026  011       LZ0DY        021  024 
+
+ERROR_RECEIVE:
+QSO:  3553 CW 2016-08-20 0843 LZ0AJ        046  051       LZ0FG        040  040 
+QSO:  3553 CW 2016-08-20 0842 LZ0FG        050  040       LZ0AJ        046  051 
+
+ERROR_RECEIVE:
+QSO:  3553 CW 2016-08-20 0933 LZ0AJ        106  112       LZ0DD        103  107 
+QSO:  3553 CW 2016-08-20 0933 LZ0DD        113  107       LZ0AJ        106  112 
+
+ERROR_NOT_IN_LOG:
+QSO:  3553 CW 2016-08-20 1029 LZ0AJ        167  022       LZ0FM        166  170 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3553 CW 2016-08-20 1044 LZ0AJ        189  184       LZ0FU        178  191 
+QSO:  3553 CW 2016-08-20 1044 LZ0FU        178  191       LZ0AJ        189  134 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3553 CW 2016-08-20 1049 LZ0AJ        197  191       LZ0FD        220  210 
+QSO:  3553 CW 2016-08-20 1049 LZ0FD        220  210       LZ0AJ        198  191 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3553 CW 2016-08-20 1114 LZ0AJ        222  267       LZ0FP        154  225 
+QSO:  3553 CW 2016-08-20 1114 LZ0FP        154  225       LZ0AJ        223  267 
+
+ERROR_DATE_TIME:
+QSO:  3553 CW 2016-08-20 1259 LZ0AJ        279  260       LZ0FZ        283  228 
+
