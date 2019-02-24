@@ -1,0 +1,55 @@
+UBN for: LZ0FD
+Name: Георги Воденичаров LZ1ZF
+
+--------------------------------------------------------------------------------
+Total QSOs: 276
+Confirmed QSOs: 263
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  3500 CW 2017-08-19 0706 LZ0FD        009  013       LZ0DV        010  005 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3500 CW 2017-08-19 0717 LZ0FD        026  018       LZ0AG        023  013 
+QSO:  3528 CW 2017-08-19 0717 LZ0AG        023  013       LZ0FD        025  018 
+
+ERROR_RECEIVE:
+QSO:  3500 CW 2017-08-19 0814 LZ0FD        083  087       LZ0DV        084  081 
+QSO:  3528 CW 2017-08-19 0814 LZ0DV        084  041       LZ0FD        083  087 
+
+ERROR_RECEIVE:
+QSO:  3500 CW 2017-08-19 0834 LZ0FD        106  114       LZ0AK        102  099 
+QSO:  3528 CW 2017-08-19 0835 LZ0AK        103  081       LZ0FD        106  114 
+
+ERROR_RECEIVE:
+QSO:  3500 CW 2017-08-19 0847 LZ0FD        119  128       LZ0DX        055  120 
+QSO:  3528 CW 2017-08-19 0846 LZ0DX        055  129       LZ0FD        119  128 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3500 CW 2017-08-19 0848 LZ0FD        122  128       LZ0FZ        042  132 
+QSO:  3528 CW 2017-08-19 0849 LZ0FZ        042  132       LZ0FD        133  128 
+
+ERROR_NOT_IN_LOG:
+QSO:  3500 CW 2017-08-19 0858 LZ0FD        137  144       LZ0AR        123  126 
+
+ERROR_NOT_IN_LOG:
+QSO:  3500 CW 2017-08-19 0950 LZ0FD        194  116       LZ0DG        197  180 
+
+ERROR_DUPE:
+QSO:  3500 CW 2017-08-19 0958 LZ0FD        205  158       LZ0DM        203  196 
+QSO:  3500 CW 2017-08-19 0958 LZ0FD        205  158       LZ0DM        203  196 
+
+ERROR_NOT_IN_LOG:
+QSO:  3500 CW 2017-08-19 1017 LZ0FD        222  169       LZ0AC        142  217 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3500 CW 2017-08-19 1029 LZ0FD        241  259       LZ0AV        231  187 
+QSO:  3528 CW 2017-08-19 1029 LZ0AV        231  187       LZ0FD        241  250 
+
+ERROR_NOT_IN_LOG:
+QSO:  3500 CW 2017-08-19 1054 LZ0FD        268  279       LZ0DK        176  290 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3500 CW 2017-08-19 1059 LZ0FD        276  298       LZ0AV        267  222 
+QSO:  3528 CW 2017-08-19 1059 LZ0AV        267  222       LZ0FD        276  268 
+

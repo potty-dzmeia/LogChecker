@@ -1,0 +1,58 @@
+UBN for: LZ0AF
+Name: Äèìèòúð Òîíêîâ LZ1EV
+
+--------------------------------------------------------------------------------
+Total QSOs: 239
+Confirmed QSOs: 225
+--------------------------------------------------------------------------------
+
+ERROR_RECEIVE:
+QSO:  3538 CW 2016-08-20 0825 LZ0AF        030  033       LZ0DC        014  032 
+QSO:  3500 CW 2016-08-20 0825 LZ0DC        014  033       LZ0AF        030  033 
+
+ERROR_RECEIVE:
+QSO:  3535 CW 2016-08-20 0835 LZ0AF        039  034       LZ0FT        050  039 
+QSO:  3535 CW 2016-08-20 0836 LZ0FT        050  036       LZ0AF        039  034 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3519 CW 2016-08-20 0904 LZ0AF        069  058       LZ0FV        080  079 
+QSO:  3519 CW 2016-08-20 0904 LZ0FV        080  079       LZ0AF        069  056 
+
+ERROR_RECEIVE:
+QSO:  3543 CW 2016-08-20 0906 LZ0AF        070  080       LZ0FX        035  074 
+QSO:  3543 CW 2016-08-20 0906 LZ0FX        035  084       LZ0AF        070  080 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3515 CW 2016-08-20 0918 LZ0AF        082  073       LZ0AU        103  081 
+QSO:  3515 CW 2016-08-20 0918 LZ0AU        103  081       LZ0AF        092  073 
+
+ERROR_RECEIVE:
+QSO:  3538 CW 2016-08-20 0933 LZ0AF        105  103       LZ0FP        083  004 
+QSO:  3538 CW 2016-08-20 0933 LZ0FP        083  114       LZ0AF        105  103 
+
+ERROR_NOT_IN_LOG:
+QSO:  3538 CW 2016-08-20 0955 LZ0AF        123  142       LZ0DK        076  124 
+
+ERROR_NOT_IN_LOG:
+QSO:  3559 CW 2016-08-20 1014 LZ0AF        146  149       LZ0FA        166  169 
+
+ERROR_RECEIVE:
+QSO:  3512 CW 2016-08-20 1025 LZ0AF        157  189       LZ0AK        173  175 
+QSO:  3512 CW 2016-08-20 1024 LZ0AK        173  176       LZ0AF        157  189 
+
+ERROR_NOT_IN_LOG:
+QSO:  3537 CW 2016-08-20 1033 LZ0AF        164  189       LZ0DY        171  182 
+
+ERROR_NOT_IN_LOG:
+QSO:  3543 CW 2016-08-20 1055 LZ0AF        183  186       LZ0FX        156  204 
+
+ERROR_NOT_IN_LOG:
+QSO:  3537 CW 2016-08-20 1111 LZ0AF        195  245       LZ0DY        219  211 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3511 CW 2016-08-20 1115 LZ0AF        201  240       LZ0DR        201  240 
+QSO:  3500 CW 2016-08-20 1115 LZ0DR        201  240       LZ0AF        201  002 
+
+ERROR_NOT_IN_LOG:
+QSO:  3537 CW 2016-08-20 1152 LZ0AF        228  264       LZ0DY        267  289 
+

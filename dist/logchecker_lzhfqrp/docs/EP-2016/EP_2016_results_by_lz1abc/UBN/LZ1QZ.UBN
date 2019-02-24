@@ -1,0 +1,32 @@
+UBN for: LZ1QZ
+Name: Кольо Колев
+
+--------------------------------------------------------------------------------
+Total QSOs: 19
+Confirmed QSOs: 12
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  7180 PH 2016-12-26 0708 LZ1QZ        001  000       LZ5IL        007  EP  
+
+ERROR_RECEIVE:
+QSO:  7152 PH 2016-12-26 0733 LZ1QZ        005  014       LZ3ZZ        016  015 
+QSO:  7152 PH 2016-12-26 0733 LZ3ZZ        013  015       LZ1QZ        005  014 
+
+ERROR_NOT_IN_LOG:
+QSO:  7180 PH 2016-12-26 0740 LZ1QZ        006  016       LZ5IL        014  EP  
+
+ERROR_NOT_IN_LOG:
+QSO:  7180 PH 2016-12-26 0811 LZ1QZ        012  027       LZ5IL        024  EP  
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7167 PH 2016-12-26 0833 LZ1QZ        014  045       LZ1KKZ       038  029 
+QSO:  7160 PH 2016-12-26 0833 LZ1KKZ       038  029       LZ1QZ        014  046 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7167 PH 2016-12-26 0835 LZ1QZ        015  038       LZ1ZX        017  040 
+QSO:  7000 PH 2016-12-26 0835 LZ1ZX        017  040       LZ1QZ        016  038 
+
+ERROR_NOT_IN_LOG:
+QSO:  7167 PH 2016-12-26 0841 LZ1QZ        016  017       LZ5IL        031  EP  
+

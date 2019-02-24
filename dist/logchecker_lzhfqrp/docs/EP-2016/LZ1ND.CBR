@@ -1,0 +1,60 @@
+START-OF-LOG: 2.0
+CALLSIGN: LZ1ND
+CLUB: Пловдив
+CONTEST: LZ-OPEN-DOMESTIC
+CATEGORY: SINGLE-OP 40M LOW SSB
+CLAIMED-SCORE: 45
+OPERATORS: LZ1ND
+NAME: Тодор Тодоров
+ADDRESS: 33, Tzar Boris III
+ADDRESS: ap. 49
+ADDRESS: Plovdiv,  
+ADDRESS: BULGARIA
+CREATED-BY: N1MM Logger+ 1.0.6006.0
+QSO:  7167 PH 2016-12-26 0700 LZ1ND         001 EP       LZ1EV         002 001      
+QSO:  7167 PH 2016-12-26 0701 LZ1ND         002 EP       LZ1WF         001 000      
+QSO:  7167 PH 2016-12-26 0702 LZ1ND         003 EP       LZ3SD         001 000      
+QSO:  7167 PH 2016-12-26 0704 LZ1ND         004 EP       LZ3ZZ         003 003      
+QSO:  7167 PH 2016-12-26 0705 LZ1ND         005 EP       LZ2BE         003 001      
+QSO:  7167 PH 2016-12-26 0708 LZ1ND         006 EP       LZ1KKZ        003 004      
+QSO:  7167 PH 2016-12-26 0709 LZ1ND         007 EP       LZ2CW         002 006      
+QSO:  7167 PH 2016-12-26 0711 LZ1ND         008 EP       LZ5IL         008 EP       
+QSO:  7172 PH 2016-12-26 0724 LZ1ND         009 EP       LZ1KDP        010 007      
+QSO:  7167 PH 2016-12-26 0732 LZ1ND         010 EP       LZ2YO         003 013      
+QSO:  7167 PH 2016-12-26 0734 LZ1ND         011 EP       LZ1ZX         003 019      
+QSO:  7167 PH 2016-12-26 0734 LZ1ND         012 EP       LZ3ZZ         015 010      
+QSO:  7167 PH 2016-12-26 0735 LZ1ND         013 EP       LZ1EV         021 002      
+QSO:  7167 PH 2016-12-26 0735 LZ1ND         014 EP       LZ2BE         017 001      
+QSO:  7167 PH 2016-12-26 0736 LZ1ND         015 EP       LZ1WF         003 020      
+QSO:  7167 PH 2016-12-26 0736 LZ1ND         016 EP       LZ3SD         003 010      
+QSO:  7167 PH 2016-12-26 0737 LZ1ND         017 EP       LZ1KKZ        009 014      
+QSO:  7167 PH 2016-12-26 0741 LZ1ND         018 EP       LZ5IL         015 EP       
+QSO:  7167 PH 2016-12-26 0742 LZ1ND         019 EP       LZ5EO         006 013      
+QSO:  7167 PH 2016-12-26 0743 LZ1ND         020 EP       LZ2CW         009 018      
+QSO:  7166 PH 2016-12-26 0752 LZ1ND         021 EP       LZ1MC         006 EP       
+QSO:  7172 PH 2016-12-26 0755 LZ1ND         022 EP       LZ1KDP        025 007      
+QSO:  7167 PH 2016-12-26 0806 LZ1ND         023 EP       LZ2BE         033 002      
+QSO:  7167 PH 2016-12-26 0806 LZ1ND         024 EP       LZ3ZZ         030 021      
+QSO:  7167 PH 2016-12-26 0807 LZ1ND         025 EP       LZ3SD         005 030      
+QSO:  7167 PH 2016-12-26 0809 LZ1ND         026 EP       LZ1FFF        004 035      
+QSO:  7167 PH 2016-12-26 0809 LZ1ND         027 EP       LZ1EV         039 004      
+QSO:  7167 PH 2016-12-26 0810 LZ1ND         028 EP       LZ1WF         004 015      
+QSO:  7167 PH 2016-12-26 0813 LZ1ND         029 EP       LZ3RM         005 EP       
+QSO:  7167 PH 2016-12-26 0816 LZ1ND         030 EP       LZ3FM         025 038      
+QSO:  7167 PH 2016-12-26 0817 LZ1ND         031 EP       LZ2CW         017 036      
+QSO:  7167 PH 2016-12-26 0817 LZ1ND         032 EP       LZ1KKZ        031 012      
+QSO:  7167 PH 2016-12-26 0818 LZ1ND         033 EP       LZ5IL         026 EP       
+QSO:  7167 PH 2016-12-26 0819 LZ1ND         034 EP       LZ5EO         012 026      
+QSO:  7167 PH 2016-12-26 0819 LZ1ND         035 EP       LZ1ZX         013 030      
+QSO:  7174 PH 2016-12-26 0828 LZ1ND         036 EP       LZ1KDP        040 020      
+QSO:  7167 PH 2016-12-26 0837 LZ1ND         037 EP       LZ3ZZ         043 047      
+QSO:  7167 PH 2016-12-26 0837 LZ1ND         038 EP       LZ2BE         049 030      
+QSO:  7167 PH 2016-12-26 0837 LZ1ND         039 EP       LZ3SD         009 049      
+QSO:  7167 PH 2016-12-26 0841 LZ1ND         040 EP       LZ1EV         059 015      
+QSO:  7167 PH 2016-12-26 0845 LZ1ND         041 EP       LZ1WF         007 046      
+QSO:  7167 PH 2016-12-26 0847 LZ1ND         042 EP       LZ1MC         018 EP       
+QSO:  7167 PH 2016-12-26 0848 LZ1ND         043 EP       LZ5IL         036 EP       
+QSO:  7160 PH 2016-12-26 0850 LZ1ND         044 EP       LZ1KKZ        050 010       
+QSO:  7167 PH 2016-12-26 0853 LZ1ND         045 EP       LZ2CW         023 049      
+QSO:  7167 PH 2016-12-26 0853 LZ1ND         046 EP       LZ5EO         018 034      
+END-OF-LOG:

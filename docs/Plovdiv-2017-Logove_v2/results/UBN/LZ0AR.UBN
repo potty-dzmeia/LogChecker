@@ -1,5 +1,5 @@
 UBN for: LZ0AR
-Name: Владимир Постников LZ2WP
+Name: Г‚Г«Г Г¤ГЁГ¬ГЁГ° ГЏГ®Г±ГІГ­ГЁГЄГ®Гў LZ2WP
 
 --------------------------------------------------------------------------------
 Total QSOs: 256
@@ -31,15 +31,15 @@ QSO:  3514 CW 2017-08-19 0713 LZ0DA        019  006       LZ0AR        015  017
 
 ERROR_DUPE:
 QSO:  3514 CW 2017-08-19 0727 LZ0AR        024  030       LZ0AC        030  027 
-QSO:  3514 CW 2017-08-19 0727 LZ0AR        024  030       LZ0AC        030  027 
+QSO:  3524 CW 2017-08-19 0718 LZ0AR        016  009       LZ0AC        017  025 
 
 ERROR_DUPE:
 QSO:  3514 CW 2017-08-19 0732 LZ0AR        031  035       LZ0DL        041  017 
-QSO:  3514 CW 2017-08-19 0732 LZ0AR        031  035       LZ0DL        041  017 
+QSO:  3514 CW 2017-08-19 0709 LZ0AR        008  014       LZ0DL        017  001 
 
 ERROR_DUPE:
 QSO:  3523 CW 2017-08-19 0746 LZ0AR        044  046       LZ0AC        046  056 
-QSO:  3523 CW 2017-08-19 0746 LZ0AR        044  046       LZ0AC        046  056 
+QSO:  3524 CW 2017-08-19 0718 LZ0AR        016  009       LZ0AC        017  025 
 
 ERROR_RECEIVE:
 QSO:  3514 CW 2017-08-19 0802 LZ0AR        067  066       LZ0DL        080  067 
@@ -51,7 +51,7 @@ QSO:  3514 CW 2017-08-19 0806 LZ0AL        072  078       LZ0AR        072  073
 
 ERROR_DUPE:
 QSO:  3514 CW 2017-08-19 0818 LZ0AR        078  096       LZ0FZ        027  082 
-QSO:  3514 CW 2017-08-19 0818 LZ0AR        078  096       LZ0FZ        027  082 
+QSO:  3514 CW 2017-08-19 0752 LZ0AR        049  062       LZ0FZ        015  058 
 
 ERROR_RECEIVE:
 QSO:  3514 CW 2017-08-19 0820 LZ0AR        079  027       LZ0DW        090  086 
@@ -94,7 +94,7 @@ QSO:  3514 CW 2017-08-19 0908 LZ0DT        130  148       LZ0AR        135  131
 
 ERROR_DUPE:
 QSO:  3514 CW 2017-08-19 0910 LZ0AR        139  096       LZ0DL        155  141 
-QSO:  3514 CW 2017-08-19 0910 LZ0AR        139  096       LZ0DL        155  141 
+QSO:  3514 CW 2017-08-19 0841 LZ0AR        102  105       LZ0DL        122  116 
 
 ERROR_RECEIVE:
 QSO:  3522 CW 2017-08-19 0920 LZ0AR        147  166       LZ0AW        170  164 
@@ -109,7 +109,7 @@ QSO:  3514 CW 2017-08-19 0939 LZ0DT        164  095       LZ0AR        175  130
 
 ERROR_DUPE:
 QSO:  3541 CW 2017-08-19 0950 LZ0AR        181  187       LZ0AM        211  178 
-QSO:  3541 CW 2017-08-19 0950 LZ0AR        181  187       LZ0AM        211  178 
+QSO:  3514 CW 2017-08-19 0932 LZ0AR        161  163       LZ0AM        186  162 
 
 ERROR_RECEIVE:
 QSO:  3514 CW 2017-08-19 0955 LZ0AR        184  199       LZ0AL        118  118 

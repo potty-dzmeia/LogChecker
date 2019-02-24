@@ -1,0 +1,64 @@
+ -when  ERROR_DUPE
+ Add the first QSO
+ ERROR_DUPE:
+QSO:  3522 CW 2017-08-19 1053 LZ0AN        287  259       LZ0AW        281  255 
+ 
+ - when 
+ ERROR_PARTNER_DUPE:
+QSO:  3523 CW 2017-08-19 0741 LZ0AD        048  050       LZ0AC        042  042 
+QSO:  3524 CW 2017-08-19 0741 LZ0AC        042  042       LZ0AD        048  050 
+add the first qso from the corresponding log (so that it is visible that is a dupe)
+ 
+ - isCrossCheckFailed does not check if the correspoding QSO is valid or not (should be fixed)
+ - should be decided if we should stop crosschecking if we find one failed exchange or we should continue to search for another
+    And in particular this example:
+
+In LZ0DA log:
+QSO:  3553 CW 2017-08-19 0801 LZ0DA         068 069       LZ0DJ         068 068
+
+In LZ0DJ log:
+QSO:  3554 CW 2017-08-19 0800 LZ0DJ         067 066       LZ0DA         068 069     
+QSO:  3554 CW 2017-08-19 0801 LZ0DJ         068 068       LZ0DA         068 069    
+
+
+LZ0DJ - УБН:
+QSO  57 : 3550  CW  0751  LZ0AU : [LZ0AU QSO:28], Partner error (057 046/057 056)
+QSO  67 : 3554  CW  0800  LZ0DA : [LZ0DA QSO:68], Partner error (068 068/067 066)       
+QSO 184 : 3554  CW  0935  LZ0AL : [LZ0AL QSO:161], Receive error (160 158/161 158)
+QSO 256 : 3551  CW  1038  LZ0AU : [LZ0AU QSO:128], Partner error (246 256/256 256)
+  
+ 
+ 
+ 
+
+ 
+Oще един потенциален проблем при връзки от подобен тип:
+
+QSO:  3557 CW 2017-08-19 1100 LZ0AA         258 266       LZ0FC         259 244
+
+QSO:  3557 CW 2017-08-19 1059 LZ0FC         259 244       LZ0AA         258 266
+
+
+UBN на LZ0FC
+QSO  59 : 3551    CW    0802    LZ0AU    : [LZ0AU QSO:33], Receive error (035 072/034 072)
+QSO  90 : 3535    CW    0832    LZ0FZ    : [LZ0FZ QSO:38], Partner error (090 010/090 110)
+QSO 105 : 3557    CW    0848    LZ0AV    : [LZ0AV QSO:117], Receive error (017 081/117 081)
+QSO 139 : 3557    CW    0919    LZ0AV    : [LZ0AV QSO:154], Receive error (054 077/154 077)
+QSO 197 : 3524    CW    1009    LZ0AC    : NotInLog [LZ0AC]
+
+UBN na LZ0AA
+QSO  18 : 3532    CW    0728    LZ0FY    : [LZ0FY QSO:31], Partner error (017 006/018 006)
+QSO  32 : 3532    CW    0736    LZ0AM    : [LZ0AM QSO:44], Receive error (040 049/044 049)
+QSO  57 : 3532    CW    0804    LZ0DU    : [LZ0DU QSO:8], Partner bad callsign (LZ0DP/LZ0AA [2]), Partner error (064 073/057 068)
+QSO  67 : 3532    CW    0807    LZ0DN    : Duplicate [QSO 55] 4 minute(s) offset
+QSO 110 : 3532    CW    0848    LZ0DX    : [LZ0DX QSO:56], Partner bad callsign (LZ0AJ/LZ0AA [1]), Partner error (135 134/110 112)
+QSO 116 : 3550    CW    0858    LZ0AU    : [LZ0AU QSO:67], Partner error (116 112/116 133)
+QSO 201 : 3532    CW    1019    LZ0AC    : NotInLog [LZ0AC]
+QSO 216 : 3532    CW    1025    LZ0AR    : [LZ0AR QSO:219], Partner error (126 196/216 196)
+QSO 227 : 3525    CW    1037    LZ0FA    : [LZ0FA QSO:230], Receive error (235 198/235 197)
+QSO 248 : 3514    CW    1055    LZ0AR    : [LZ0AR QSO:257], Partner error (248 292/248 293)
+QSO 257 : 3544    CW    1100    LZ0DN    : Time not in tournament range
+QSO 258 : 3557    CW    1100    LZ0FC    : Time not in tournament range
+
+За LZ0AA връзката е невалидна, а за LZ0FC е валидна. Мисля, че логически това не състоятелно.
+Ако отпадне за един трябва да отпадне и за друг. Не може да признаваме връзка половинчато.

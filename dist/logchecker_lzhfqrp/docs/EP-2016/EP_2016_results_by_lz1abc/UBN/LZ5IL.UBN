@@ -1,0 +1,31 @@
+UBN for: LZ5IL
+Name: Владимир Недев
+
+--------------------------------------------------------------------------------
+Total QSOs: 36
+Confirmed QSOs: 29
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  7180 PH 2016-12-26 0704 LZ5IL        004  EP        LZ1KKZ       002  001 
+
+ERROR_PARTNER_LOG_MISSING:
+QSO:  7180 PH 2016-12-26 0707 LZ5IL        007  EP        LZ1KZ        001  000 
+
+ERROR_PARTNER_LOG_MISSING:
+QSO:  7180 PH 2016-12-26 0740 LZ5IL        014  EP        LZ1KZ        006  016 
+
+ERROR_RECEIVE:
+QSO:  7175 PH 2016-12-26 0750 LZ5IL        017  EP        LZ3FM        015  005 
+QSO:  7175 PH 2016-12-26 0750 LZ3FM        015  006       LZ5IL        017  EP  
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7180 PH 2016-12-26 0808 LZ5IL        022  EP        LZ2CW        016  016 
+QSO:  7100 PH 2016-12-26 0807 LZ2CW        015  016       LZ5IL        023  022 
+
+ERROR_PARTNER_LOG_MISSING:
+QSO:  7180 PH 2016-12-26 0811 LZ5IL        024  EP        LZ1KZ        012  027 
+
+ERROR_PARTNER_LOG_MISSING:
+QSO:  7178 PH 2016-12-26 0841 LZ5IL        032  EP        LZ1KZ        016  017 
+

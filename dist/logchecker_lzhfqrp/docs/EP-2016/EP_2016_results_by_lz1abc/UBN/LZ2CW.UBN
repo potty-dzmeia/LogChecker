@@ -1,0 +1,31 @@
+UBN for: LZ2CW
+Name: Валентин Миков
+
+--------------------------------------------------------------------------------
+Total QSOs: 26
+Confirmed QSOs: 20
+--------------------------------------------------------------------------------
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7100 PH 2016-12-26 0718 LZ2CW        006  005       LZ1KKZ       004  006 
+QSO:  7164 PH 2016-12-26 0720 LZ1KKZ       004  006       LZ2CW        005  006 
+
+ERROR_DUPE:
+QSO:  7100 PH 2016-12-26 0751 LZ2CW        013  027       LZ1KDP       023  016 
+QSO:  7100 PH 2016-12-26 0722 LZ2CW        007  004       LZ1KDP       009  007 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7100 PH 2016-12-26 0807 LZ2CW        015  016       LZ5IL        023  022 
+QSO:  7180 PH 2016-12-26 0808 LZ5IL        022  EP        LZ2CW        016  016 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7100 PH 2016-12-26 0815 LZ2CW        016  023       LZ3ZZ        036  041 
+QSO:  7152 PH 2016-12-26 0816 LZ3ZZ        036  041       LZ2CW        016  022 
+
+ERROR_NOT_IN_LOG:
+QSO:  7100 PH 2016-12-26 0846 LZ2CW        022  033       LZ3ZZ        049  018 
+
+ERROR_RECEIVE:
+QSO:  7100 PH 2016-12-26 0856 LZ2CW        026  066       LZ1KDP       056  013 
+QSO:  7127 PH 2016-12-26 0857 LZ1KDP       055  013       LZ2CW        026  066 
+

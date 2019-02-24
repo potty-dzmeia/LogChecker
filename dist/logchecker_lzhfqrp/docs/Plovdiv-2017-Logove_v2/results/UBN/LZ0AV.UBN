@@ -1,0 +1,43 @@
+UBN for: LZ0AV
+Name: Тодор Тодоров LZ4AW
+
+--------------------------------------------------------------------------------
+Total QSOs: 267
+Confirmed QSOs: 258
+--------------------------------------------------------------------------------
+
+ERROR_RECEIVE:
+QSO:  3523 CW 2017-08-19 0713 LZ0AV        014  020       LZ0AK        017  016 
+QSO:  3523 CW 2017-08-19 0713 LZ0AK        018  022       LZ0AV        014  020 
+
+ERROR_DUPE:
+QSO:  3523 CW 2017-08-19 0725 LZ0AV        026  033       LZ0AC        027  026 
+QSO:  3523 CW 2017-08-19 0725 LZ0AV        026  033       LZ0AC        027  026 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3542 CW 2017-08-19 0748 LZ0AV        052  058       LZ0AT        066  056 
+QSO:  3542 CW 2017-08-19 0748 LZ0AT        066  056       LZ0AV        051  049 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3557 CW 2017-08-19 0848 LZ0AV        117  081       LZ0FC        105  110 
+QSO:  3557 CW 2017-08-19 0848 LZ0FC        105  110       LZ0AV        017  081 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3557 CW 2017-08-19 0919 LZ0AV        154  077       LZ0FC        139  144 
+QSO:  3557 CW 2017-08-19 0919 LZ0FC        139  144       LZ0AV        054  077 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3523 CW 2017-08-19 0948 LZ0AV        185  186       LZ0AL        173  195 
+QSO:  3523 CW 2017-08-19 0948 LZ0AL        173  195       LZ0AV        185  176 
+
+ERROR_NOT_IN_LOG:
+QSO:  3523 CW 2017-08-19 1016 LZ0AV        217  167       LZ0AC        141  232 
+
+ERROR_RECEIVE:
+QSO:  3528 CW 2017-08-19 1029 LZ0AV        231  187       LZ0FD        241  250 
+QSO:  3500 CW 2017-08-19 1029 LZ0FD        241  259       LZ0AV        231  187 
+
+ERROR_RECEIVE:
+QSO:  3528 CW 2017-08-19 1059 LZ0AV        267  222       LZ0FD        276  268 
+QSO:  3500 CW 2017-08-19 1059 LZ0FD        276  298       LZ0AV        267  222 
+

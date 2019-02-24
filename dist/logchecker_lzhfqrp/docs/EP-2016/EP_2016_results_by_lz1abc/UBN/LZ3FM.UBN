@@ -1,0 +1,36 @@
+UBN for: LZ3FM
+Name: Пламен Тодоров
+
+--------------------------------------------------------------------------------
+Total QSOs: 38
+Confirmed QSOs: 30
+--------------------------------------------------------------------------------
+
+ERROR_NOT_IN_LOG:
+QSO:  7118 PH 2016-12-26 0719 LZ3FM        006  005       LZ3OB        002  006 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7175 PH 2016-12-26 0750 LZ3FM        015  006       LZ5IL        017  EP  
+QSO:  7175 PH 2016-12-26 0750 LZ5IL        017  EP        LZ3FM        015  005 
+
+ERROR_NOT_IN_LOG:
+QSO:  7120 PH 2016-12-26 0755 LZ3FM        018  014       LZ3OB        010  013 
+
+ERROR_RECEIVE:
+QSO:  7120 PH 2016-12-26 0825 LZ3FM        028  037       LZ1RSS       029  EP  
+QSO:  7120 PH 2016-12-26 0825 LZ1RSS       022  EP        LZ3FM        028  037 
+
+ERROR_NOT_IN_LOG:
+QSO:  7155 PH 2016-12-26 0828 LZ3FM        029  029       LZ1EV        052  009 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7152 PH 2016-12-26 0840 LZ3FM        032  044       LZ3ZZ        045  031 
+QSO:  7152 PH 2016-12-26 0840 LZ3ZZ        045  031       LZ3FM        032  041 
+
+ERROR_RECEIVE:
+QSO:  7162 PH 2016-12-26 0844 LZ3FM        033  045       LZ2BE        056  051 
+QSO:  7162 PH 2016-12-26 0844 LZ2BE        055  061       LZ3FM        033  045 
+
+ERROR_NOT_IN_LOG:
+QSO:  7158 PH 2016-12-26 0856 LZ3FM        037  050       LZ3OB        018  028 
+

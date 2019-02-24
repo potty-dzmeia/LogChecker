@@ -1,0 +1,52 @@
+UBN for: LZ0AN
+Name: Âëàäèìèð Ëàçàðîâ LZ2PL
+
+--------------------------------------------------------------------------------
+Total QSOs: 291
+Confirmed QSOs: 278
+--------------------------------------------------------------------------------
+
+ERROR_RECEIVE:
+QSO:  3538 CW 2016-08-20 0827 LZ0AN        033  033       LZ0DG        038  023 
+QSO:  3537 CW 2016-08-20 0827 LZ0DG        033  010       LZ0AN        033  033 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3519 CW 2016-08-20 0847 LZ0AN        057  053       LZ0FV        060  051 
+QSO:  3519 CW 2016-08-20 0847 LZ0FV        060  051       LZ0AN        057  054 
+
+ERROR_NOT_IN_LOG:
+QSO:  3538 CW 2016-08-20 0906 LZ0AN        080  091       LZ0DY        065  081 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3562 CW 2016-08-20 0908 LZ0AN        082  089       LZ0AD        049  082 
+QSO:  3562 CW 2016-08-20 0908 LZ0AD        049  082       LZ0AN        080  089 
+
+ERROR_NOT_IN_LOG:
+QSO:  3512 CW 2016-08-20 0920 LZ0AN        095  090       LZ0AK        094  094 
+
+ERROR_NOT_IN_LOG:
+QSO:  3538 CW 2016-08-20 0937 LZ0AN        116  113       LZ0DY        102  116 
+
+ERROR_NOT_IN_LOG:
+QSO:  3538 CW 2016-08-20 1008 LZ0AN        153  153       LZ0DY        140  147 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3563 CW 2016-08-20 1012 LZ0AN        157  146       LZ0DC        090  167 
+QSO:  3500 CW 2016-08-20 1012 LZ0DC        090  167       LZ0AN        157  136 
+
+ERROR_NOT_IN_LOG:
+QSO:  3537 CW 2016-08-20 1051 LZ0AN        203  037       LZ0DY        192  117 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3511 CW 2016-08-20 1116 LZ0AN        231  219       LZ0DR        202  201 
+QSO:  3564 CW 2016-08-20 1116 LZ0DR        202  201       LZ0AN        241  219 
+
+ERROR_NOT_IN_LOG:
+QSO:  3537 CW 2016-08-20 1131 LZ0AN        255  254       LZ0DY        243  255 
+
+ERROR_NOT_IN_LOG:
+QSO:  3538 CW 2016-08-20 1145 LZ0AN        271  233       LZ0FG        260  280 
+
+ERROR_NOT_IN_LOG:
+QSO:  3560 CW 2016-08-20 1152 LZ0AN        281  266       LZ0FR        080  271 
+

@@ -27,4 +27,5 @@ def getFileEncoding(filename):
     """
     raw = open(filename, "rb").read()
     dammit = UnicodeDammit(raw)
+
     return dammit.original_encoding

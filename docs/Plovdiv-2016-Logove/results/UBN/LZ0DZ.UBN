@@ -1,0 +1,54 @@
+UBN for: LZ0DZ
+Name: Tony
+
+--------------------------------------------------------------------------------
+Total QSOs: 281
+Confirmed QSOs: 268
+--------------------------------------------------------------------------------
+
+ERROR_RECEIVE:
+QSO:  3534 CW 2016-08-20 0801 LZ0DZ        001  000       LZ0FF        003  002 
+QSO:  3534 CW 2016-08-20 0801 LZ0FF        004  002       LZ0DZ        001  000 
+
+ERROR_RECEIVE:
+QSO:  3537 CW 2016-08-20 0803 LZ0DZ        003  003       LZ0DY        002  002 
+QSO:  3537 CW 2016-08-20 0805 LZ0DY        002  001       LZ0DZ        003  003 
+
+ERROR_RECEIVE:
+QSO:  3532 CW 2016-08-20 0805 LZ0DZ        007  008       LZ0DT        008  009 
+QSO:  3532 CW 2016-08-20 0805 LZ0DT        008  008       LZ0DZ        007  008 
+
+ERROR_RECEIVE:
+QSO:  3532 CW 2016-08-20 0807 LZ0DZ        010  015       LZ0AZ        010  012 
+QSO:  3532 CW 2016-08-20 0806 LZ0AZ        011  012       LZ0DZ        010  015 
+
+ERROR_NOT_IN_LOG:
+QSO:  3524 CW 2016-08-20 0818 LZ0DZ        021  027       LZ0DM        008  013 
+
+ERROR_RECEIVE:
+QSO:  3532 CW 2016-08-20 0848 LZ0DZ        051  053       LZ0AX        059  092 
+QSO:  3532 CW 2016-08-20 0848 LZ0AX        059  062       LZ0DZ        051  053 
+
+ERROR_NOT_IN_LOG:
+QSO:  3553 CW 2016-08-20 0926 LZ0DZ        092  057       LZ0AJ        092  093 
+
+ERROR_NOT_IN_LOG:
+QSO:  3555 CW 2016-08-20 0928 LZ0DZ        095  092       LZ0AY        098  086 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3532 CW 2016-08-20 0929 LZ0DZ        098  122       LZ0DF        105  107 
+QSO:  3532 CW 2016-08-20 0930 LZ0DF        107  105       LZ0DZ        100  103 
+
+ERROR_NOT_IN_LOG:
+QSO:  3532 CW 2016-08-20 1005 LZ0DZ        139  147       LZ0AX        144  154 
+
+ERROR_NOT_IN_LOG:
+QSO:  3537 CW 2016-08-20 1018 LZ0DZ        154  177       LZ0DY        148  145 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3532 CW 2016-08-20 1028 LZ0DZ        167  124       LZ0DC        103  177 
+QSO:  3500 CW 2016-08-20 1027 LZ0DC        103  177       LZ0DZ        167  125 
+
+ERROR_NOT_IN_LOG:
+QSO:  3537 CW 2016-08-20 1119 LZ0DZ        229  219       LZ0DY        229  229 
+

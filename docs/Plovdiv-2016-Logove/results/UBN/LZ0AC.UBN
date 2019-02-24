@@ -1,0 +1,39 @@
+UBN for: LZ0AC
+Name: Âàëåíòèí Íàéäåíîâ LZ2XA
+
+--------------------------------------------------------------------------------
+Total QSOs: 288
+Confirmed QSOs: 280
+--------------------------------------------------------------------------------
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3513 CW 2016-08-20 0811 LZ0AC        016  012       LZ0FN        006  012 
+QSO:  3513 CW 2016-08-20 0810 LZ0FN        006  012       LZ0AC        015  012 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3574 CW 2016-08-20 0845 LZ0AC        058  048       LZ0FP        040  054 
+QSO:  3574 CW 2016-08-20 0845 LZ0FP        041  054       LZ0AC        057  048 
+
+ERROR_RECEIVE:
+QSO:  3543 CW 2016-08-20 0904 LZ0AC        079  055       LZ0FX        041  075 
+QSO:  3543 CW 2016-08-20 0904 LZ0FX        031  075       LZ0AC        079  055 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  3518 CW 2016-08-20 0913 LZ0AC        092  084       LZ0FG        082  072 
+QSO:  3518 CW 2016-08-20 0913 LZ0FG        082  072       LZ0AC        092  074 
+
+ERROR_RECEIVE:
+QSO:  3515 CW 2016-08-20 0949 LZ0AC        133  116       LZ0AU        148  107 
+QSO:  3515 CW 2016-08-20 0949 LZ0AU        138  107       LZ0AC        133  116 
+
+ERROR_RECEIVE:
+QSO:  3573 CW 2016-08-20 1020 LZ0AC        169  181       LZ0FP        122  156 
+QSO:  3573 CW 2016-08-20 1020 LZ0FP        122  153       LZ0AC        169  181 
+
+ERROR_RECEIVE:
+QSO:  3524 CW 2016-08-20 1053 LZ0AC        210  195       LZ0DN        211  181 
+QSO:  3524 CW 2016-08-20 1053 LZ0DN        212  181       LZ0AC        210  195 
+
+ERROR_NOT_IN_LOG:
+QSO:  3537 CW 2016-08-20 1105 LZ0AC        225  219       LZ0DY        210  245 
+

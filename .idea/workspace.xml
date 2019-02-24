@@ -2,62 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7832dd0-4482-4cf9-aa7f-da5492246e6e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/LogChecker.iml" afterPath="$PROJECT_DIR$/.idea/LogChecker.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1DKL.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1DKL.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1DQ.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1DQ.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1EV.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1EV.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1FFF.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1FFF.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1GG.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1GG.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1IA.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1IA.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1KCO.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1KCO.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1KDP.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1KDP.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1KKZ.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1KKZ.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1KSA.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1KSA.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1MC.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1MC.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1MDK.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1MDK.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1ND.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1ND.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1PV.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1PV.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1QZ.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1QZ.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1RSS.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1RSS.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1VDR.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1VDR.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1VVD.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1VVD.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1WF.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1WF.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1XE.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1XE.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1ZB.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1ZB.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1ZX.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1ZX.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2BE.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2BE.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2CW.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2CW.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2GG.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2GG.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2JOW.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2JOW.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2KSB.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2KSB.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2OQV.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2OQV.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2YO.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2YO.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3BB.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3BB.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3FM.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3FM.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3OB.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3OB.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3PZ.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3PZ.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3RM.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3RM.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3SD.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3SD.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3ZZ.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3ZZ.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ4UG.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ4UG.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ5CT.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ5CT.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ5EO.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ5EO.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ5IL.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ5IL.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ5O_P.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ5O_P.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ60KSB.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ60KSB.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ7DX.UBN" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ7DX.UBN" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/results.csv" afterPath="$PROJECT_DIR$/docs/EP-2016/results/results.csv" />
-      <change beforePath="$PROJECT_DIR$/logchecker.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logchecker_lzhfqrp.py" afterPath="$PROJECT_DIR$/logchecker_lzhfqrp.py" />
-      <change beforePath="$PROJECT_DIR$/participant.py" afterPath="$PROJECT_DIR$/participant.py" />
-      <change beforePath="$PROJECT_DIR$/qso.py" afterPath="$PROJECT_DIR$/qso.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AA.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AC.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AD.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AF.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AG.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AJ.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AK.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AL.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AM.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AN.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AP.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AR.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AT.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AU.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AV.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AW.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AX.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AY.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0AZ.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DA.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DC.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DD.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DF.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DG.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DJ.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DK.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DL.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DM.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DN.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DR.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DT.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DW.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DX.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DY.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0DZ.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FA.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FD.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FF.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FG.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FJ.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FL.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FM.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FN.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FP.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FR.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FT.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FU.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FV.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FX.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FY.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-UBN_lz1abc/LZ0FZ.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove_v2/results/.~lock.comparison.xls#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove_v2/results/comparison.xls" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Plovdiv-2017-Logove_v2/results/comparison.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AA.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AC.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AD.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AF.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AG.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AJ.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AK.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AL.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AM.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AN.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AP.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AR.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AT.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AU.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AV.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AW.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AX.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AY.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DA.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DC.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DD.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DF.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DG.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DJ.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DK.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DL.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DM.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DN.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DP.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DR.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DT.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DU.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DV.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DW.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DX.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DY.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DZ.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FA.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FC.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FD.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FF.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FG.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FJ.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FK.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FX.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FY.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FZ.UBN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/lz0an_ubn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/official_results.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logchecker_lzhfqrp.py" beforeDir="false" afterPath="$PROJECT_DIR$/logchecker_lzhfqrp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_utils.py" afterDir="false" />
     </list>
     <ignored path="LogChecker.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,16 +120,53 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="318959901">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="19" />
+          <entry key="py" value="2428" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="2428" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="15" />
+          <entry key="spec" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="15" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="LogChecker" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="logchecker_lzhfqrp.py" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="290" column="51" lean-forward="true" selection-start-line="290" selection-start-column="51" selection-end-line="290" selection-end-column="51" />
+            <state relative-caret-position="310">
+              <caret line="385" column="130" selection-start-line="375" selection-start-column="9" selection-end-line="385" selection-end-column="130" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -83,41 +174,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logging.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logging.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1020">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_utils.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="514">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qso.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/bs4/dammit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4777">
+              <caret line="390" column="34" selection-start-line="390" selection-start-column="17" selection-end-line="390" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files (x86)/Python37-32/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="327" selection-start-line="327" selection-end-line="327" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qso.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="115" column="16" lean-forward="false" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="16" />
+            <state relative-caret-position="162">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -125,24 +213,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="participant.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/participant.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="86" column="34" lean-forward="false" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -158,15 +233,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Not in log</find>
-      <find>0an</find>
-      <find>unknow</find>
-      <find>isOutsideTheTimeFrame</find>
-      <find>removeTimeRuleViolations</find>
-      <find>removeQsoOutdsideTheContest</find>
-      <find>check</find>
-      <find>crossCheck</find>
-      <find>remove</find>
       <find>parse</find>
       <find>ERROR_UNKNOWN_FORMATTING</find>
       <find>lz0aj</find>
@@ -185,9 +251,18 @@
       <find>checkLog</find>
       <find>time_date</find>
       <find>time_d</find>
-      <find>isDupe</find>
       <find>ep</find>
       <find>writeResults</find>
+      <find>removeQsoOutdsideTheContest</find>
+      <find>isIntervalSmallerThan</find>
+      <find>isDupe</find>
+      <find>30</find>
+      <find>print</find>
+      <find>DATE_TIME_FORMAT</find>
+      <find>WINDOWS_1252_TO_UTF8</find>
+      <find>original_encoding</find>
+      <find>encodi</find>
+      <find>list_classification_</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,42 +273,32 @@
       <list>
         <option value="$PROJECT_DIR$/docs/contester.py" />
         <option value="$PROJECT_DIR$/contester.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/logchecker.py" />
         <option value="$PROJECT_DIR$/logchecker2.py" />
         <option value="$PROJECT_DIR$/logging.conf" />
         <option value="$PROJECT_DIR$/docs/utils.py" />
         <option value="$PROJECT_DIR$/utils.py" />
-        <option value="$PROJECT_DIR$/my_utils.py" />
         <option value="$PROJECT_DIR$/qso.py" />
         <option value="$PROJECT_DIR$/docs/participant_ep.py" />
         <option value="$PROJECT_DIR$/participant_ep.py" />
-        <option value="$PROJECT_DIR$/logchecker_lzhfqrp.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/participant.py" />
+        <option value="$PROJECT_DIR$/my_utils.py" />
+        <option value="$PROJECT_DIR$/logchecker_lzhfqrp.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="50" />
-    <option name="width" value="1870" />
-    <option name="height" value="1036" />
+    <option name="x" value="265" />
+    <option name="y" value="-554" />
+    <option name="width" value="1248" />
+    <option name="height" value="680" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,22 +310,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Scripts/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -277,129 +342,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.logchecker2">
-    <configuration name="logchecker" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LogChecker" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logchecker.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-    </configuration>
-    <configuration name="logchecker2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LogChecker" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logchecker_lzhfqrp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="participant" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LogChecker" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/participant.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="pydevd" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/helpers/pydev" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LogChecker" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="qso" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LogChecker" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qso.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LogChecker" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LogChecker" />
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -419,111 +361,131 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
+    <configuration name="codecs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LogChecker" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="C:/Program Files (x86)/Python37-32/Lib" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LogChecker" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
+      <option name="SCRIPT_NAME" value="C:/Program Files (x86)/Python37-32/Lib/codecs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
+    <configuration name="logchecker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LogChecker" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LogChecker" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logchecker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
+    <configuration name="logchecker2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LogChecker" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LogChecker" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logchecker_lzhfqrp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
+    <configuration name="participant" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LogChecker" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LogChecker" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/participant.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.logchecker" />
-      <item index="1" class="java.lang.String" itemvalue="Python.pydevd" />
-      <item index="2" class="java.lang.String" itemvalue="Python.logchecker2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.qso" />
-      <item index="4" class="java.lang.String" itemvalue="Python.participant" />
+    <configuration name="qso" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LogChecker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qso.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.logchecker" />
+      <item itemvalue="Python.logchecker2" />
+      <item itemvalue="Python.qso" />
+      <item itemvalue="Python.participant" />
+      <item itemvalue="Python.codecs" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.logchecker2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.participant" />
-        <item index="2" class="java.lang.String" itemvalue="Python.qso" />
-        <item index="3" class="java.lang.String" itemvalue="Python.logchecker" />
-        <item index="4" class="java.lang.String" itemvalue="Python.pydevd" />
+      <list>
+        <item itemvalue="Python.logchecker2" />
+        <item itemvalue="Python.codecs" />
+        <item itemvalue="Python.participant" />
+        <item itemvalue="Python.qso" />
+        <item itemvalue="Python.logchecker" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -538,39 +500,38 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="0" width="1872" height="1040" extended-state="6" />
+    <frame x="111" y="-1058" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2513369" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.506424" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.49357602" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32707182" sideWeight="0.56584585" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889503" sideWeight="0.49357602" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.506424" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.49357602" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3265086" sideWeight="0.56584585" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25184405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39870688" sideWeight="0.49357602" order="3" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19059107" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.52714115" visible="true" weight="0.32475883" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49357602" weight="0.46730974" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Changes" order="8" />
+      <window_info anchor="bottom" id="Application Servers" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24651662" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49357602" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.47285888" side_tool="true" visible="true" weight="0.32475883" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -586,13 +547,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/participant.py</url>
-          <line>77</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -600,15 +554,12 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="76" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="worked_ep_stations" language="Python" />
-        <watch expression="self.getPoints()" />
-        <watch expression="self.validQsoCount()*2" language="Python" />
-        <watch expression="self.validQsoCount()" language="Python" />
-        <watch expression="participants[p].callsign" />
+        <watch expression="qso.his_call" language="Python" />
+        <watch expression="q.his_call" language="Python" />
+        <watch expression="participant.name" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -631,6 +582,26 @@
       </expression>
     </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>participant.name</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>q.his_call</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>qso.his_call</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>q.error_code</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>worked_ep_stations</expression-string>
         <language-id>Python</language-id>
@@ -661,273 +632,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>qso1.date_time - qso2.date_time</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>diff = qso1.date_time - qso2.date_time</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>qso2.date_time.timestamp()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>qso1.date_time.timestamp() &gt; qso2.date_time.timestamp()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/lib/python3.6/datetime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1404" column="8" lean-forward="false" selection-start-line="1404" selection-start-column="8" selection-end-line="1404" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/844600851/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3624" column="8" lean-forward="false" selection-start-line="3624" selection-start-column="8" selection-end-line="3624" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1663" column="19" lean-forward="false" selection-start-line="1663" selection-start-column="19" selection-end-line="1663" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misc_utils.py" />
-    <entry file="file:///usr/local/lib/python3.6/configparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="958" column="0" lean-forward="false" selection-start-line="958" selection-start-column="0" selection-end-line="958" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logging.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6300">
-          <caret line="321" column="0" lean-forward="false" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qso.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3320">
-          <caret line="166" column="52" lean-forward="false" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="95" column="23" lean-forward="false" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/participant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="41" column="68" lean-forward="false" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5457">
-          <caret line="321" column="0" lean-forward="false" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qso.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2822">
-          <caret line="166" column="52" lean-forward="false" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/participant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="68" lean-forward="false" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5355">
-          <caret line="321" column="0" lean-forward="false" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qso.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2822">
-          <caret line="166" column="52" lean-forward="false" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/participant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="68" lean-forward="false" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6420">
-          <caret line="321" column="0" lean-forward="false" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2500">
-          <caret line="129" column="129" lean-forward="false" selection-start-line="129" selection-start-column="129" selection-end-line="129" selection-end-column="129" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logchecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.4/codecs.py" />
     <entry file="file://$USER_HOME$/.virtualenvs/LogChecker-Gt4Z59R5/lib/python3.6/site-packages/chardet/universaldetector.py" />
     <entry file="file://$USER_HOME$/.virtualenvs/LogChecker-Gt4Z59R5/lib/python3.6/site-packages/chardet/__init__.py" />
@@ -936,101 +643,109 @@
     <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/844600851/builtins.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1663" column="19" lean-forward="false" selection-start-line="1663" selection-start-column="19" selection-end-line="1663" selection-end-column="19" />
+        <state>
+          <caret line="1663" column="19" selection-start-line="1663" selection-start-column="19" selection-end-line="1663" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state>
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/misc_utils.py" />
     <entry file="file:///usr/local/lib/python3.6/configparser.py" />
-    <entry file="file://$PROJECT_DIR$/logchecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6300">
-          <caret line="321" column="0" lean-forward="false" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logchecker.py" />
     <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-388370759/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/participant_ep.py" />
+    <entry file="file://$PROJECT_DIR$/Pipfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-250" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/argparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="1321" column="8" selection-start-line="1321" selection-start-column="8" selection-end-line="1321" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_utils.py">
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/encodings/cp1252.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logging.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="96">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qso.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="115" column="16" lean-forward="false" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="16" />
+        <state relative-caret-position="162">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/participant_ep.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1384526572/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="263">
+          <caret line="423" column="74" lean-forward="true" selection-start-line="423" selection-start-column="74" selection-end-line="423" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pipfile">
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="148">
+          <caret line="327" selection-start-line="327" selection-end-line="327" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/bs4/dammit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4777">
+          <caret line="390" column="34" selection-start-line="390" selection-start-column="17" selection-end-line="390" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/participant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="86" column="34" lean-forward="false" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="290" column="51" lean-forward="true" selection-start-line="290" selection-start-column="51" selection-end-line="290" selection-end-column="51" />
+        <state relative-caret-position="310">
+          <caret line="385" column="130" selection-start-line="375" selection-start-column="9" selection-end-line="385" selection-end-column="130" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

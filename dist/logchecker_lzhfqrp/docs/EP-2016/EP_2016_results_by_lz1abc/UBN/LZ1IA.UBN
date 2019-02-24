@@ -1,0 +1,25 @@
+UBN for: LZ1IA
+Name: Иван Александров
+
+--------------------------------------------------------------------------------
+Total QSOs: 29
+Confirmed QSOs: 24
+--------------------------------------------------------------------------------
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7100 PH 2016-12-26 0728 LZ1IA        006  EP        LZ1PV        003  008 
+QSO:  7167 PH 2016-12-26 0729 LZ1PV        003  008       LZ1IA        005  EP  
+
+ERROR_NOT_IN_LOG:
+QSO:  7100 PH 2016-12-26 0738 LZ1IA        008  EP        LZ3OB        006  011 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7100 PH 2016-12-26 0746 LZ1IA        011  EP        LZ1KDP       019  004 
+QSO:  7127 PH 2016-12-26 0746 LZ1KDP       019  004       LZ1IA        011  1EP 
+
+ERROR_NOT_IN_LOG:
+QSO:  7100 PH 2016-12-26 0853 LZ1IA        025  EP        LZ1EV        066  015 
+
+ERROR_NOT_IN_LOG:
+QSO:  7100 PH 2016-12-26 0856 LZ1IA        028  EP        LZ3OB        017  049 
+

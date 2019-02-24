@@ -1,0 +1,33 @@
+UBN for: LZ3ZZ
+Name: Алеко Иглев
+
+--------------------------------------------------------------------------------
+Total QSOs: 51
+Confirmed QSOs: 44
+--------------------------------------------------------------------------------
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7152 PH 2016-12-26 0733 LZ3ZZ        013  015       LZ1QZ        005  014 
+QSO:  7152 PH 2016-12-26 0733 LZ1QZ        005  014       LZ3ZZ        016  015 
+
+ERROR_NOT_IN_LOG:
+QSO:  7152 PH 2016-12-26 0811 LZ3ZZ        034  008       LZ1GG        007  EP  
+
+ERROR_NOT_IN_LOG:
+QSO:  7152 PH 2016-12-26 0811 LZ3ZZ        035  007       LZ1EV        041  023 
+
+ERROR_RECEIVE:
+QSO:  7152 PH 2016-12-26 0816 LZ3ZZ        036  041       LZ2CW        016  022 
+QSO:  7100 PH 2016-12-26 0815 LZ2CW        016  023       LZ3ZZ        036  041 
+
+ERROR_RECEIVE:
+QSO:  7152 PH 2016-12-26 0840 LZ3ZZ        045  031       LZ3FM        032  041 
+QSO:  7152 PH 2016-12-26 0840 LZ3FM        032  044       LZ3ZZ        045  031 
+
+ERROR_NOT_IN_LOG:
+QSO:  7152 PH 2016-12-26 0849 LZ3ZZ        049  018       LZ2CW        022  033 
+
+ERROR_PARTNER_RECEIVE:
+QSO:  7152 PH 2016-12-26 0850 LZ3ZZ        050  022       LZ1KCO       008  051 
+QSO:  7163 PH 2016-12-26 0850 LZ1KCO       008  051       LZ3ZZ        070  022 
+
