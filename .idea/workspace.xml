@@ -2,582 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7832dd0-4482-4cf9-aa7f-da5492246e6e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/LogChecker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LogChecker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logchecker_lzhfqrp/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/logchecker_lzhfqrp/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logchecker_lzhfqrp/COLLECT-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/logchecker_lzhfqrp/COLLECT-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logchecker_lzhfqrp/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/logchecker_lzhfqrp/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logchecker_lzhfqrp/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/logchecker_lzhfqrp/PKG-00.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logchecker_lzhfqrp/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/logchecker_lzhfqrp/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logchecker_lzhfqrp/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/logchecker_lzhfqrp/PYZ-00.pyz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logchecker_lzhfqrp/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/logchecker_lzhfqrp/PYZ-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logchecker_lzhfqrp/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/logchecker_lzhfqrp/base_library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logchecker_lzhfqrp/logchecker_lzhfqrp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/build/logchecker_lzhfqrp/logchecker_lzhfqrp.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/VCRUNTIME140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/_bz2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/_hashlib.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/_lzma.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/_queue.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/_socket.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/_ssl.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1DKL.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1DQ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1EV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1FFF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1GG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1IA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1KCO.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1KDP.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1KKZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1KSA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1MC.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1MDK.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1ND.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1PV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1QZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1RSS.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1VDR.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1VVD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1WF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1XE.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1ZB.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ1ZX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ2BE.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ2CW.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ2GG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ2JOW.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ2KSB.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ2OQV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ2YO.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ3BB.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ3FM.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ3OB.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ3PZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ3RM.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ3SD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ3ZZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ4UG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ5CT.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ5EO.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ5IL.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ5O_P.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ60KSB.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/UBN/LZ7DX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/results_A.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/EP_2016_results_by_lz1abc/results_B.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1DKL.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1DQ.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1EV.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1FFF.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1GG.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1IA.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1KCO.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1KDP.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1KKZ.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1KSA.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1MC.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1MDK.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1ND.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1PV.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1QZ.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1RSS.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1VDR.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1VVD.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1WF.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1XE.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1ZB.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ1ZX.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ2BE.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ2CW.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ2GG.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ2JOW.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ2KSB.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ2OQV.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ2YO.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ3BB.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ3FM.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ3OB.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ3PZ .CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ3RM.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ3SD.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ3ZZ.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ4UG.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ5CT.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ5EO.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ5IL.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ5O_p.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ60KSB.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/LZ7DX.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1DKL.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1DQ.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1EV.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1FFF.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1KCO.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1KDP.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1KSA.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1MDK.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1PV.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1QZ.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1VDR.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1VVD.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1WF.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1ZB.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ1ZX.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ2BE.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ2CW.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ2JOW.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ2OQV.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ2YO.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ3BB.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ3FM.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ3OB.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ3PZ .CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ3SD.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ3ZZ.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ4UG.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ5CT.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ5EO.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ5O_p.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ60KSB.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/A/LZ7DX.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/CLOG/LZ1KKZ.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/EP/LZ1GG.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/EP/LZ1IA.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/EP/LZ1MC.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/EP/LZ1ND.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/EP/LZ1RSS.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/EP/LZ1XE.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/EP/LZ2GG.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/EP/LZ2KSB.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/EP/LZ3RM.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/Members/EP/LZ5IL.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1DKL.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1DQ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1EV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1FFF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1GG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1IA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1KCO.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1KDP.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1KKZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1KSA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1MC.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1MDK.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1ND.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1PV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1QZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1RSS.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1VDR.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1VVD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1WF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1XE.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1ZB.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ1ZX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ2BE.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ2CW.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ2GG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ2JOW.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ2KSB.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ2OQV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ2YO.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ3BB.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ3FM.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ3OB.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ3PZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ3RM.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ3SD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ3ZZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ4UG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ5CT.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ5EO.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ5IL.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ5O_P.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ60KSB.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/UBN/LZ7DX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/results_A.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/EP-2016/results/results_B.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/LOGS-LZFD2017_official_new.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AA.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AC.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AD.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AF.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AG.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AJ.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AK.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AL.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AM.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AN.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AP.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AR.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AT.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AU.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AV.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AW.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AX.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AY.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0AZ.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DA.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DC.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DD.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DF.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DG.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DJ.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DK.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DL.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DM.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DN.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DR.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DT.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DW.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DX.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DY.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0DZ.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FA.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FD.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FF.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FG.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FJ.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FL.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FM.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FN.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FP.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FR.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FT.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FU.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FV.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FX.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FY.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-Logove/LZ0FZ.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AC.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AJ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AK.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AL.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AM.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AN.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AP.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AR.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AT.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AU.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AW.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AY.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0AZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DC.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DJ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DK.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DL.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DM.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DN.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DR.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DT.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DW.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DY.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0DZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FJ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FL.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FM.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FN.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FP.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FR.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FT.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FU.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FY.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2016-UBN_lz1abc/LZ0FZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AC.LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AD.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AF.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AG.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AJ.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AK.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AL.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AM.LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AN.LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AP.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AR.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AT.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AU.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AV.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AW.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AX.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0AY.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DA.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DC.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DD.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DF.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DG.LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DJ.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DK.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DL.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DN.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DP.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DR.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DT.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DU.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DV.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DW.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DX.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DY.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0DZ.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0FA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0FC.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0FD.LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0FF.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0FG.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0FJ.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0FK.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0FX.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0FY.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v1/LZ0FZ.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AC.LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AD.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AF.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AG.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AJ.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AK.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AL.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AM.LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AN.LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AP.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AR.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AT.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AU.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AV.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AW.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AX.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0AY.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DA.CBR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DC.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DD.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DF.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DG.LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DJ.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DK.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DL.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DN.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DP.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DR.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DT.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DU.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DV.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DW.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DX.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DY.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0DZ.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0FA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0FC.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0FD.LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0FF.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0FG.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0FJ.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0FK.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0FX.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0FY.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/LZ0FZ.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/.~lock.comparison.xls#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AC.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AJ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AK.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AL.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AM.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AN.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AP.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AR.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AT.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AU.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AW.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0AY.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DC.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DJ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DK.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DL.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DM.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DN.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DP.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DR.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DT.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DU.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DW.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DY.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0DZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0FA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0FC.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0FD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0FF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0FG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0FJ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0FK.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0FX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0FY.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/UBN/LZ0FZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/comparison.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-Logove_v2/results/results.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AC.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AJ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AK.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AL.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AM.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AN.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AP.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AR.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AT.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AU.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AW.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0AY.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DC.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DJ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DK.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DL.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DM.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DN.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DP.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DR.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DT.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DU.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DW.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DY.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0DZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0FA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0FC.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0FD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0FF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0FG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0FJ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0FK.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0FX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0FY.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v1_official/LZ0FZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AC.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AJ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AK.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AL.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AM.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AN.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AP.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AR.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AT.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AU.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AW.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0AY.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DC.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DJ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DK.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DL.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DM.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DN.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DP.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DR.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DT.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DU.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DW.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DY.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0DZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FA.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FC.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FD.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FF.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FJ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FK.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FX.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FY.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_lz1abc/LZ0FZ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_official/LZ0AG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_official/LZ0DG.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_official/LZ0DJ.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_official/LZ0DV.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_official/LZ0DW.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN___v2_official/LZ0DY.UBN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/Plovdiv-2017-UBN_new.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/ToDo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/UBN-Plovdiv-2017.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/UBN-Plovdiv-2017_official.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/UBN_2017_new.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/comparison.ods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/comparison.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/final_results.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/lz0an_ubn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/my_findings/lz0fj_ubn_comparison" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/official_results.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/docs/ubn_comparison.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/libcrypto-1_1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/libssl-1_1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/logchecker_lzhfqrp.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/logchecker_lzhfqrp.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/logging.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/pyexpat.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/python37.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/select.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logchecker_lzhfqrp/unicodedata.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1IA.UBN" beforeDir="false" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1IA.UBN" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1KKZ.UBN" beforeDir="false" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1KKZ.UBN" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1RSS.UBN" beforeDir="false" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ1RSS.UBN" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2CW.UBN" beforeDir="false" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ2CW.UBN" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3OB.UBN" beforeDir="false" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3OB.UBN" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3ZZ.UBN" beforeDir="false" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ3ZZ.UBN" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ5IL.UBN" beforeDir="false" afterPath="$PROJECT_DIR$/docs/EP-2016/results/UBN/LZ5IL.UBN" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/results_A.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/EP-2016/results/results_A.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/EP-2016/results/results_B.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/EP-2016/results/results_B.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Plovdiv-2016-Logove/results/UBN/LZ0AA.UBN" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Plovdiv-2016-Logove/results/UBN/LZ0AA.UBN" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/LZ_logchecker_v1.0.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logchecker_lzhfqrp.py" beforeDir="false" afterPath="$PROJECT_DIR$/logchecker_lzhfqrp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logchecker_lzhfqrp.spec" beforeDir="false" afterPath="$PROJECT_DIR$/logchecker_lzhfqrp.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logchecker_lzhfqrp.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/participant.py" beforeDir="false" afterPath="$PROJECT_DIR$/participant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qso.py" beforeDir="false" afterPath="$PROJECT_DIR$/qso.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <ignored path="LogChecker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -590,44 +23,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="318959901">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="19" />
-          <entry key="py" value="2499" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="2499" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="conf" value="2" />
-          <entry key="py" value="16" />
-          <entry key="spec" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="16" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="LogChecker" />
   </component>
@@ -636,8 +31,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6158">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="151">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/participant.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -653,9 +60,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ERROR_UNKNOWN_FORMATTING</find>
-      <find>lz0aj</find>
-      <find>lz0ac</find>
       <find>format</find>
       <find>lz0fj</find>
       <find>lz0an</find>
@@ -667,13 +71,11 @@
       <find>NO_er</find>
       <find>datetime</find>
       <find>ERROR_PARTNER_RECEIVE</find>
-      <find>checkLog</find>
       <find>time_date</find>
       <find>time_d</find>
       <find>ep</find>
       <find>writeResults</find>
       <find>removeQsoOutdsideTheContest</find>
-      <find>isIntervalSmallerThan</find>
       <find>isDupe</find>
       <find>30</find>
       <find>print</find>
@@ -683,6 +85,11 @@
       <find>original_encoding</find>
       <find>DATE_TIME_FORMAT</find>
       <find>logger</find>
+      <find>rejectQsoOutdsideTheContest</find>
+      <find>participants</find>
+      <find>checkLog</find>
+      <find>isIntervalSmallerThan</find>
+      <find>isExchangeCorrect</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -698,21 +105,21 @@
         <option value="$PROJECT_DIR$/logging.conf" />
         <option value="$PROJECT_DIR$/docs/utils.py" />
         <option value="$PROJECT_DIR$/utils.py" />
-        <option value="$PROJECT_DIR$/qso.py" />
         <option value="$PROJECT_DIR$/docs/participant_ep.py" />
         <option value="$PROJECT_DIR$/participant_ep.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/participant.py" />
         <option value="$PROJECT_DIR$/my_utils.py" />
+        <option value="$PROJECT_DIR$/qso.py" />
+        <option value="$PROJECT_DIR$/participant.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/logchecker_lzhfqrp.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="265" />
-    <option name="y" value="-554" />
-    <option name="width" value="1248" />
-    <option name="height" value="680" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -734,12 +141,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="LogChecker" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="LogChecker" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -840,7 +256,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logchecker_lzhfqrp.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="--start=&quot;2020-01-12 1300&quot; --end=&quot;2020-01-12 1659&quot; --dir=&quot;C:\projects\milara contest\logs&quot; --qso_repeat=30 --crosscheck_diff=3" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -930,29 +346,54 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="111" y="-1058" width="1696" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19059107" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5259349" weight="0.32475883" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49357602" weight="0.46730974" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.52533174" weight="0.32474804" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49276236" weight="0.43337065" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3281075" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3281075" />
       <window_info anchor="bottom" id="Changes" order="8" />
       <window_info anchor="bottom" id="Application Servers" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24651662" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49357602" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.47406512" side_tool="true" visible="true" weight="0.32475883" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24636059" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49357602" weight="0.3281075" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5072376" side_tool="true" weight="0.4669653" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -961,9 +402,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -980,28 +418,99 @@
         <watch expression="qso.his_call" language="Python" />
         <watch expression="q.his_call" language="Python" />
         <watch expression="participant.name" language="Python" />
+        <watch expression="participant" />
+        <watch expression="p.callsign" language="Python" />
+        <watch expression="participants[p].callsign" language="Python" />
+        <watch expression="participants[p]" language="Python" />
+        <watch expression="diff.total_seconds()/60" language="Python" />
+        <watch expression="participant_b" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
       <expression>
-        <expression-string>p == &quot;LZ0DJ&quot;</expression-string>
+        <expression-string>participants[p].callsign == &quot;LZ1ST&quot;</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>p = &quot;LZ0DJ&quot;</expression-string>
+        <expression-string>participants[p].callsign = &quot;LZ1ST&quot;</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>p == LZ0DJ</expression-string>
+        <expression-string>diff.total_seconds() == 180</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>diff == 180</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>diff == 3</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>diff =</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>qso.call == &quot;LZ1FI&quot;</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>qso.call == &quot;LZ1MC&quot;</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str(participants[p].callsign) == 'LZ1ST'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str(participants[p].callsign) == 'LZ7DX'</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>participant_b</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>participants[p]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>diff.total_seconds()/60</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>diff.total_seconds()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>participants[p].callsign</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>p.callsign</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>participant.name</expression-string>
         <language-id>Python</language-id>
@@ -1019,36 +528,6 @@
       </expression>
       <expression>
         <expression-string>q.error_code</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>worked_ep_stations</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>diff.total_seconds()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>diff.seconds</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>diff.min</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>diff.time()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>diff</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1086,82 +565,17 @@
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.spec">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-63" />
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/argparse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="1321" column="8" selection-start-line="1321" selection-start-column="8" selection-end-line="1321" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/encodings/cp1252.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1384526572/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="423" column="74" lean-forward="true" selection-start-line="423" selection-start-column="74" selection-end-line="423" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/bs4/dammit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4777">
-          <caret line="390" column="34" selection-start-line="390" selection-start-column="17" selection-end-line="390" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="327" selection-start-line="327" selection-end-line="327" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qso.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/participant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="94" column="5" selection-start-line="94" selection-end-line="94" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/argparse.py" />
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/encodings/cp1252.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1384526572/builtins.py" />
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/bs4/dammit.py" />
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/codecs.py" />
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/logging/__init__.py" />
     <entry file="file://$PROJECT_DIR$/logging.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1169,10 +583,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qso.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python38/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="321" selection-start-line="321" selection-end-line="321" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/participant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/logchecker_lzhfqrp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6158">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="151">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,8 +3,8 @@ import my_utils
 
 class Qso:
 
-    MODE = 2
     FREQ = 1
+    MODE = 2
     DATE = 3
     TIME = 4
     CALL = 5
@@ -38,8 +38,8 @@ class Qso:
         Parse list of the type QSO: 3531 CW 2017-08-18 1006 LZ0AC  130 199  LZ0DY  226 133
 
         :param qso_list:
+        :type qso_list: str
         """
-
 
         self.date_time = datetime.strptime(" ".join([qso_list[self.DATE], qso_list[self.TIME]]), self.DATE_TIME_FORMAT)
         self.mode = qso_list[self.MODE]

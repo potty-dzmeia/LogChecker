@@ -10,6 +10,7 @@ import logging.config
 import my_utils
 import argparse
 import re
+import sys
 
 logging.config.fileConfig("logging.conf", disable_existing_loggers=False)
 logger = logging.getLogger(__name__)
@@ -33,22 +34,28 @@ def parseLogs(logs_dir):
         logger.info("parsing log: " + filename)
         logfile = open(filename, "r", encoding=my_utils.getFileEncoding(filename))
 
-        for line in logfile:
-            line_split = line.split()
-            try:
-                if len(line_split) == 0:
-                    pass
-                elif line_split[0] == "CALLSIGN:":
-                    participant.callsign = line_split[1].upper()
-                elif line_split[0] == "NAME:":
-                    participant.name = " ".join(line_split[1:])
-                elif line_split[0] == "CATEGORY:":
-                    participant.category = " ".join(line_split[1:])
-                elif line_split[0] == "QSO:":
-                    participant.log.append(Qso(line_split))
-            except:
-                logger.warning("Error in line: " + line)
-                pass # empty line
+
+        try:
+            for line in logfile:
+                line_split = line.split()
+                try:
+                    if len(line_split) == 0:
+                        pass
+                    elif line_split[0] == "CALLSIGN:":
+                        participant.callsign = line_split[1].upper()
+                    elif line_split[0] == "NAME:":
+                        participant.name = " ".join(line_split[1:])
+                    elif line_split[0] == "CATEGORY:":
+                        participant.category = " ".join(line_split[1:])
+                    elif line_split[0] == "QSO:":
+                        participant.log.append(Qso(line_split))
+                except:
+                    logger.warning("Error in line (will be ignored): " + line)
+                    pass # empty line
+        except Exception as e:
+            logger.warning("Error in file (will be ignored): " + filename)
+            logger.warning("Error: " + str(e))
+            pass
 
         if len(participant.callsign):
             participants[participant.callsign] = participant
@@ -59,15 +66,18 @@ def parseLogs(logs_dir):
     return participants
 
 
-def rejectQsoOutdsideTheContest(participant, start_date_time, end_date_time):
+def rejectQsoOutdsideTheContest(participants, start_date_time, end_date_time):
 
-    for p in participant:
-        date_format = participant[p].log[0].DATE_TIME_FORMAT # Date format used by the Qso class
+    for p in participants:
+        print(participants[p].callsign)
+        if not participants[p].log:
+            continue
+        date_format = participants[p].log[0].DATE_TIME_FORMAT # Date format used by the Qso class
 
         start = datetime.strptime(start_date_time, date_format)
         end = datetime.strptime(end_date_time, date_format)
 
-        log = participant[p].log
+        log = participants[p].log
 
         for qso in log:
             if qso.date_time.timestamp() < start.timestamp() or qso.date_time.timestamp() > end.timestamp():
@@ -111,15 +121,18 @@ def isDupe(qso, participant, qso_repeat_period):
     idx = participant.log.index(qso)
 
     for q in participant.log[0:idx]:
-        if qso.his_call == q.his_call and isIntervalSmallerThan(qso, q, qso_repeat_period) and q.isValid():
-            qso.error_code = Qso.ERROR_DUPE
-            qso.error_info = q.toCabrillo()  # Violating the "30min rule" - move to next Qso
+        if q.isValid() \
+                and qso.his_call == q.his_call \
+                and isIntervalSmallerThan(qso, q, qso_repeat_period) \
+                and qso.mode == q.mode:  # There is separate 30min rule for each mode.
+            qso.error_code = Qso.ERROR_DUPE # Violating the "30min rule"
+            qso.error_info = q.toCabrillo()
             return True
 
     return False
 
 
-def isExchangeCorrect(qso1, qso2):
+def isExchangeMatching(qso1, qso2):
     """
     Check if the serials from the two qso match
 
@@ -144,7 +157,7 @@ def isExchangeCorrect(qso1, qso2):
 def doCrossCheck(qso, participant_a, participant_b, qso_time_difference):
     """
     Check if the qso of participantA is available in the log of participantB
-    :param qso_time_difference: cross-check allowed difference in minutes between two QSOs
+    :param qso_time_difference: cross-check allowed difference for a QSO in the two logs [in minutes]
     :type qso_time_difference: int
     :param qso: qso from the log of participantA that we would like to check with the participantB log
     :type qso: Qso
@@ -153,18 +166,22 @@ def doCrossCheck(qso, participant_a, participant_b, qso_time_difference):
     :return: True if the qso was found inside the log of participantB
     :rtype: bool
     """
-    assert(qso.his_call == participant_b.log[0].call)
+    assert(qso.his_call == participant_b.callsign)
 
     for q in participant_b.log:
-        if qso.call == q.his_call and isIntervalSmallerThan(qso, q, qso_time_difference):
+        if qso.call == q.his_call and isIntervalSmallerThan(qso, q, qso_time_difference+1):
 
+            # The rule below makes sense but it is not implemented in the official BFRA software.
+            # ------------------
             # QSO that we have found in correspondents log is marked as invalid
             # if q.isInvalid():
             #     # Store the reason for being invalid
             #     qso.error_code = q.translatePartnerError()
             #     qso.error_info = q.toCabrillo()
             #     return True
-            if not isExchangeCorrect(qso, q):
+            # ------------------
+
+            if not isExchangeMatching(qso, q):
                 continue # We found a QSO with a wrong exchange - but we will continue to search for a valid one
             else:
                 qso.error_code = Qso.NO_ERROR # Valid contact was found

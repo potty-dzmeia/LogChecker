@@ -39,6 +39,8 @@ class Participant:
         :return: Percenage of successful QSOs
         :rtype: float
         """
+        if self.totalQsoCount() == 0:
+            return 100
         return (self.validQsoCount() / self.totalQsoCount()) * 100.0
 
 
@@ -64,7 +66,7 @@ class Participant:
         :return:
         :rtype: list of str
         """
-        return [self.callsign, self.totalQsoCount(), self.validQsoCount(), self.getPoints(), "{0:.2f}".format(self.getAccuracy())]
+        return [self.callsign, self.totalQsoCount(), self.validQsoCount(), self.getPoints(), "{0:.2f}".format(self.getAccuracy()), self.category]
 
 
     def getResultsEP(self):

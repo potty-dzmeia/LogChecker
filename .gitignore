@@ -1,5 +1,6 @@
 /.idea
 /lib
+/venv
 /scripts
 /__pycache__
 *.cfg
